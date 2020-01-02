@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>LouieDavid_Final</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="David Louie">
+		<link href="styles.css" rel="stylesheet">
+		<script src="script.js"></script>
+		<!--David Louie GIT 417 Final-->
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div id="contactTop">
+					<h1>Studio Ghibli</h1>
+					<p>Contact info:</p>
+					<p>Headquarters: Koganei, Tokyo, Japan</p>
+					<a href="https://twitter.com/studioghibli"><p class="bold">https://twitter.com/studioghibli</p></a>
+					<a href="mailto: studioghibli@ghibli.com"><p class="bold">studioghibli@ghibli.com</p></a>
+				</div>
+				<img id="logo" src="images/logoGold.png" alt="Studio Ghibli logo">
+				<img id="mode" src="images/darkmode.png" alt="dark mode icon">
+			</header>
+			<main>
+				<hr>
+				<h2>About</h2>
+				<p id="about">Studio Ghibli, Inc. (Japanese: 株式会社スタジオジブリ Hepburn: Kabushiki gaisha Sutajio Jiburi) is a Japanese animation film studio based in Koganei, Tokyo, Japan. The studio is best known for its anime feature films, and has also produced several short films, television commercials, and one television film. It was founded on 15 June 1985, after the success of Nausicaä of the Valley of the Wind (1984), with funding by Tokuma Shoten. Studio Ghibli has also collaborated with video game studios on the visual development of several video games.
+
+				Six of Studio Ghibli's films are among the 10 highest-grossing anime films made in Japan, with Spirited Away (2001) being the highest, grossing over US$360 million worldwide. Many of their works have won the Animage Anime Grand Prix award, and four have won the Japan Academy Prize for Animation of the Year. Five of Studio Ghibli's films have received Academy Award nominations. Spirited Away won the Golden Bear in 2002 and the Academy Award for Best Animated Feature Film in 2003. Totoro, a character from My Neighbor Totoro, is the studio's mascot.</p>
+				
+				
+				<h2>Popular movies</h2>
+				<section class="movies">
+					<section class="movieDisplay">
+						<img id="movieItem" src="images/nausicaaDisplay.jpg" alt="movies from Studio Ghibli">
+					</section>
+					<section class="movieAbout">
+						<h3 id="movieTitle">Nausicaa of the Valley of the Wind</h3>
+						<p id="movieDesc">Far in the future, after an apocalyptic conflict has devastated much of the world's ecosystem, the few surviving humans live in scattered semi-hospitable environments within what has become a "toxic jungle." Young Nausicaä lives in the arid Valley of the Wind and can communicate with the massive insects that populate the dangerous jungle. Under the guidance of the pensive veteran warrior, Lord Yupa, Nausicaä works to bring peace back to the ravaged planet.</p>
+						<p id="movieFacts">
+							<span id="release"><span class="bold">Release date:</span> March 11, 1984</span><br>
+							<span id="director"><span class="bold">Directed By:</span> Hayao Miyazaki</span><br>
+							<span id="boxOffice"><span class="bold">Box Office:</span> $1.72 million (overseas)</span><br>
+						</p>
+						<div id="moviePics">
+							<img id="moviePhoto1" src="images/nausicaa1.jpg" alt="Nausicaa next to an Ohm">
+							<img id="moviePhoto2" src="images/nausicaa2.png" alt="Nausicaa on her glider">
+						</div>
+					</section>
+					<section class="movieIcon">
+						<img id="nausicaaIcon" src="images/nausicaaIcon.jpg" alt="movies from Studio Ghibli">
+						<img id="howlsIcon" src="images/howlsIcon.jpg" alt="movies from Studio Ghibli">
+						<img id="mononokeIcon" src="images/mononokeIcon.jpg" alt="movies from Studio Ghibli">
+					</section>
+				</section>
+				
+				
+				<section id="bottom">
+					<img class="movieExtra" src="images/spirited.jpg">
+					
+					<form class="myForm" novalidate="novalidate">
+					<h3>Leave a comment</h3>
+					<div id="errorPopup"></div>
+						<label for="fName">First Name</label><br>
+						<input type="text" id="fName" name="fName" required="required" placeholder="First Name"><br>
+						<label for="lName">Last Name</label><br>
+						<input type="text" id="lName" name="lName" required="required" placeholder="Last Name"><br>
+						<label for="myComment">Comments</label><br>
+						<textarea id="myComment" name="comments" required="required" placeholder="Type something"></textarea><br>
+						<p>Contact method:</p>
+						<input type="radio" id="myPhone" name="contactMethod" value="phone"><label for="myPhone" class="radioLabel">Phone</label><br>
+						<input type="text" id="myPhoneText" name="contactMethod"><br>
+						<input type="radio" id ="myEmail" name="contactMethod" value="email"><label for="myEmail" class="radioLabel">E-mail</label><br>
+						<input type="text" id="myEmailText" name="contactMethod"><br>
+						<input type="submit" id="mySubmit" value="Submit">
+					</form>
+					
+					<img class="movieExtra" src="images/totoro.jpeg">
+				</section>
+				<hr>
+			</main>
+			<footer>
+				&copy;Studio Ghibli 2019 // for educational purposes only
+			</footer>
+		</div>
+	</body>
+</html>
