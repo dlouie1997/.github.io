@@ -1,0 +1,50 @@
+#wrapper {
+	background-color: #00b1ee;
+}
+body {
+	background-color: #00b1ee;
+}
+#top {
+	text-align: center;
+	background-color: #ccc;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+h2 {
+	text-align: center;
+	color: #c91212;
+}
+main {
+	background-color: #ccc;
+}
+form {
+	margin: 0 auto;
+	width: 70%;
+	background-color: #ddd;
+	padding: 0 5% 1% 5%;
+}
+span {
+	font-weight: bold;
+}
+.designTasks {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: #c91212;
+}
+.otherTasks {
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+textarea {
+	height: 50px;
+	width: 100%;
+}
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    border-color: rgba(173,216,230,0.8);
+}
+#submitButton {
+	text-align: center;
+	margin: 0 auto;
+	display: block;	
+}
