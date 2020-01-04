@@ -1,0 +1,159 @@
+header {
+	background-color: #9E1A89;
+	color: #FFFFFF;
+	background-image: url(phoenixsunsfansbooker.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 60px;
+}
+nav {
+	background-color: #ff9900;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.1px;
+}
+nav li {
+	display: inline;
+}
+nav a {
+	text-decoration: none; padding-right: 10px;
+}
+nav a:link {
+	color: #595959;
+}
+nav a:visited {
+	color: #9E1A89;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+body {
+	background-color: #FFB779;
+	color: #1a1a1a;
+	font-family: Arial, Helvetica;
+}
+main {
+	display: block;
+	background-color: #FFB779;
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	font-family: Georgia, "Time News Roman";
+	padding: 10px 20px 20px 20px;
+}
+table {border: 2px;
+	   border-style: solid;
+	   border-color: #000000;
+	   width: 75%;
+	   margin: auto;
+	   border-spacing: 0;
+	   
+}
+td, th {padding: 5px;
+		border: 1px;
+		border-color: #000000;
+		border-style: solid;
+}
+td {
+	text-align: center;
+}
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 960px;
+	max-width: 2048px;
+}
+#arena {
+	height: 400px;
+	background-image: url(arena.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#Draft {
+}
+#Leonard {
+}
+#TopTeams {
+}
+#News{ 
+	list-style-type: none;
+}
+.form1 label {
+		float: left;
+		display: block;
+		text-align: right;
+		width: 120px;
+		padding-right: 10px;
+		}
+.form1 input{
+			display: block;
+			margin-bottom: 20px;
+		}
+.form1 textarea {
+			display: block;
+			margin-bottom: 20px;
+		}
+.form1 input[type="submit"] {margin-left: 130px;}
+.altrow { background-color: #d9d9d9; }
+.toprow { background-color: #da8709;}
+.lefttext {
+	text-align: left;
+}
+.righttext {
+	text-align: right;
+}
+.centertext {
+	text-align: center;
+}
+.container {
+	display: table;
+}
+/*https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+.column {
+	display: table-cell;
+}
+.bolded{
+	font-weight: bold;
+}
+.left {
+	width: 70%;
+	background-color: #FFFFFF;
+	padding-left: 1.5%;
+	padding-right: 1%;
+}
+.right {
+	width: 25%;
+	background-color: #D9D9D9;
+	padding-left: 2.5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.leftpic {
+	float: left;
+	padding: 10px;
+}
+.rightpic {
+	float: right;
+	padding: 10px;
+}
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex p {
+	flex-basis: 100%;
+}
+.copyrights {
+	float: left;
+}
+.hyperlinks {
+	float: right;
+}
+header, main, nav, footer, section, article, figure, figcaption, aside { display: block; }
