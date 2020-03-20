@@ -1,0 +1,1825 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, section, figcaption, footer,header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, section, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*************************************************************************************
+GLOBAL STYLES
+**************************************************************************************/
+body {
+	display: flex;
+	background-color: #FFCC99;
+	padding: 10px;
+}
+nav {
+	background-color: #92F4FF; 
+}
+nav li {
+	display: inline-block;
+	background-color: #008000;
+}
+nav li a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#currentpage {
+	background-color: #6facb3;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}
+.about {
+	
+}
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}
+p {
+	font-family: Candara, sans-serif;
+}
+.about p {
+	text-align: center;
+}
+.quicklinks {
+	
+}
+.container {
+	text-align: center;
+}
+h3 {
+	font-family: Georgia, serifs;
+}
+h4 {
+	font-family: Georgia, serifs;
+}
+p a {
+	display: inline-block;
+	text-decoration: none;
+	color: #00F;
+}
+#backtotop a {
+		color: #008000;
+		font-weight: bold;
+	}
+footer {
+	background-color: #6FACB3;
+	padding: .5em;
+	font-style: italic;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+}
+footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/*************************************************************************************
+MOBILE ONLY
+**************************************************************************************/
+/*phone portrait*/
+@media only screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	body {
+		padding: 0;
+	}
+	/*split nav into grid*/
+	.myNav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+	}
+	.logo {
+		display: grid;
+		grid-row: 1 / 3;
+		grid-column: 1 / 2;
+		margin: 0 auto;
+	}
+	/*split nav further to allow for 2 rows*/
+	nav ul {
+		display: grid;
+		grid-gap: 5%;
+		grid-template-columns: 100% 100%;
+		grid-template-rows: 1fr 1fr;
+	}
+	nav li {
+		display: grid;
+		align-items: stretch;
+		text-align: center;
+	}
+	#navdiet {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	#navducktypes {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+	#navfunfacts {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+	#navcontactus {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+	h1 {
+		padding: .3125em;
+		font-size: 2em;
+	}
+	h1 a {
+		text-decoration: none;
+		color: #000;
+	}
+	.heroimg {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	/*index*/
+	.about {
+		border: #654321 solid 3px;
+		margin: .625em;
+		padding: .625em;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: .4em;
+	}
+	/*displayed grid so sections could be evenly distributed*/
+	.quicklinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.container {
+		padding: .625em;
+	}
+	.container a {
+		text-decoration: none;
+		color: #000;
+	}
+	.container p {
+		width: 75%;
+		margin: 0 auto;
+	}
+	h3 {
+		padding: .5em;
+	}
+	.container h3 {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.quickpic {
+		width: 75%;
+		justify-self: center;
+	}
+	/*diet*/
+	.dietheading {
+		padding-top: .4em;
+	}
+	.linkjumps a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.dietsubheaderquickfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicknotfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicktips {
+		font-weight: bold;
+		text-align: center;
+		background-color: #008000;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheader {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+	.subfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subnotfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subtips {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.listspacing li {
+		margin: .5em 0;
+	}
+	.feedingtipslist li {
+		margin: 1em 0;
+		line-height: 1.5;
+	}
+	.feed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.notfeed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.tips li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.widephonepic {
+		width: 100%;
+	}
+	/*duck types*/
+	.duckDisplay {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: solid #008000 2px;
+		background-color: #6FACB3;
+		margin: 1% 2% 2% 2%;
+		padding: 1%;
+	}
+	#changeDuck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		max-width: 100%;
+	}
+	#changeDuck img {
+		max-width: 100%;
+	}
+	.currentlySelectedDuck {
+		border: solid #008000 2px;
+		box-sizing: border-box;
+	}
+	.duckDisplay #changeDuck {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+	}
+	.duckDisplay h3 {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		font-weight: bold;
+		padding: 2em 0;
+	}
+	#notMapContent {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 1.5em;
+		grid-column: 1 / 3;
+	}
+	.duckImages {
+		justify-self: center;
+	}
+	#typesOfDuckPic {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#typesOfDuckPic2 {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#duckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#bottomDuckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#duckOrder {
+		display: inline;
+	}
+	#duckFamily {
+		display: inline;
+	}
+	.duckDisplay #typesofDuckHabitat {
+		justify-self: center;
+		align-self: center;
+		grid-row: 4 / 5;
+		grid-column: 1 / 3;
+		max-width: 90%;
+		padding: 1%;
+		
+	}
+	.duckDisplay #duckHabitat {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+	}
+	.duckDisplay #duckFacts {
+		grid-column: 1 / 3;
+		grid-row: 5 / 6;
+		margin: 1em;
+		padding: 1em 2em;
+	}
+	.ducktypes h4 {
+		font-weight: bold;
+	}
+	.ducktypes h4 p {
+		font-weight: normal;
+	}
+	h4#duckFacts {
+		font-weight: bold;
+		border: solid #92F4FF 3px;
+	}
+	li#duckFact1 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	li#duckFact2 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	/*contactus*/
+	.contactheading {
+		padding-top: .4em;
+	}
+	.contactinfo {
+		padding: 2.5%;
+		text-align: center;	
+	}
+	.contactinfo h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.contactinfo h4 {
+		font-weight: bold;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	#duckcontactimg {
+		display: none;
+	}
+	.newsletter {
+		border: 3px solid #000;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+	.newsletter h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.newsletter h4 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	input {
+		display: block;
+		margin: .5em 0;
+	}
+	#myState {
+		display: block;
+		margin: 0.5em 0;
+	}
+	#myOnline {
+		display: inline;
+	}
+	#myOnlinepostal {
+		display: inline;
+	}
+	#req {
+		margin-top: 1em;
+	}
+	
+	#backtotop {
+		text-align: right;
+		padding-right: .8em;
+		margin-top: 1.5em;
+	}
+	footer {
+		font-size: 0.8em;
+		margin: 1.5em .4em 3em .4em;
+	}
+}
+
+/*phone landscape*/
+@media only screen and (max-width: 830px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+	body {
+		padding: 0;
+	}
+	/*split nav into grid*/
+	.myNav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+	}
+	.logo {
+		display: grid;
+		grid-row: 1 / 3;
+		grid-column: 1 / 2;
+		margin: 0 auto;
+	}
+	/*split nav further to allow for 2 rows*/
+	nav ul {
+		display: grid;
+		grid-gap: 5%;
+		grid-template-columns: 100% 100%;
+		grid-template-rows: 1fr 1fr;
+	}
+	nav li {
+		display: grid;
+		align-items: stretch;
+		text-align: center;
+	}
+	#navdiet {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	#navducktypes {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+	#navfunfacts {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+	#navcontactus {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+	h1 {
+		padding: .3125em;
+		font-size: 2em;
+	}
+	h1 a {
+		text-decoration: none;
+		color: #000;
+	}
+	.heroimg {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	/*index*/
+	.about {
+		border: #654321 solid 3px;
+		margin: .625em;
+		padding: .625em;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: .4em;
+	}
+	/*displayed grid so sections could be evenly distributed*/
+	.quicklinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.container {
+		padding: .625em;
+	}
+	.container a {
+		text-decoration: none;
+		color: #000;
+	}
+	.container p {
+		width: 75%;
+		margin: 0 auto;
+	}
+	h3 {
+		padding: .5em;
+	}
+	.container h3 {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.quickpic {
+		width: 75%;
+		justify-self: center;
+	}
+	/*diet*/
+	.dietheading {
+		padding-top: .4em;
+	}
+	.linkjumps a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.dietsubheaderquickfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicknotfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicktips {
+		font-weight: bold;
+		text-align: center;
+		background-color: #008000;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheader {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+	.subfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subnotfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subtips {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.listspacing li {
+		margin: .5em 0;
+	}
+	.feedingtipslist li {
+		margin: 1em 0;
+		line-height: 1.5;
+	}
+	.feed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.notfeed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.tips li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.widephonepic {
+		width: 100%;
+	}
+	/*duck types*/
+	.duckDisplay {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: solid #008000 2px;
+		background-color: #6FACB3;
+		margin: 1% 2% 2% 2%;
+		padding: 1%;
+	}
+	#changeDuck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		max-width: 100%;
+	}
+	#changeDuck img {
+		max-width: 100%;
+	}
+	.currentlySelectedDuck {
+		border: solid #008000 2px;
+		box-sizing: border-box;
+	}
+	.duckDisplay #changeDuck {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+	}
+	.duckDisplay h3 {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		font-weight: bold;
+		padding: 2em 0;
+	}
+	#notMapContent {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 1.5em;
+		grid-column: 1 / 3;
+	}
+	.duckImages {
+		justify-self: center;
+	}
+	#typesOfDuckPic {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#typesOfDuckPic2 {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#duckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#bottomDuckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#duckOrder {
+		display: inline;
+	}
+	#duckFamily {
+		display: inline;
+	}
+	.duckDisplay #typesofDuckHabitat {
+		justify-self: center;
+		align-self: center;
+		grid-row: 4 / 5;
+		grid-column: 1 / 3;
+		padding: 1%;
+	}
+	.duckDisplay #duckHabitat {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+	}
+	.duckDisplay #duckFacts {
+		grid-column: 1 / 3;
+		grid-row: 5 / 6;
+		margin: 1em;
+		padding: 1em 2em;
+	}
+	.ducktypes h4 {
+		font-weight: bold;
+	}
+	.ducktypes h4 p {
+		font-weight: normal;
+	}
+	h4#duckFacts {
+		font-weight: bold;
+		border: solid #92F4FF 3px;
+	}
+	li#duckFact1 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	li#duckFact2 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	/*contactus*/
+	.contactheading {
+		padding-top: .4em;
+	}
+	.contactinfo {
+		padding: 2.5%;
+		text-align: center;	
+	}
+	.contactinfo h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.contactinfo h4 {
+		font-weight: bold;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	#duckcontactimg {
+		display: none;
+	}
+	.newsletter {
+		border: 3px solid #000;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+	.newsletter h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.newsletter h4 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	input {
+		display: block;
+		margin: .5em 0;
+	}
+	#myState {
+		display: block;
+		margin: 0.5em 0;
+	}
+	#myOnline {
+		display: inline;
+	}
+	#myOnlinepostal {
+		display: inline;
+	}
+	#req {
+		margin-top: 1em;
+	}
+	
+	#backtotop {
+		text-align: right;
+		padding-right: .8em;
+		margin-top: 1.5em;
+		color: #008000;
+	}
+	footer {
+		font-size: 0.8em;
+		margin: 1.5em .4em 3em .4em;
+	}
+}
+
+/*************************************************************************************
+TABLET ONLY
+**************************************************************************************/
+/*tablet portrait*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		padding: 0;
+	}
+	.myNav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+	}	
+	.logo {
+		display: grid;
+		grid-row: 1 / 3;
+		grid-column: 1 / 2;
+		margin: 0 auto;
+	}
+	nav ul {
+		display: grid;
+		grid-gap: 5%;
+		grid-template-columns: 100% 100%;
+		grid-template-rows: 1fr 1fr;
+	}
+	nav li {
+		display: grid;
+		align-items: stretch;
+		text-align: center;
+	}
+	nav li a {
+		font-size: 1.7em;
+	}
+	#navdiet {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	#navducktypes {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+	#navfunfacts {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+	#navcontactus {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+	h1 {
+		padding: .3125em;
+		font-size: 2em;
+	}
+	h1 a {
+		text-decoration: none;
+		color: #000;
+	}
+	.heroimg {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	/*index*/
+	.about {
+		border: #654321 solid 3px;
+		margin: .625em;
+		padding: .625em;
+		width: 80%;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: .4em;
+	}
+	/*displayed grid so sections could be evenly distributed*/
+	.quicklinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.container {
+		padding: .625em;
+	}
+	.container a {
+		text-decoration: none;
+		color: #000;
+	}
+	.container p {
+		width: 75%;
+		margin: 0 auto;
+	}
+	h3 {
+		padding: .5em;
+	}
+	.container h3 {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.quickpic {
+		width: 75%;
+		justify-self: center;
+	}
+	/*diet*/
+	.dietheading {
+		padding-top: .4em;
+	}
+	.linkjumps a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.dietsubheaderquickfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicknotfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicktips {
+		font-weight: bold;
+		text-align: center;
+		background-color: #008000;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheader {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+	.subfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subnotfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subtips {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.listspacing li {
+		margin: .5em 0;
+	}
+	.feedingtipslist li {
+		margin: 1em 0;
+		line-height: 1.5;
+	}
+	.feed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.notfeed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.tips li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.widephonepic {
+		width: 100%;
+	}
+	/*duck types*/
+	.duckDisplay {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: solid #008000 2px;
+		background-color: #6FACB3;
+		margin: 1% 2% 2% 2%;
+		padding: 1%;
+	}
+	#changeDuck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		max-width: 100%;
+	}
+	#changeDuck img {
+		max-width: 100%;
+	}
+	.currentlySelectedDuck {
+		border: solid #008000 2px;
+		box-sizing: border-box;
+	}
+	.duckDisplay #changeDuck {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+	}
+	.duckDisplay h3 {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		font-weight: bold;
+		padding: 2em 0;
+	}
+	#notMapContent {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 1.5em;
+		grid-column: 1 / 3;
+	}
+	.duckImages {
+		justify-self: center;
+	}
+	#typesOfDuckPic {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#typesOfDuckPic2 {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#duckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#bottomDuckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#duckOrder {
+		display: inline;
+	}
+	#duckFamily {
+		display: inline;
+	}
+	.duckDisplay #typesofDuckHabitat {
+		justify-self: center;
+		align-self: center;
+		grid-row: 4 / 5;
+		grid-column: 1 / 3;
+		padding: 1%;
+	}
+	.duckDisplay #duckHabitat {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+	}
+	.duckDisplay #duckFacts {
+		grid-column: 1 / 3;
+		grid-row: 5 / 6;
+		margin: 1em;
+		padding: 1em 2em;
+	}
+	.ducktypes h4 {
+		font-weight: bold;
+	}
+	.ducktypes h4 p {
+		font-weight: normal;
+	}
+	h4#duckFacts {
+		font-weight: bold;
+		border: solid #92F4FF 3px;
+	}
+	li#duckFact1 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	li#duckFact2 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	/*contactus*/
+	body { 
+		display: block;
+	}
+	input#myName {
+		width: 100%;
+	}
+	input#myEmail {
+		width: 100%;
+	}
+	input#myAddress {
+		width: 100%;
+	}input#myCity {
+		width: 100%;
+	}
+	.contactheading {
+		padding-top: .4em;
+	}
+	.contactinfo {
+		padding: 2.5%;
+		text-align: center;
+	}
+	.contactinfo h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.contactinfo h4 {
+		font-weight: bold;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	#duckcontactimg {
+		display: none;
+	}
+	.newsletter {
+		border: 3px solid #000;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+	.newsletter h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.newsletter h4 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	input {
+		display: block;
+		margin: .5em 0;
+	}
+	#myState {
+		display: block;
+		margin: 0.5em 0;
+	}
+	#myOnline {
+		display: inline;
+	}
+	#myOnlinepostal {
+		display: inline;
+	}
+	#req {
+		margin-top: 1em;
+	}
+	
+	#backtotop {
+		text-align: right;
+		padding-right: .8em;
+		margin-top: 1.5em;
+		color: #008000;
+	}
+	footer {
+		font-size: 0.8em;
+		margin: 1.5em .4em 3em .4em;
+	}
+}
+
+/*tablet landscape*/
+@media only screen and (min-width: 601px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		padding: 0;
+	}
+	.myNav {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		overflow: hidden;
+	}	
+	.logo {
+		display: grid;
+		grid-row: 1 / 3;
+		grid-column: 1 / 2;
+		margin: 0 auto;
+	}
+	nav ul {
+		display: grid;
+		grid-gap: 5%;
+		grid-template-columns: 100% 100%;
+		grid-template-rows: 1fr 1fr;
+	}
+	nav li {
+		display: grid;
+		align-items: stretch;
+		text-align: center;
+	}
+	nav li a {
+		font-size: 1.7em;
+	}
+	#navdiet {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	#navducktypes {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+	#navfunfacts {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+	#navcontactus {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+	h1 {
+		padding: .3125em;
+		font-size: 2em;
+	}
+	h1 a {
+		text-decoration: none;
+		color: #000;
+	}
+	.heroimg {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	/*index*/
+	.about {
+		border: #654321 solid 3px;
+		margin: .625em;
+		padding: .625em;
+		width: 80%;
+		margin: 0 auto;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding-bottom: .4em;
+	}
+	/*displayed grid so sections could be evenly distributed*/
+	.quicklinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.container {
+		padding: .625em;
+	}
+	.container a {
+		text-decoration: none;
+		color: #000;
+	}
+	.container p {
+		width: 75%;
+		margin: 0 auto;
+	}
+	h3 {
+		padding: .5em;
+	}
+	.container h3 {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.quickpic {
+		width: 75%;
+		justify-self: center;
+	}
+	/*diet*/
+	.dietheading {
+		padding-top: .4em;
+	}
+	.linkjumps a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.dietsubheaderquickfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicknotfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicktips {
+		font-weight: bold;
+		text-align: center;
+		background-color: #008000;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheader {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+	.subfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subnotfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subtips {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.listspacing li {
+		margin: .5em 0;
+	}
+	.feedingtipslist li {
+		margin: 1em 0;
+		line-height: 1.5;
+	}
+	.feed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.notfeed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.tips li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.widephonepic {
+		width: 100%;
+	}
+	/*duck types*/
+	.duckDisplay {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: solid #008000 2px;
+		background-color: #6FACB3;
+		margin: 1% 2% 2% 2%;
+		padding: 1%;
+	}
+	#changeDuck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		max-width: 100%;
+	}
+	#changeDuck img {
+		max-width: 100%;
+	}
+	.currentlySelectedDuck {
+		border: solid #008000 2px;
+		box-sizing: border-box;
+	}
+	.duckDisplay #changeDuck {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+	}
+	.duckDisplay h3 {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		font-weight: bold;
+		padding: 2em 0;
+	}
+	#notMapContent {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 1.5em;
+		grid-column: 1 / 3;
+	}
+	.duckImages {
+		justify-self: center;
+	}
+	#typesOfDuckPic {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#typesOfDuckPic2 {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#duckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#bottomDuckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#duckOrder {
+		display: inline;
+	}
+	#duckFamily {
+		display: inline;
+	}
+	.duckDisplay #typesofDuckHabitat {
+		justify-self: center;
+		align-self: center;
+		grid-row: 4 / 5;
+		grid-column: 1 / 3;
+		padding: 1%;
+	}
+	.duckDisplay #duckHabitat {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+	}
+	.duckDisplay #duckFacts {
+		grid-column: 1 / 3;
+		grid-row: 5 / 6;
+		margin: 1em;
+		padding: 1em 2em;
+	}
+	.ducktypes h4 {
+		font-weight: bold;
+	}
+	.ducktypes h4 p {
+		font-weight: normal;
+	}
+	h4#duckFacts {
+		font-weight: bold;
+		border: solid #92F4FF 3px;
+	}
+	li#duckFact1 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	li#duckFact2 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	/*contactus*/
+	body { 
+		display: block;
+	}
+	input#myName {
+		width: 100%;
+	}
+	input#myEmail {
+		width: 100%;
+	}
+	input#myAddress {
+		width: 100%;
+	}input#myCity {
+		width: 100%;
+	}
+	.contactheading {
+		padding-top: .4em;
+	}
+	.contactinfo {
+		padding: 2.5%;
+		text-align: center;
+	}
+	.contactinfo h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.contactinfo h4 {
+		font-weight: bold;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	#duckcontactimg {
+		display: none;
+	}
+	.newsletter {
+		border: 3px solid #000;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+	.newsletter h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.newsletter h4 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	input {
+		display: block;
+		margin: .5em 0;
+	}
+	#myState {
+		display: block;
+		margin: 0.5em 0;
+	}
+	#myOnline {
+		display: inline;
+	}
+	#myOnlinepostal {
+		display: inline;
+	}
+	#req {
+		margin-top: 1em;
+	}
+	
+	#backtotop {
+		text-align: right;
+		padding-right: .8em;
+		margin-top: 1.5em;
+		color: #008000;
+	}
+	footer {
+		font-size: 0.8em;
+		margin: 1.5em .4em 3em .4em;
+	}
+}
+/*************************************************************************************
+DESKTOP ONLY
+**************************************************************************************/
+
+@media only screen and (min-width: 1025px) {
+	body {
+		padding: 0;
+	}
+	.myNav {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		overflow: hidden;
+	}	
+	.logo {
+		display: grid;
+		grid-row: 1 / 3;
+		grid-column: 1 / 2;
+		margin: 0 auto;
+	}
+	nav ul {
+		display: grid;
+		grid-gap: 5%;
+		padding: 2% 0;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	nav ul:last-of-type {
+		margin-right: 5%;
+	}
+	nav li {
+		display: grid;
+		align-items: stretch;
+		text-align: center;
+	}
+	nav li a {
+		font-size: 2em;
+	}
+	nav a:hover {
+		color: black;
+	}
+	h1 {
+		padding: .3125em;
+		font-size: 2em;
+	}
+	h1 a {
+		text-decoration: none;
+		color: #000;
+	}
+	.heroimg {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	/*index*/
+	.about {
+		border: #654321 solid 3px;
+		margin: .625em;
+		padding: .625em;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.about p {
+		font-size: 1.2em;
+	}
+	h2 {
+		font-size: 1.5em;
+		padding: .4em 0;
+	}
+	/*displayed grid so sections could be evenly distributed*/
+	.quicklinks {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.container {
+		padding: .625em;
+	}
+	.container a {
+		text-decoration: none;
+		color: #000;
+	}
+	.container p {
+		width: 75%;
+		margin: 0 auto;
+		font-size: 1.2em;
+	}
+	h3 {
+		padding: .5em;
+	}
+	.container h3 {
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	.quickpic {
+		width: 75%;
+		justify-self: center;
+	}
+	/*diet*/
+	#content {
+		display: grid;	
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 4%;
+		margin: 2%;
+		font-size: 1.2em;
+	}
+	.dietheading {
+		padding-top: .4em;
+	}
+	.linkjumps {
+		display: none;
+	}
+	.dietsubheaderquickfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicknotfeed {
+		font-weight: bold;
+		background-color: #008000;
+		text-align: center;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheaderquicktips {
+		font-weight: bold;
+		text-align: center;
+		background-color: #008000;
+		border: #000 solid 1.5px;
+	}
+	.dietsubheader {
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1.5em;
+	}
+	.subfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subnotfeed {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.subtips {
+		background-color: #92F4FF;
+		color: #000;
+	}
+	.listspacing li {
+		margin: .5em 0;
+	}
+	.feedingtipslist li {
+		margin: 1em 0;
+		line-height: 1.5;
+	}
+	.feed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.notfeed li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.tips li {
+		list-style: inside;
+		padding-left: 1em;
+	}
+	.widephonepic {
+		width: 100%;
+	}
+	/*duck types*/
+	.duckDisplay {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		border: solid #008000 2px;
+		background-color: #6FACB3;
+		margin: 1% 2% 2% 2%;
+		padding: 1%;
+	}
+	#changeDuck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		max-width: 100%;
+	}
+	#changeDuck img {
+		max-width: 100%;
+	}
+	.currentlySelectedDuck {
+		border: solid #008000 2px;
+		box-sizing: border-box;
+	}
+	.duckDisplay #changeDuck {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+	}
+	.duckDisplay h3 {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		text-align: center;
+		font-weight: bold;
+		padding: 2em 0;
+	}
+	#notMapContent {
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		padding: 0 1.5em;
+		grid-column: 2 / 3;
+	}
+	.duckImages {
+		justify-self: center;
+	}
+	#typesOfDuckPic {
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#typesOfDuckPic2 {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		max-width: 100%;
+	}
+	#duckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#bottomDuckContent {
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+	}
+	#duckOrder {
+		display: inline;
+	}
+	#duckFamily {
+		display: inline;
+	}
+	.duckDisplay #typesofDuckHabitat {
+		justify-self: center;
+		align-self: center;
+		grid-row: 3 / 4;
+		padding: 1%;
+	}
+	.duckDisplay #duckHabitat {
+		grid-column: 1 / 2;
+		grid-row: 4 / 5;
+	}
+	.duckDisplay #duckFacts {
+		grid-column: 1 / 3;
+		grid-row: 5 / 6;
+		margin: 1em;
+		padding: 1em 2em;
+	}
+	.ducktypes h4 {
+		font-weight: bold;
+	}
+	.ducktypes h4 p {
+		font-weight: normal;
+	}
+	h4#duckFacts {
+		font-weight: bold;
+		border: solid #92F4FF 3px;
+	}
+	li#duckFact1 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	li#duckFact2 {
+		font-weight: normal;
+		text-align: left;
+		list-style-type: disc;
+	}
+	/*contactus*/
+	body { 
+		display: block;
+	}
+	#contactContent {
+		display: grid;
+		width: 80%;
+		margin: 0 auto;
+		grid-template-columns: 30% 70%;
+	}
+	input#myName {
+		width: 100%;
+	}
+	input#myEmail {
+		width: 100%;
+	}
+	input#myAddress {
+		width: 100%;
+	}input#myCity {
+		width: 100%;
+	}
+	.contactheading {
+		padding-top: .4em;
+	}
+	.contactinfo {
+		padding: 2.5%;
+		text-align: center;
+		display: grid;
+		justify-content: center;
+		font-size: 1.2em;
+	}
+	.contactinfo h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.contactinfo h4 {
+		font-weight: bold;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	#duckcontactimg {
+		display: block;
+		margin: 5% auto 0 auto;
+	}
+	.newsletter {
+		border: 3px solid #000;
+		margin: 2.5%;
+		padding: 2.5%;
+	}
+	.newsletter h3 {
+		font-weight: bold;
+		text-align: center;
+	}
+	.newsletter h4 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	input {
+		display: block;
+		margin: .5em 0;
+	}
+	#myState {
+		display: block;
+		margin: 0.5em 0;
+	}
+	#myOnline {
+		display: inline;
+	}
+	#myOnlinepostal {
+		display: inline;
+	}
+	#req {
+		margin-top: 1em;
+	}
+	
+	
+	#backtotop {
+		text-align: right;
+		padding-right: .8em;
+		margin-top: 1.5em;
+		color: #008000;
+	}
+	footer {
+		font-size: 0.8em;
+		margin: 1.5em .4em 3em .4em;
+	}
+	
+}
