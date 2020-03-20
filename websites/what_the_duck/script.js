@@ -45,8 +45,8 @@ var changeAmericanCoot = function() {
 }
 
 var changeMallard = function() {
-    document.getElementById("typesOfDuckPic").src = "images/Mallard.png";
-    document.getElementById("typesOfDuckPic2").src = "images/Mallard2.png";
+    document.getElementById("typesOfDuckPic").src = "images/mallard.png";
+    document.getElementById("typesOfDuckPic2").src = "images/mallard2.png";
     document.getElementById("duckName").innerHTML = "Mallard";
     document.getElementById("duckOrder").innerHTML = "Anseriformes";
     document.getElementById("duckFamily").innerHTML = "Anatidae";
