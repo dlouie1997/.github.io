@@ -297,9 +297,13 @@ MOBILE ONLY
 	}
 	#changeDuck img {
 		max-width: 100%;
+		border: solid cyan !important;
+		filter: grayscale(1);
+		box-sizing: border-box !important;
 	}
 	.currentlySelectedDuck {
-		border: solid #008000 2px;
+		border: solid cyan !important;
+		filter: none !important;
 		box-sizing: border-box;
 	}
 	.duckDisplay #changeDuck {
@@ -669,9 +673,13 @@ MOBILE ONLY
 	}
 	#changeDuck img {
 		max-width: 100%;
+		border: solid cyan !important;
+		filter: grayscale(1);
+		box-sizing: border-box !important;
 	}
 	.currentlySelectedDuck {
-		border: solid #008000 2px;
+		border: solid cyan !important;
+		filter: none !important;
 		box-sizing: border-box;
 	}
 	.duckDisplay #changeDuck {
@@ -1046,9 +1054,13 @@ TABLET ONLY
 	}
 	#changeDuck img {
 		max-width: 100%;
+		border: solid cyan !important;
+		filter: grayscale(1);
+		box-sizing: border-box !important;
 	}
 	.currentlySelectedDuck {
-		border: solid #008000 2px;
+		border: solid cyan !important;
+		filter: none !important;
 		box-sizing: border-box;
 	}
 	.duckDisplay #changeDuck {
@@ -1434,9 +1446,13 @@ TABLET ONLY
 	}
 	#changeDuck img {
 		max-width: 100%;
+		border: solid cyan !important;
+		filter: grayscale(1);
+		box-sizing: border-box !important;
 	}
 	.currentlySelectedDuck {
-		border: solid #008000 2px;
+		border: solid cyan !important;
+		filter: none !important;
 		box-sizing: border-box;
 	}
 	.duckDisplay #changeDuck {
@@ -1823,9 +1839,13 @@ DESKTOP ONLY
 	}
 	#changeDuck img {
 		max-width: 100%;
+		border: solid cyan !important;
+		filter: grayscale(1);
+		box-sizing: border-box !important;
 	}
 	.currentlySelectedDuck {
-		border: solid #008000 2px;
+		border: solid cyan !important;
+		filter: none !important;
 		box-sizing: border-box;
 	}
 	.duckDisplay #changeDuck {
