@@ -382,6 +382,42 @@ MOBILE ONLY
 		text-align: left;
 		list-style-type: disc;
 	}
+	
+	/*funfacts*/
+	ul#funfactslist {
+		list-style-position: inside;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	#funfactslist li {
+		list-style-type: disc;
+		padding: 1em;
+		background-color: #6facb3;
+	}
+	.famousDucks {
+		display: grid;
+		max-width: 80%;
+		margin: 0 auto;
+		background-color: #6facb3;
+	}
+	.famousDucks h3 {
+		grid-template-columns: 1fr;
+		text-align: center;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		font-weight: bold;
+	}
+	.famousDucks section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		padding: 1em;
+	}
+	.famousDucks img {
+		height: auto;
+		width: 75%;
+	}
 	/*contactus*/
 	.contactheading {
 		padding-top: .4em;
@@ -708,6 +744,42 @@ MOBILE ONLY
 		font-weight: normal;
 		text-align: left;
 		list-style-type: disc;
+	}
+	
+	/*funfacts*/
+	ul#funfactslist {
+		list-style-position: inside;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	#funfactslist li {
+		list-style-type: disc;
+		padding: 1em;
+		background-color: #6facb3;
+	}
+	.famousDucks {
+		display: grid;
+		max-width: 80%;
+		margin: 0 auto;
+		background-color: #6facb3;
+	}
+	.famousDucks h3 {
+		grid-template-columns: 1fr;
+		text-align: center;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		font-weight: bold;
+	}
+	.famousDucks section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		padding: 1em;
+	}
+	.famousDucks img {
+		height: auto;
+		width: 75%;
 	}
 	/*contactus*/
 	.contactheading {
@@ -1042,6 +1114,42 @@ TABLET ONLY
 		font-weight: normal;
 		text-align: left;
 		list-style-type: disc;
+	}
+	
+	/*funfacts*/
+	ul#funfactslist {
+		list-style-position: inside;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	#funfactslist li {
+		list-style-type: disc;
+		padding: 1em;
+		background-color: #6facb3;
+	}
+	.famousDucks {
+		display: grid;
+		max-width: 80%;
+		margin: 0 auto;
+		background-color: #6facb3;
+	}
+	.famousDucks h3 {
+		grid-template-columns: 1fr;
+		text-align: center;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		font-weight: bold;
+	}
+	.famousDucks section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		padding: 1em;
+	}
+	.famousDucks img {
+		height: auto;
+		width: 75%;
 	}
 	/*contactus*/
 	body { 
@@ -1387,6 +1495,41 @@ TABLET ONLY
 		font-weight: normal;
 		text-align: left;
 		list-style-type: disc;
+	}
+	/*funfacts*/
+	ul#funfactslist {
+		list-style-position: inside;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+	#funfactslist li {
+		list-style-type: disc;
+		padding: 1em;
+		background-color: #6facb3;
+	}
+	.famousDucks {
+		display: grid;
+		max-width: 80%;
+		margin: 0 auto;
+		background-color: #6facb3;
+	}
+	.famousDucks h3 {
+		grid-template-columns: 1fr;
+		text-align: center;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		font-weight: bold;
+	}
+	.famousDucks section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		padding: 1em;
+	}
+	.famousDucks img {
+		height: 400px;
+		width: 75%;
 	}
 	/*contactus*/
 	body { 
@@ -1734,6 +1877,42 @@ DESKTOP ONLY
 		text-align: left;
 		list-style-type: disc;
 	}
+	/*funfacts*/
+	ul#funfactslist {
+		list-style-position: inside;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	#funfactslist li {
+		list-style-type: disc;
+		padding: 1em;
+		background-color: #6facb3;
+	}
+	.famousDucks {
+		display: grid;
+		max-width: 960px;
+		margin: 0 auto;
+		background-color: #6facb3;
+	}
+	.famousDucks h3 {
+		grid-template-columns: 1fr;
+		text-align: center;
+		border-top: solid 2px black;
+		border-bottom: solid 2px black;
+		font-weight: bold;
+	}
+	.famousDucks section {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-items: center;
+		align-items: center;
+		padding: 1em;
+	}
+	.famousDucks img {
+		height: 400px;
+		width: 75%;
+	}
+	
 	/*contactus*/
 	body { 
 		display: block;
