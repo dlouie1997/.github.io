@@ -72,6 +72,7 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 	font-family: Georgia, serif;
+	font-size: 1.5em;
 }
 p {
 	font-family: Candara, sans-serif;
@@ -182,7 +183,7 @@ MOBILE ONLY
 	}
 	h2 {
 		font-size: 1.5em;
-		padding-bottom: .4em;
+		padding: .4em;
 	}
 	/*displayed grid so sections could be evenly distributed*/
 	.quicklinks {
@@ -213,7 +214,8 @@ MOBILE ONLY
 	}
 	/*diet*/
 	.dietheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.linkjumps a {
 		text-decoration: none;
@@ -240,7 +242,6 @@ MOBILE ONLY
 	.dietsubheader {
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.5em;
 	}
 	.subfeed {
 		background-color: #92F4FF;
@@ -277,6 +278,9 @@ MOBILE ONLY
 		width: 100%;
 	}
 	/*duck types*/
+	.ducktypesh2 {
+		margin: .4em;
+	}
 	.duckDisplay {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -394,6 +398,9 @@ MOBILE ONLY
 		padding: 1em;
 		background-color: #6facb3;
 	}
+	.funfacth2 {
+		margin: 0.4em;
+	}
 	.famousDucks {
 		display: grid;
 		max-width: 80%;
@@ -420,7 +427,8 @@ MOBILE ONLY
 	}
 	/*contactus*/
 	.contactheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.contactinfo {
 		padding: 2.5%;
@@ -441,7 +449,7 @@ MOBILE ONLY
 	}
 	.newsletter {
 		border: 3px solid #000;
-		margin: 2.5%;
+		margin: 0 2.5% 2.5% 2.5%;
 		padding: 2.5%;
 	}
 	.newsletter h3 {
@@ -547,7 +555,7 @@ MOBILE ONLY
 	}
 	h2 {
 		font-size: 1.5em;
-		padding-bottom: .4em;
+		padding: .4em;
 	}
 	/*displayed grid so sections could be evenly distributed*/
 	.quicklinks {
@@ -578,7 +586,8 @@ MOBILE ONLY
 	}
 	/*diet*/
 	.dietheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.linkjumps a {
 		text-decoration: none;
@@ -605,7 +614,6 @@ MOBILE ONLY
 	.dietsubheader {
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.5em;
 	}
 	.subfeed {
 		background-color: #92F4FF;
@@ -642,6 +650,9 @@ MOBILE ONLY
 		width: 100%;
 	}
 	/*duck types*/
+	.ducktypesh2 {
+		margin: .4em;
+	}
 	.duckDisplay {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -757,6 +768,9 @@ MOBILE ONLY
 		padding: 1em;
 		background-color: #6facb3;
 	}
+	.funfacth2 {
+		margin: 0.4em;
+	}
 	.famousDucks {
 		display: grid;
 		max-width: 80%;
@@ -783,7 +797,8 @@ MOBILE ONLY
 	}
 	/*contactus*/
 	.contactheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.contactinfo {
 		padding: 2.5%;
@@ -804,7 +819,7 @@ MOBILE ONLY
 	}
 	.newsletter {
 		border: 3px solid #000;
-		margin: 2.5%;
+		margin: 0 2.5% 2.5% 2.5%;
 		padding: 2.5%;
 	}
 	.newsletter h3 {
@@ -917,7 +932,7 @@ TABLET ONLY
 	}
 	h2 {
 		font-size: 1.5em;
-		padding-bottom: .4em;
+		padding: .4em;
 	}
 	/*displayed grid so sections could be evenly distributed*/
 	.quicklinks {
@@ -948,7 +963,8 @@ TABLET ONLY
 	}
 	/*diet*/
 	.dietheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.linkjumps a {
 		text-decoration: none;
@@ -975,7 +991,6 @@ TABLET ONLY
 	.dietsubheader {
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.5em;
 	}
 	.subfeed {
 		background-color: #92F4FF;
@@ -1012,6 +1027,9 @@ TABLET ONLY
 		width: 100%;
 	}
 	/*duck types*/
+	.ducktypesh2 {
+		margin: .4em;
+	}
 	.duckDisplay {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1127,6 +1145,9 @@ TABLET ONLY
 		padding: 1em;
 		background-color: #6facb3;
 	}
+	.funfacth2 {
+		margin: 0.4em;
+	}
 	.famousDucks {
 		display: grid;
 		max-width: 80%;
@@ -1167,7 +1188,8 @@ TABLET ONLY
 		width: 100%;
 	}
 	.contactheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.contactinfo {
 		padding: 2.5%;
@@ -1188,7 +1210,7 @@ TABLET ONLY
 	}
 	.newsletter {
 		border: 3px solid #000;
-		margin: 2.5%;
+		margin: 0 2.5% 2.5% 2.5%;
 		padding: 2.5%;
 	}
 	.newsletter h3 {
@@ -1298,7 +1320,7 @@ TABLET ONLY
 	}
 	h2 {
 		font-size: 1.5em;
-		padding-bottom: .4em;
+		padding: .4em;
 	}
 	/*displayed grid so sections could be evenly distributed*/
 	.quicklinks {
@@ -1329,7 +1351,8 @@ TABLET ONLY
 	}
 	/*diet*/
 	.dietheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.linkjumps a {
 		text-decoration: none;
@@ -1356,7 +1379,6 @@ TABLET ONLY
 	.dietsubheader {
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.5em;
 	}
 	.subfeed {
 		background-color: #92F4FF;
@@ -1393,6 +1415,9 @@ TABLET ONLY
 		width: 100%;
 	}
 	/*duck types*/
+	.ducktypesh2 {
+		margin: .4em;
+	}
 	.duckDisplay {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1507,6 +1532,9 @@ TABLET ONLY
 		padding: 1em;
 		background-color: #6facb3;
 	}
+	.funfacth2 {
+		margin: 0.4em;
+	}
 	.famousDucks {
 		display: grid;
 		max-width: 80%;
@@ -1547,7 +1575,8 @@ TABLET ONLY
 		width: 100%;
 	}
 	.contactheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.contactinfo {
 		padding: 2.5%;
@@ -1568,7 +1597,7 @@ TABLET ONLY
 	}
 	.newsletter {
 		border: 3px solid #000;
-		margin: 2.5%;
+		margin: 0 2.5% 2.5% 2.5%;
 		padding: 2.5%;
 	}
 	.newsletter h3 {
@@ -1673,7 +1702,7 @@ DESKTOP ONLY
 	}
 	h2 {
 		font-size: 1.5em;
-		padding: .4em 0;
+		padding: .4em;
 	}
 	/*displayed grid so sections could be evenly distributed*/
 	.quicklinks {
@@ -1708,11 +1737,12 @@ DESKTOP ONLY
 		display: grid;	
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 4%;
-		margin: 2%;
+		margin: 1% 2% 2% 2%;
 		font-size: 1.2em;
 	}
 	.dietheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.linkjumps {
 		display: none;
@@ -1738,7 +1768,6 @@ DESKTOP ONLY
 	.dietsubheader {
 		font-weight: bold;
 		text-align: center;
-		margin-top: 1.5em;
 	}
 	.subfeed {
 		background-color: #92F4FF;
@@ -1775,6 +1804,9 @@ DESKTOP ONLY
 		width: 100%;
 	}
 	/*duck types*/
+	.ducktypesh2 {
+		margin: .4em;
+	}
 	.duckDisplay {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -1888,6 +1920,9 @@ DESKTOP ONLY
 		padding: 1em;
 		background-color: #6facb3;
 	}
+	.funfacth2 {
+		margin: 0.4em;
+	}
 	.famousDucks {
 		display: grid;
 		max-width: 960px;
@@ -1935,7 +1970,8 @@ DESKTOP ONLY
 		width: 100%;
 	}
 	.contactheading {
-		padding-top: .4em;
+		padding: .4em;
+		margin: .4em;
 	}
 	.contactinfo {
 		padding: 2.5%;
@@ -1960,7 +1996,7 @@ DESKTOP ONLY
 	}
 	.newsletter {
 		border: 3px solid #000;
-		margin: 2.5%;
+		margin: 0 2.5% 2.5% 2.5%;
 		padding: 2.5%;
 	}
 	.newsletter h3 {
