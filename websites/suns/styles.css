@@ -27,13 +27,12 @@
     header nav ul.open {
         height: auto;
     }
-    /* header nav ul li {
+    header nav ul li {
         float: none;
-        text-align: center;
         width: 100%;
         margin: 0;
         list-style: none;
-    } */
+    } 
     header nav ul a li {
         color: #fff;
         padding: 10px;
@@ -42,6 +41,7 @@
         text-decoration: none;
         margin: 0;
         text-align: center;
+        font-size: 3em;
     }
     main {
         background-color: #e56020;
