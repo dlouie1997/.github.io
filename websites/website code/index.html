@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PeerSquared</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <nav class="mobile-nav">
+                    <div id="mobile-header">
+                        <a href="javascript:void(0);" onclick="openHamburgerMenu()">
+                            <img src="images/hamburger-menu.png" alt="hamburger menu icon" id="hamburger-menu-icon">
+                        </a>   
+                        <a href="index.html"><img src="images/psquared.png" alt="PeerSquared smaller logo" id="peersquared-logo-mobile"></a>
+                        <button class="try-peersquared-button" onclick="openTryPeerSquaredForm()">Try PeerSquared</button>
+                    </div>
+                    
+
+                    <div id="drop-down-menu">
+                        <div id="drop-down-menu-container">
+                            <a href="forParents.html" class="before-sub-menu">For Parents</a>
+                            <div onclick="openSubMenu()" id="before-dropdown">
+                                <img src="images/dropdown-button.png" id="dropdown-button">
+                            </div>
+                        </div>
+                        
+                        
+                        <div id="sub-menu">
+                            <a href="privateTutoring.html">Private Tutoring</a>
+                            <a href="peersquaredPrograms.html">PeerSquared Programs</a>
+                        </div>
+                        <a href="forEducators.html">For Educators</a>
+                        <a href="whatIsPeerTutoring.html">What is Peer Tutoring</a>
+                        <a href="resources.html">Resources</a>
+                        <a href="about.html">About</a>
+                    </div>
+                </nav>
+                <nav class="desktop-nav">
+                    <a href="index.html"><img src="images/peersquaredlogo.png" alt="PeerSquared" id="peersquaredlogo"></a>
+                    <a href="forParents.html">For Parents</a>
+                        <a href="privateTutoring.html">Private Tutoring</a>
+                        <a href="peersquaredPrograms.html">PeerSquared Programs</a>
+                    <a href="forEducators.html">For Educators</a>
+                    <a href="whatIsPeerTutoring.html">What is Peer Tutoring</a>
+                    <a href="resources.html">Resources</a>
+                    <a href="about.html">About</a>
+                    <button class="try-peersquared-button" onclick="openTryPeerSquaredForm()">Try PeerSquared</button>
+                </nav>
+            </header>
+            
+            <main>
+                <section id="intro-index">
+                    <h1>Your students deserve individualized, understanding, and relatable support.</h1>
+            
+                    <figure>
+                        <video controls poster="/images/mzwang.png">
+                            <source src="videos/peersquaredModel.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                        <figcaption>Watch our CEO Michael Wang explain the PeerSquared Model!</figcaption>
+                    </figure>
+    
+                    <h2>That's why they need peer tutoring.<br>
+                        Bring them a friend who will help them succeed.</h2>
+    
+                    <section id="try-peersquared-email">
+                        <label for="client-email">
+                            <input type="email" id ="client-email" name="client-email" placeholder="Email"><button class="try-peersquared-button" onclick="openTryPeerSquaredForm()">Try PeerSquared</button>
+                        </label>
+                    </section>
+                </section>
+                
+                <section id="testimonial">
+                    <a class="arrow-left" onclick="plusSlides(-1)"></a>
+                        <div class="testimonial-container">
+                            <img src="images/client.png" alt="a client">
+                            <p class="testimonial-container-name"><span>Cason Mandigo</span></p>
+                            <p class="testimonial-container-paragraph">“Testimonial quote text  this can go on for at least two lines if not three, I think it can be three for sure”</p>
+                        </div>
+                        <div class="testimonial-container">
+                            <img src="images/client.png" alt="a client">
+                            <p class="testimonial-container-name"><span>Anne Mathis</span></p>
+                            <p class="testimonial-container-paragraph">“Testimonial quote text  this can go on for at least two lines if not three, I think it can be three for sure”</p>
+                        </div>
+                    <a class="arrow-right" onclick="plusSlides(1)"></a>
+                </section>
+
+                <section id="steps-to-success">
+                    <div class="steps-to-success-boxes">
+                        <img src="images/programs-graphic.png" alt="programs graphic">
+                        <p>Click Try PeerSquared to see how we can help</p>
+                    </div>
+                    <div class="steps-to-success-boxes">
+                        <img src="images/programs-graphic.png" alt="programs graphic">
+                        <p>Let PeerSquared design the right plan for you</p>
+                    </div>
+                    <div class="steps-to-success-boxes">
+                        <img src="images/programs-graphic.png" alt="programs graphic">
+                        <p>Launch a pilot at your school or give private tutoring a try</p>
+                    </div>
+                    <div class="steps-to-success-boxes">
+                        <img src="images/programs-graphic.png" alt="programs graphic">
+                        <p>Invest in peer tutoring and help your students succeed</p>
+                    </div>
+                    <div class="steps-to-success-boxes">
+                        <button class="try-peersquared-button" onclick="openTryPeerSquaredForm()">Try PeerSquared</button>
+                    </div>
+                </section>
+
+                <section id="peersquared-benefits-mobile">
+                    <button type="button" class="collapsible-button active">
+                        <h2>PeerSquared for Families</h2>
+                    </button>
+                    <div class="content" style="display: grid;">
+                        <p>
+                            Your child is unique. They need someone who speaks their language, understand how they feel, and provide just the right amount of push and support to help them succeed in school and beyond. They need a local high school peer tutor who... 
+                        </p>
+                        <ul>
+                            <li>Benefit 1</li>
+                            <li>Benefit 2</li>
+                            <li>Benefit 3</li>
+                            <li>Benefit 4</li>
+                            <li>Benefit 5</li>
+                            <button class="learn-more-button"><a href="forParents.html">Learn More</a></button>
+                        </ul>
+                    </div>
+
+                    <button type="button" class="collapsible-button">
+                        <h2>PeerSquared for Educators</h2>
+                    </button>
+                    <div class="content">
+                        <p>
+                            Quick description of how PeerSquared can benefit both NGO’s and Schools.
+                        </p>
+                        <ul>
+                            <li>Benefit 1</li>
+                            <li>Benefit 2</li>
+                            <li>Benefit 3</li>
+                            <li>Benefit 4</li>
+                            <li>Benefit 5</li>
+                            <button class="learn-more-button"><a href="privateTutoring.html"><a href="forEducators.html"> Learn More</a></button>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="peersquared-benefits-desktop">
+                    <div id="peersquared-benefits-family">
+                        <h2>PeerSquared for Familys</h2>
+                        <p>Quick description of how PeerSquared can benefit both students and parents</p>
+                        <ul>
+                            <li>Benefit 1</li>
+                            <li>Benefit 2</li>
+                            <li>Benefit 3</li>
+                            <li>Benefit 4</li>
+                            <li>Benefit 5</li>
+                            <a href="forParents.html"><button class="learn-more-button">Learn More</button></a>
+                        </ul>
+                    </div>
+                    <div id="peersquared-benefits-educators">
+                        <h2>PeerSquared for Educators</h2>
+                        <p>Quick description of how PeerSquared can benefit both NGO’s and Schools</p>
+                        <ul>
+                            <li>Benefit 1</li>
+                            <li>Benefit 2</li>
+                            <li>Benefit 3</li>
+                            <li>Benefit 4</li>
+                            <li>Benefit 5</li>
+                            <a href="forEducators.html"><button class="learn-more-button">Learn More</button></a>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="partner-section">
+                    <h2>Our partners love us!</h2>
+                    <p>Whether it’s growing a high school’s peer tutoring club or starting a new one for a local non-profit, we help design the most effective program to address the academic needs of their community.</p>
+    
+                    <section id="partner-testimonial">
+                        <a class="arrow-left" onclick="plusSlidesP(1)"></a>
+                            <div class="partner-testimonial-container">
+                                <img src="images/partner-client.png" alt="a partner client">
+                                <h2>Sustainable and Accessible Peer Tutoring</h2>
+                                <p>"We are creating a sustainable and systematic peer tutoring model for schools, so one-on-one, in-person, peer tutoring can be provided by trained high school tutors as a free after school resource for all students. Together with technology, PeerSquared simplifies the experience for students while generating actionable insights for stakeholders."</p>
+                                <p><span>Roger Moore</span> - Principal of Desert Vista High School</p>
+                                <a href="#"><button class="read-more-button">Read More</button></a>
+                            </div>
+                            <div class="partner-testimonial-container">
+                                <img src="images/partner-client2.png" alt="a partner client">
+                                <h2>Sustainable and Accessible Peer Tutoring</h2>
+                                <p>"We are creating a sustainable and systematic peer tutoring model for schools, so one-on-one, in-person, peer tutoring can be provided by trained high school tutors as a free after school resource for all students. Together with technology, PeerSquared simplifies the experience for students while generating actionable insights for stakeholders."</p>
+                                <p><span>Nancy Sand</span> - CEO Million Dollar Teacher Project</p>
+                                <a href="#"><button class="read-more-button">Read More</button></a>
+                            </div>
+                        <a class="arrow-right" onclick="plusSlidesP(1)"></a>
+                    </section>
+                </section>
+
+                <section id="try-peersquared-form">
+                    <form action="" method="POST" class="try-form-box">
+                        <div id="form-content">
+                            <div class="form-questions">
+                                <img src="images/x-button.png" id="x-image" class="close" onclick="closeTryPSForm()" onmouseenter="closeHover()" onmouseout="closeUnhover()" alt="close button">
+                                <h2>Learn more about what PeerSquared can do for you!</h2>
+                                <p>Our mission is to make Peer Tutoring accessible, affordable, and fun! We will reach out to you personally and walk you through the PeerSquared Model and Platform from A to Z.</p>
+        
+                                <input type="text" placeholder="Name" name="fullname" id="ps-name" required>
+                                <input type="email" placeholder="Email" name="emailaddress" id="ps-email" required>
+        
+                                <select onchange = "tryPsCheck()" name="who-are-you" id="try-form-who">
+                                    <option value="" disabled selected>Who are you?</option>
+                                    <option value="parent">Parent</option>
+                                    <option value="teacher">Teacher</option>
+                                    <option value="student">Student</option>
+                                    <option value="school-administrator">School Administrator</option>
+                                    <option value="ngo">NGO</option>
+                                </select>
+
+                                <div id="selected-parent-student">
+                                    <div class="parent-student-option">
+                                        <p>What are you interested in?</p>
+                                        <input type="checkbox" id="private-tutoring-checkbox" name="private-tutoring-checkbox" value="Private tutoring">
+                                        <label for="private-tutoring-checkbox">Private Tutoring</label>
+                                    </div>
+                                    <div class="parent-student-option2">
+                                        <input type="checkbox" id="community-checkbox" name="community-checkbox" value="Community/PeerSquared Programs">
+                                        <label for="community-checkbox">Community/PeerSquared Programs</label>
+                                    </div>
+                                </div>
+                                <div id="selected-teacher-school-ngo">
+                                    <div class="teacher-school-ngo-option">
+                                        <textarea class="try-peersquared-textarea" placeholder="Tell us a little bit more about how you hope to use PeerSquared in your organization/school"></textarea>
+                                    </div>
+                                </div>
+        
+                                <input type="submit" value="Submit" class="submit-button">
+                            </div>
+                            <div id="form-image">
+                                <img src="images/filling-out-form.png" alt="A person filling out a form">
+                            </div>
+                        </div>
+                    </form>
+                </section>
+
+                <section id="contact-form">
+                    <form action="" method="POST" class="contact-box">
+                        <div class="form-content">
+                            <div class="form-questions">
+                                <img src="images/x-button.png" id="x-image" class="close" onclick="closeContactForm()" onmouseenter="closeHover()" onmouseout="closeUnhover()" alt="close button">
+                                <h2>Tell us more about you and we will be in touch!</h2>
+                                <p>This is our contact us form, what can we write here to help people know they want to talk to us about their issue and we will reach out to the them</p>
+
+                                <input type="text" placeholder="Name" name="fullname" id="ps-name" required>
+                                <input type="email" placeholder="Email" name="emailaddress" id="contact-email" required>
+
+                                <select name="who-are-you" id="try-form-who">
+                                    <option value="" disabled selected>Who are you?</option>
+                                    <option value="parent">Parent</option>
+                                    <option value="teacher">Teacher</option>
+                                    <option value="student">Student</option>
+                                    <option value="school-administrator">School Administrator</option>
+                                    <option value="ngo">NGO</option>
+                                </select>
+
+                                <div id="contact-who-are-you">
+                                    <div class="teacher-school-ngo-option">
+                                        <textarea class="contact-textarea" placeholder="How can we help!"></textarea>
+                                    </div>
+                                </div>
+
+                                <input type="submit" value="Submit" class="submit-button">
+                                <div id="form-image">
+                                    <img src="images/filling-out-form.png" alt="A person filling out a form">
+                                </div>
+                            </div>
+                    </form>
+                </section>
+                
+            </main>
+
+            <footer>
+                <div id="peersquared-logo">
+                    <a href="index.html"><img src="images/peersquaredbanner.png" alt="PeerSquared logo"></a>
+                </div>
+                
+                <div id="footer-connected">
+                    <h3>Stay Connected</h3>
+                    <a href="https://www.facebook.com/peersquaredinc" alt="Facebook logo" target="_blank"><img src="images/social-facebook.png"></a>
+                    <a href="https://www.linkedin.com/company/peersquaredinc/" alt="Linkedin logo" target="_blank"><img src="images/social-linkedin.png"></a>
+                    <a href="https://www.instagram.com/peersquaredinc/" alt="Instagram logo" target="_blank"><img src="images/social-instagram.png"></a>
+                    <a href="https://twitter.com/PeerSquaredInc" alt="Twitter logo" target="_blank"><img src="images/social-twitter.png"></a>
+                    <br><br><a href="mailto:info@peer-squared.com">Email: info@peer-squared.com</a>
+                    <br><br><a href="tel:+14804816687">Phone: (480) 481-6687</a>
+                </div>
+
+                <div id="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Questions, comments, looking for more information? Please don’t hesitate to reach out!</p>
+                    <div id="contact-button-div">
+                        <button class="contact-button" onclick="openContactForm()">Contact Us</button>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div id="footer-extra-links">
+                    <a href="termsOfService.html">Terms of Service</a>
+                    <a href="privacyPolicy.html">Privacy Policy</a>
+                    <a href="siteMap.html">Site Map</a>
+                </div>
+                
+                <div id="footer-copyright">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> - PeerSquared Inc. All Rights Reserved</p>
+                </div>
+                
+            </footer>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
