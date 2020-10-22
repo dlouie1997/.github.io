@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175963207-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-175963207-1');
+    </script>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicons/favicon16_b_on_w.png" sizes="16x16">
+    <link rel="icon" href="favicons/favicon32_b_on_w.png" sizes="32x32">
+    <link rel="icon" href="favicons/favicon96_b_on_w.png" sizes="96x96">
+    <link rel="icon" href="favicons/favicon228_b_on_w.png" sizes="228x228">
+
+    <style media="screen">
+      body { background: ##F5F8FA; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px 16px; border-radius: 3px; }
+      #message h3 { color: #888; font-weight: normal; font-size: 16px; margin: 16px 0 12px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #2699FB; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+
+    <script>
+        function closeMobileNav() {
+            $('#nav-menu-active-mobile').removeClass("active-flex");
+            $('#nav-menu-active-mobile').addClass("inactive");
+            $('#nav-menu-inactive-mobile').removeClass("inactive");
+            $('#nav-menu-inactive-mobile').addClass("active-flex");
+
+            $('#mobile-dropdown-menu').removeClass("active-block");
+            //$('#mobile-dropdown-menu').addClass("inactive");
+        };
+
+        $(document).ready(function () {
+            //Web Nav
+            $('#hamburger').click(function () {
+                $('#nav-menu-active').removeClass("inactive");
+                $('#nav-menu-active').addClass("active-flex");
+                $('#nav-menu-inactive').removeClass("active-flex");
+                $('#nav-menu-inactive').addClass("inactive");
+            });
+            $('#close').click(function () {
+                $('#nav-menu-active').removeClass("active-flex");
+                $('#nav-menu-active').addClass("inactive");
+                $('#nav-menu-inactive').removeClass("inactive"); 6
+                $('#nav-menu-inactive').addClass("active-flex");
+            })
+
+            //Mobile Nav
+            $('#hamburger-mobile').click(function () {
+                $('#nav-menu-active-mobile').removeClass("inactive");
+                $('#nav-menu-active-mobile').addClass("active-flex");
+                $('#nav-menu-inactive-mobile').removeClass("active-flex");
+                $('#nav-menu-inactive-mobile').addClass("inactive");
+
+                // $('#mobile-dropdown-menu').removeClass("inactive");
+                $('#mobile-dropdown-menu').addClass("active-block");
+            });
+            $('#close-mobile').click(function () {
+                closeMobileNav();
+            })
+        });
+    </script>
+  </head>
+  <body style="background-color: #F5F8FA;">
+    <header style="background: #2699FB;">
+
+        <!-- Alert Banner Online Tutoring -->
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button aria-label="Close" class="close" data-dismiss="alert" type="button"><span aria-hidden="true">x</span></button>
+            <p><strong>Free peer tutoring for your students/child(ren)? Sign up here!</strong><a href="/2020-2021.html" target="_self"><strong> here</strong></a>.</p>
+        </div>
+
+        <nav class="container">
+            <a href="/index.html" title="PeerSquared"><img class="logo" src="img/TitleLogoWhite.png" alt="PeerSquared Logo"></a>
+
+
+    </header>
+    <section class="section-off-white">
+      <div id="message">
+        <h2>404</h2>
+        <h1 style="text-align: center;">Page Not Found</h1>
+        <p>The specified file was not found on this website. Please check the URL for mistakes and try again.</p>
+        <p style="text-align: center;"><strong>Return to PeerSquared's Home page</strong></p>
+        <p><a href="https://peer-squared.info">GO</a></p>
+
+      </div>
+    </section>
+  </body>
+</html>

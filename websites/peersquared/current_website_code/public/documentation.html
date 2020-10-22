@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175963207-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-175963207-1');
+    </script>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Portal Documentation and Instructions - PeerSquared</title>
+    
+    <!-- META DESCRIPTION -->
+    <meta property="og:site_name" content="PeerSquared"/>
+    <meta property="og:title" content="Online Portal How-To's - PeerSquared "/>
+    <meta property="og:description" content="Documentation and Instructions for using PeerSquared's Online Portal"/>
+    <meta property="og:url" content="https://peer-squared.info/documentation.html"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://peer-squared.info/img/meta_image.png"/>
+    <meta property="og:image:alt" content="PeerSquared Logo"/>
+
+    <!-- META DESCRIPTION -->
+    <meta name="description" content="Documentation and Instructions for using PeerSquared's Online Portal">
+    
+    <!-- META DESCRIPTION 
+    <meta name="keywords" content="online tutoring, online, services, tutoring, scheduler, peer tutoring, high school, peer to peer">
+-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicons/favicon16_b_on_w.png" sizes="16x16">
+    <link rel="icon" href="favicons/favicon32_b_on_w.png" sizes="32x32">
+    <link rel="icon" href="favicons/favicon96_b_on_w.png" sizes="96x96">
+    <link rel="icon" href="favicons/favicon228_b_on_w.png" sizes="228x228">
+
+    <script src="imports/jquery-3.4.1.min.js"></script>
+    
+    <script>
+        function closeMobileNav() {
+            $('#nav-menu-active-mobile').removeClass("active-flex");
+            $('#nav-menu-active-mobile').addClass("inactive");
+            $('#nav-menu-inactive-mobile').removeClass("inactive");
+            $('#nav-menu-inactive-mobile').addClass("active-flex");
+
+            $('#mobile-dropdown-menu').removeClass("active-block");
+            //$('#mobile-dropdown-menu').addClass("inactive");
+        };
+
+        $(document).ready(function () {
+            //Web Nav
+            $('#hamburger').click(function () {
+                $('#nav-menu-active').removeClass("inactive");
+                $('#nav-menu-active').addClass("active-flex");
+                $('#nav-menu-inactive').removeClass("active-flex");
+                $('#nav-menu-inactive').addClass("inactive");
+            });
+            $('#close').click(function () {
+                $('#nav-menu-active').removeClass("active-flex");
+                $('#nav-menu-active').addClass("inactive");
+                $('#nav-menu-inactive').removeClass("inactive"); 6
+                $('#nav-menu-inactive').addClass("active-flex");
+            })
+
+            //Mobile Nav
+            $('#hamburger-mobile').click(function () {
+                $('#nav-menu-active-mobile').removeClass("inactive");
+                $('#nav-menu-active-mobile').addClass("active-flex");
+                $('#nav-menu-inactive-mobile').removeClass("active-flex");
+                $('#nav-menu-inactive-mobile').addClass("inactive");
+
+                // $('#mobile-dropdown-menu').removeClass("inactive");
+                $('#mobile-dropdown-menu').addClass("active-block");
+            });
+            $('#close-mobile').click(function () {
+                closeMobileNav();
+            })
+        });
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WZRXF8V');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZRXF8V"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header style="background: #2699FB;">
+
+         <!-- Alert Banner Online Tutoring 
+        <div class="alert alert-info alert-dismissible" role="alert">
+            <button aria-label="Close" class="close" data-dismiss="alert" type="button"><span aria-hidden="true">x</span></button>
+            <p><strong>We are launching free peer tutoring Summer 2020! To learn more, click</strong><a href="peersquared-provides.html" target="_self"><strong> here</strong></a>.</p>
+        </div>
+    -->
+
+        <nav class="logo-nav-container">
+            <a href="/index.html" title="PeerSquared"><img class="logo" src="img/TitleLogoWhite.png" alt="PeerSquared Logo"></a>
+
+            <ul id="nav-menu-active" class="nav-links web-only inactive">
+                    <!--
+                    <li class="nav-link">
+                        <a href="/index.html" title="Home">Home</a></li>
+                    -->
+                <li class="nav-link">
+                    <a href="/2020-2021.html" title="Free Online Peer Tutoring for 2020-2021 School Year">Free Tutoring</a></li>
+                <li class="nav-link">
+                    <a href="/services.html" title="Services">Services</a></li>
+                <li class="nav-link">
+                    <a href="/resources.html" title="Resources">Resources</a></li>
+                <li class="nav-link">
+                    <a href="/about.html" title="About">About</a></li>
+                <li class="nav-link">
+                    <a href="#footer" title="Contact Us">Contact Us</a></li>
+                <li id="close" class="nav-link">
+                    <a class="icon" title="close">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul id="nav-menu-inactive" class="nav-links web-only active-flex">
+                <li id="hamburger" class="nav-link">
+                    <a href="javascript:void(0);" class="icon" title="menu">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Mobile Nav-->
+            <ul id="nav-menu-active-mobile" class="nav-links mobile-only inactive">
+                <li id="close-mobile" class="nav-link">
+                    <a href="javascript:void(0);" class="icon" title="close">
+                        <i class="fa fa-times"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul id="nav-menu-inactive-mobile" class="nav-links mobile-only active-flex">
+                <li id="hamburger-mobile" class="nav-link">
+                    <a href="javascript:void(0);" class="icon" title="menu">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div id="mobile-dropdown-menu" class="mobile-only inactive">
+        <ul>
+            <!--
+            <li class="nav-link-mobile">
+                <a href="/index.html" onClick="closeMobileNav()" title="Home">Home</a>
+            </li>
+            -->
+            <li class="nav-link-mobile">
+                <a href="/2020-2021.html" onClick="closeMobileNav()" title="Free Online Peer Tutoring for 2020-2021 School Year">Free Tutoring</a>
+            </li>
+            <li class="nav-link-mobile">
+                <a href="/services.html" onClick="closeMobileNav()" title="Services">Services</a>
+            </li>
+            <li class="nav-link-mobile">
+                <a href="/resources.html" onClick="closeMobileNav()" title="Resources">Resources</a>
+            </li>
+            <li class="nav-link-mobile">
+                <a href="/about.html" onClick="closeMobileNav()" title="About">About</a>
+            </li>
+            <li class="nav-link-mobile">
+                <a href="#footer" onClick="closeMobileNav()" title="Contact Us">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="section-off-white">
+            <h1 style="text-align: center; display: none;">PeerSquared's Online Portal Documentation</h1>
+            <h2 style="text-align: center; color: black;">How to start booking FREE tutoring sessions!</h2>
+            <p style="text-align: center; line-height: 115%; padding: 0;">Text Michael at 480-481-6687 or email support@peer-squared.com if you need any help</p>
+<!--
+        <div class="container">
+            <div style="font-size: larger;">
+                <h4 style="text-align: center;">
+                    User Registration & Book Session
+                </h4>
+            </div>
+           <div class="video-responsive">
+                <iframe src="https://player.vimeo.com/video/410034681" width="640" height="419" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <br>
+            <p style="font-size: 55%; text-align: center;"> 
+                Disclaimer:<br>Any schools or names of individuals seen in the demo do not reflect any ongoing relationship between the entity/person and PeerSquared, Inc.
+            </p>
+        </div>
+-->
+        <section>
+            <div class="legal-iframes">
+            <iframe src="https://docs.google.com/document/d/1T5tAJErcjscSoLKMeTn_QH3WZcp6ofZrFiin1scykF8/edit?usp=sharing" width="90%" height="800px"></iframe>   
+            </div>
+        </section>
+    </section>
+
+    <footer id="footer">
+        <div class="container footer-content">
+            <div>
+                <a href="/index.html" title="PeerSquared"><img class="logo" src="img/TitleLogoWhite.png" alt="PeerSquared Logo"></a>
+                <div class="footer-nav">
+                    <h3><a href="/index.html" title="Home">Home</a></h3>
+                    <h3><a href="/services.html" title="Services">Services</a></h3>
+                    <h3><a href="/about.html" title="About">About</a></h3>
+                </div>
+                <div class="social-media">
+                    <!-- Social Icons-->
+                    <a href="https://fb.me/peersquaredinc" target="_blank" title="facebook"><img src="img/facebook.png"
+                            alt="Facebook logo"></a>
+                    <a href="https://www.instagram.com/peersquaredinc/" target="_blank" title="instagram"><img src="img/instagram.png"
+                            alt="Instagram logo"></a>
+                    <a href="https://www.linkedin.com/company/peersquaredinc" target="_blank" title="LinkedIn"><img
+                            src="img/linkedin.png" alt="Linkedin logo"></a>
+                </div>
+                <p>Phone: (480) 481-6687</p>
+                <p>E-mail: info@peer-squared.com</p>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="footer-form">
+                <h3>Comments or Questions?</h3>
+                <form action="https://formspree.io/mknzvrjy" method="POST">
+                    <div class="flex-container">
+                        <div class="contact-info-input-container">
+                            <label for="fname"></label>
+                            <input type="text" name="first-name" required="required"
+                                placeholder="Enter your first name*">
+                        </div>
+                        <div class="contact-info-input-container">
+                            <label for="lname"></label>
+                            <input type="text" name="last-name" required="required" placeholder="Enter your last name*">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="flex-container">
+                        <div class="contact-info-input-container">
+                            <label for="email"></label>
+                            <input type="email" name="email" required="required" placeholder="Enter your email*">
+                        </div>
+                        <div class="contact-info-input-container">
+                            <label for="phone"></label>
+                            <input type="tel" name="phone" placeholder="Enter your phone">
+                        </div>
+                    </div>
+                    <br>
+
+                    <label for="message"></label>
+                    <textarea class="message" name="message" placeholder="Type something..."></textarea>
+                    <br>
+
+                    <div class="roles-questions">
+                        <label for="myRole" class="myRole">What's your role?</label><br>
+
+                        <div>
+                            <input type="radio" id="schoolAdmin" name="whatRole" value="schoolAdmin">
+                            <label for="schoolAdmin" class="labelText">School Admin</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="faculty" name="whatRole" value="faculty">
+                            <label for="faculty" class="labelText">Faculty</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="parent" name="whatRole" value="parent">
+                            <label for="parent" class="labelText">Parent</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="communityMember" name="whatRole" value="communityMember">
+                            <label for="communityMember" class="labelText">Community Member</label><br>
+                        </div>
+
+                    </div>
+
+                    <div class="submit-button-container">
+                        <button type="submit" class="submit-button" value="Submit">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="container footer-content-mobile">
+            <div class="footer-form">
+                <h3>Comments or Questions?</h3>
+                <form action="https://formspree.io/mknzvrjy" method="POST">
+                    <label for="fname"></label>
+                    <input type="text" class="footer-input-mobile" name="first-name" required="required"
+                        placeholder="Enter your first name*">
+                    <br>
+                    <br>
+                    <label for="lname"></label>
+                    <input type="text" class="footer-input-mobile" name="last-name" required="required"
+                        placeholder="Enter your last name*">
+                    <br><br>
+                    <label for="email"></label>
+                    <input type="email" class="footer-input-mobile" name="email" required="required"
+                        placeholder="Enter your email*">
+                    <br><br>
+                    <label for="phone"></label>
+                    <input type="tel" class="footer-input-mobile" name="phone" placeholder="Enter your phone">
+                    <br><br>
+                    <label for="message"></label>
+                    <textarea class="message" name="message" placeholder="Type something..."></textarea>
+                    <br><br>
+
+                    <div class="roles-questions">
+                        <label for="myRole" class="myRole">What's your role?</label><br>
+                        <input type="radio" id="k12Teacher" name="whatRole" value="k12Teacher">
+                        <label for="k12Teacher" class="labelText">K12 Teacher</label><br>
+                        <input type="radio" id="otherK12Employee" name="whatRole" value="otherK12Employee">
+                        <label for="otherK12Employee" class="labelText">Other K12 Employee</label><br>
+                        <input type="radio" id="parent" name="whatRole" value="parent">
+                        <label for="parent" class="labelText">Parent</label><br>
+                        <input type="radio" id="communityMember" name="whatRole" value="communityMember">
+                        <label for="communityMember" class="labelText">Community Member</label><br>
+                    </div>
+
+                    <div class="submit-button-container">
+                        <button type="submit" class="submit-button" value="Submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="footer-info-mobile">
+                <p>Phone: (480) 481-6687</p>
+                <p>E-mail: info@peer-squared.com</p>
+            </div>
+
+            <hr>
+
+            <div class="social-media">
+                <!-- Social Icons-->
+                <a href="https://fb.me/peersquaredinc" target="_blank" title="facebook"><img src="img/facebook.png"
+                        alt="Facebook logo"></a>
+                <a href="https://www.instagram.com/peersquaredinc/" target="_blank" title="instagram"><img src="img/instagram.png"
+                        alt="Instagram logo"></a>
+                <a href="https://www.linkedin.com/company/peersquaredinc" target="_blank" title="LinkedIn"><img src="img/linkedin.png"
+                        alt="Linkedin logo"></a>
+            </div>
+
+            <div class="footer-nav footer-nav-mobile">
+                <h3><a href="/index.html" title="Home">Home</a></h3>
+                <h3><a href="/services.html" title="Services">Services</a></h3>
+                <h3><a href="/about.html" title="About">About</a></h3>
+            </div>
+
+        </div>
+
+        <p class="copyright">
+            <a href="legal.html#tos" target="_self">Terms of Service</a> | &#169;Peersquared, Inc. 2020 | <a href="legal.html#pp" target="_self" title="Privacy Policy">Privacy Policy</a>  
+        </p>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyD9Y3-kyFFuz4ElDXuZ3Ykt_FpWzAY2q2Y",
+            authDomain: "peersquared-website.firebaseapp.com",
+            databaseURL: "https://peersquared-website.firebaseio.com",
+            projectId: "peersquared-website",
+            storageBucket: "peersquared-website.appspot.com",
+            messagingSenderId: "165249696995",
+            appId: "1:165249696995:web:e5a6a4577ea7426130b1d6",
+            measurementId: "G-D5TY49774K"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    
+</body>
