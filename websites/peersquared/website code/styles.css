@@ -1635,6 +1635,7 @@ what is peer tutoring*/
     }
     #peer-tutoring-in-action p {
         padding: 0 2em;
+        text-align: center;
     }
     #different-schools {
         display: grid;
