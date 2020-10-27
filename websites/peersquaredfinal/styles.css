@@ -1,0 +1,6525 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-color:#F5F8FA;
+    font-family: Poppins;
+}
+h1, h2, h3, p {
+    text-align: center;
+    padding: 8px 0;
+}
+/*mainly mobile sizes*/
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+    padding: 0 1em;
+}
+h3 {
+    font-size: 2em;
+}
+p {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+}
+.menu-item-has-children .dropdown-menu-toggle {
+    font-size: 20px;
+}
+/*.......................................................................
+//.............................................iiiii.....................
+//.............................................iiiii.....................
+//.............................................iiiii.....................
+//.......................................................................
+//.......................................................................
+//.......................................................................
+//.mmmmmmmmmmmmm..mmmmmmmm......aaaaaaaaaa.....iiiii...nnnnn.nnnnnnnn....
+//.mmmmmmmmmmmmmmmmmmmmmmmm....aaaaaaaaaaaa....iiiii...nnnnnnnnnnnnnnn...
+//.mmmmmmmmmmmmmmmmmmmmmmmm...aaaaaaaaaaaaaa...iiiii...nnnnnnnnnnnnnnn...
+//.mmmmmmmmmmmmmmmmmmmmmmmm...aaaaaaaaaaaaaa...iiiii...nnnnnnnnnnnnnnnn..
+//.mmmmmm...mmmmmmm..mmmmmm...aaaaa...aaaaaa...iiiii...nnnnnnn...nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm............aaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm........aaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm....aaaaaaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm...aaaaaaaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm..maaaaaaaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm..maaaaa...aaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm..maaaaa...aaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm..maaaaaaaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm..maaaaaaaaaaaaaa...iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm...aaaaaaaaaaaaaaa..iiiii...nnnnnn....nnnnnn..
+//.mmmmmm...mmmmmm....mmmmm....aaaaaaaaaaaaaa..iiiii...nnnnnn....nnnnnn..
+//.....................................................................*/
+main {
+    width: 80%;
+    margin: 1em auto 0 auto;
+}
+
+footer {
+    background-color: #f8be13;
+    color: white;
+    padding: 2em;
+}
+
+/*.........................................................................
+//................hhhhh....................................................
+//................hhhhh....................................................
+//................hhhhh....................................................
+//................hhhhh....................................................
+//.ppppppppppp....hhhhhhhhhhh.....ooooooooo....nnnnnnnnnnn.....eeeeeeee....
+//.pppppppppppp...hhhhhhhhhhhh...ooooooooooo...nnnnnnnnnnnn...eeeeeeeeeee..
+//.ppppppppppppp..hhhhhhhhhhhh...oooooooooooo..nnnnnnnnnnnnn..eeeeeeeeeee..
+//.ppppppppppppp..hhhhhhhhhhhhh.hoooooooooooo..nnnnnnnnnnnnn.neeeee.eeeee..
+//.ppppp...ppppp..hhhhh...hhhhh.hoooo...oooooo.nnnnn...nnnnn.neeee...eeee..
+//.ppppp...ppppp..hhhhh...hhhhh.hoooo....ooooo.nnnnn...nnnnn.neeeeeeeeeee..
+//.ppppp....pppp..hhhhh...hhhhh.hooo.....ooooo.nnnnn...nnnnn.neeeeeeeeeee..
+//.ppppp...ppppp..hhhhh...hhhhh.hoooo....ooooo.nnnnn...nnnnn.neeee.........
+//.ppppp...ppppp..hhhhh...hhhhh.hoooo...oooooo.nnnnn...nnnnn.neeee.........
+//.ppppppppppppp..hhhhh...hhhhh.hoooooooooooo..nnnnn...nnnnn.neeeeeeeeeee..
+//.ppppppppppppp..hhhhh...hhhhh.hoooooooooooo..nnnnn...nnnnn..eeeeeeeeeee..
+//.pppppppppppp...hhhhh...hhhhh..ooooooooooo...nnnnn...nnnnn..eeeeeeeeeee..
+//.ppppppppppp....hhhhh...hhhhh...ooooooooo....nnnnn...nnnnn...eeeeeeeee...
+//.ppppp...................................................................
+//.ppppp...................................................................
+//.ppppp...................................................................
+//.ppppp...................................................................
+//.ppppp...................................................................
+//.......................................................................*/
+@media only screen and (min-width: 500px) { 
+    #wrapper {
+        display: grid;
+    }
+    main {
+        width: 100%;
+    }
+
+/*.....................................................
+//.nnnnnnnnnnnnnn......aaaaaaaaaaa..aaavvv......vvvvv..
+//.nnnnnnnnnnnnnnn....aaaaaaaaaaaaa..aavvvv.....vvvvv..
+//.nnnnnnnnnnnnnnnn...aaaaaaaaaaaaa..aavvvv....vvvvvv..
+//.nnnnnnnn.nnnnnnn..naaaaaaaaaaaaaa..avvvvv...vvvvvv..
+//.nnnnnnn...nnnnnn..naaaaa...aaaaaa..avvvvv...vvvvv...
+//.nnnnnn....nnnnnn...........aaaaaa..avvvvv..vvvvvv...
+//.nnnnnn....nnnnnn.......aaaaaaaaaa...vvvvvv.vvvvvv...
+//.nnnnnn....nnnnnn....aaaaaaaaaaaaa...vvvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaa...aaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaa....aaaaaa.....vvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa......vvvvvvv......
+//.nnnnnn....nnnnnn...aaaaaaaaaaaaaaa.....vvvvvv.......
+//...................................................*/
+    .mobile-nav {
+        background-color: #2699FB;
+    }
+    #mobile-header {
+        display: grid;
+        grid-template-columns: .5fr .75fr 10%;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        padding: 1em 1px 1em 1px;
+        height: 100%;
+        width: 100%;
+    }
+    .mobile-header a {
+        justify-self: left;
+    }
+    .try-peersquared-button-nav {
+        height: 100%;
+        width: 60%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        justify-self: right;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+        margin-right: 4em;
+    }
+    .try-peersquared-button {
+        height: 100%;
+        width: 75%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+    }
+    .mobile-nav a {
+        height: 100%;
+    }
+    .mobile-nav img {
+        height: 100%;
+    }
+    #peersquared-logo-link {
+        margin: 0 4em;
+        justify-self: left;
+    }
+    #hamburger-button {
+        margin: 0 4em;
+        justify-self: right;
+    }
+    .desktop-nav {
+        display: none;
+    }
+
+    #drop-down-menu-container {
+        display: grid;
+        grid-template-columns: 1fr 10%;
+    }
+    #drop-down-menu {
+        display: none;
+        grid-column: 1 / 4;
+    }
+    #drop-down-menu a {
+        display: grid;
+        color: white;
+        font-size: 4em;
+        border: 1px solid white;
+        width: 100%;
+        text-indent: 1em;
+    }
+    #drop-down-menu a:first-of-type {
+        border: 1px solid white;
+        border-right: none;
+    }
+    .before-sub-menu div {
+        display: grid;
+    }
+    #dropdown-button {
+        z-index: 1;
+        justify-self: center;    
+        align-self: center;
+        height: 3em !important;
+    }
+    #sub-menu {
+        display: none;
+    }
+    #sub-menu a {
+        color: white;
+        background-color: #71b9f8;
+        font-size: 4em;
+        border: 1px solid white;
+        width: 100%;
+        text-indent: 2.25em;
+    }
+    #before-dropdown {
+        display: grid;
+        border: 1px solid white;
+        border-left: none;
+        border-right: none;
+        height: 100%;
+    }
+    
+
+/*................................................................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//.iiiiii...nnnnnnnnnnnnn.......dddddddddddddd.....eeeeeeeee....exxxxxx...xxxxxx..
+//.iiiiii...nnnnnnnnnnnnnn.....ddddddddddddddd...eeeeeeeeeeee...exxxxxx..xxxxxxx..
+//.iiiiii...nnnnnnnnnnnnnnn...dddddddddddddddd...eeeeeeeeeeeee...xxxxxxxxxxxxxx...
+//.iiiiii...nnnnnnnnnnnnnnn...ddddddd.dddddddd..eeeeeeeeeeeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn...nnnnnn..ndddddd...ddddddd..eeeeee...eeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn....nnnnn..nddddd.....dddddd.deeeee.....eeeee....xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn..ndddddd...ddddddd..eeeeee............xxxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn...ddddddd.dddddddd..eeeeeee.eeeeeee..xxxxxxxxxxxxxx...
+//.iiiiii...nnnnn.....nnnnn...dddddddddddddddd...eeeeeeeeeeeeee..xxxxxxx.xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn....ddddddddddddddd...eeeeeeeeeeeee..exxxxxx..xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn.....dddddddddddddd.....eeeeeeeeee..eexxxxx....xxxxxx..
+//...............................................................................*/
+    figure video {
+        width: 100%;
+    }
+    figcaption {
+        text-align: center;
+        background-color: #fff;
+        margin: 0 1em;
+    }
+
+    #try-peersquared-email {
+        text-align: center;
+        padding: 2em 5% 2em 5%;
+        width: 90%;
+    }
+    #try-peersquared-email label {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #try-peersquared-email #client-email {
+        font-size: 2em;
+    }
+    #try-peersquared-email .try-peersquared-button {
+        font-size: 2em;
+    }
+
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-right: 50px solid #F3BE30;
+        border-bottom: 50px solid transparent;
+        justify-self: end;
+        align-self: center;
+        cursor: pointer;
+    }
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 50px solid #F3BE30;
+        border-bottom: 50px solid transparent;
+        justify-self: start;
+        align-self: center;
+        cursor: pointer;
+    }
+    #testimonial {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        padding: 2em 1em;
+        background-color: #2699FB;
+
+    }
+    .testimonial-container {
+        display: none;
+        background-color: #FAF7F7;
+        border: 2px solid #FAF7F7;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+        padding: 1em;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .testimonial-container p {
+        grid-column: 2 / 3;
+        align-self: center;
+    }
+    .testimonial-container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .testimonial-container span {
+        font-size: 1.25em;
+        margin-right: 0.938em;
+        font-weight: bold;
+    }
+    .testimonial-container img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        justify-self: center;
+        align-self: center;
+    }
+    .testimonial-container-name {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        font-size: 2em;
+    }
+    .testimonial-container-paragraph {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding: 0 1em;
+        font-size: 1.5em;
+    }
+
+    #steps-to-success {
+        display: block;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        width: 80%;
+        align-self: center;
+        margin: 0 auto;
+    }
+    .steps-to-success-boxes:first-of-type {
+        padding: 2em 0;
+    }
+    .steps-to-success-boxes {
+        padding: 2em 0;
+        text-align: center;
+    }
+    .steps-to-success-boxes img {
+        width: 25%;
+    }
+    .steps-to-success-arrow {
+        display: none;
+    }
+    .steps-to-success-boxes p {
+        padding: 1em 1em 0 1em;
+    }
+    .steps-to-success-boxes .try-peersquared-button {
+        width: 75%;
+        font-size: 2em;
+    }
+
+    #peersquared-benefits-mobile {
+        color: #fff;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    #peersquared-benefits-mobile div {
+        margin: 1em;
+        background-color: #1078ef;
+    }
+    .collapsible-button {
+        background-color: #2699FB;;
+        padding: 1em;
+        width: 100%;
+        font-size: 1.5em;
+        border: none;
+    }
+    .active, .collapsible-button:hover {
+    }
+    .collapsible-button h2 {
+        color: #fff;
+        display: grid;
+        grid-template-columns: 99% 1%;
+        font-size: 2em;
+    }
+    .dropdown-button-collapsible {
+        height: .5em;
+        align-self: center;
+    }
+    .content {
+        padding: 0 5em;
+        display: none;
+        background-color: #2699FB;
+    }
+    .content ul {
+        padding-left: 1em;
+        display: grid;
+    }
+    .content ul li {
+        font-size: 2em;
+        padding: 1em 0 1em 0;
+    }
+    #peersquared-benefits-desktop {
+        display: none;
+    }
+
+    .learn-more-button {
+        height: 100%;
+        width: 50%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        justify-self: center;
+        margin-bottom: 1em;
+    }
+    .learn-more-button a {
+        color: #fff;
+    }
+    #peersquared-benefits-mobile div .content a {
+        display: grid;
+    }
+
+    #partner-section p {
+        padding: 1em 2em 2em 2em;
+        display: grid;
+        align-self: center;
+        margin: 0 auto;
+    }
+    #partner-section {
+        margin: 2em 0;
+    }
+    #partner-testimonial {
+        display: grid;
+        grid-template-columns: .25fr 3fr .25fr;
+    }
+    .partner-testimonial-container {
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+        padding: 2em 0;
+        margin: 0 auto;
+        width: 90%;
+        background-color: #FFF;
+        display: none;
+        grid-template-rows: auto auto auto auto auto;
+        text-align: center;
+    }
+    .partner-testimonial-container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .partner-testimonial-container img {
+        float: left;
+        margin-right: 20px;
+    }
+    .partner-testimonial-container span {
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+    .partner-testimonial-container img {
+        margin: 0 auto !important;
+    }
+    .read-more-button {
+        height: 100%;
+        width: 30%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        justify-self: center;
+    }
+
+
+/*.......................................................
+//...ffffffo.............................................
+//...ffffffo.............................................
+//..fffffffo.............................................
+//..fffff................................................
+//..fffff.....oooooooo.....rrrrrrrrmmmmmmmmmmm.mmmmmmm...
+//.ffffffffo.ooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//.ffffffffooooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//..fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//..fffff..oooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff..oooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//......................................................*/
+    .close {
+        color: #000;
+        position: absolute; 
+        font-size: 2em;
+        font-weight: bold;
+        height: 2.25em;
+        width: 2.25em;
+        cursor: pointer;
+        top: -1.3em;
+        right: -1.3em;
+    }
+    #try-peersquared-form {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .try-form-box {
+        background-color: #fff;
+        margin: 10% auto auto auto;
+        padding: 1em;
+        border: 1px solid #888;
+        width: 75%;
+    }
+    #try-peersquared-form input {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 2em;
+    }
+    #try-peersquared-form select {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        font-size: 2em;
+    }
+    .form-questions {
+        display: grid;
+    }
+    .form-questions h2, p {
+        font-size: 2em;
+    }
+    #form-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    #form-image img {
+        display: none;
+    }
+    #selected-parent-student {
+        display: none;
+    }
+    .parent-student-option {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+        padding: 0 0 2em 0;
+    }
+    .parent-student-option p {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        text-align: left;
+    }
+    .parent-student-option input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .parent-student-option2 {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+    }
+    .parent-student-option2 input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option2 label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .submit-button {
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 25% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+    }
+    #selected-teacher-school-ngo {
+        display: none;
+    }
+    .try-peersquared-textarea {
+        width: 100%;
+        height: 10em;
+        font-size: 2em;
+    }
+    .try-peersquared-textarea::placeholder {
+        color: #808080;
+        padding: 0.1em;
+    }
+/*...........................................................................
+//.......................fffffff.............................................
+//.......................fffffff.............................................
+//......................ffffffff.............................................
+//......................fffff................................................
+//....cccccccc..........fffff.....oooooooo.....rrrrrrrrrmmmmmmmmmm.mmmmmmm...
+//...cccccccccc........ ffffffff.ooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc....... ffffffffoooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//...ccccccccccc........fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//....cccccccc..........fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//.........................................................................
+contact form*/
+    #contact-form {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .contact-box {
+        background-color: #fff;
+        margin: auto;
+        padding: 1em;
+        border: 1px solid #888;
+        width: 75%;
+    }
+    #contact-form input {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 2em;
+    }
+    #contact-form select {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        font-size: 2em;
+    }
+    .form-questions {
+        display: grid;
+    }
+    .form-questions h2, p {
+        font-size: 2em;
+    }
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    #form-image img {
+        display: none;
+    }
+    #selected-parent-student {
+        display: none;
+    }
+    .parent-student-option {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+        padding: 0 0 2em 0;
+    }
+    .parent-student-option p {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        text-align: left;
+    }
+    .parent-student-option input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .parent-student-option2 {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+    }
+    .parent-student-option2 input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option2 label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .submit-button {
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 25% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+    }
+    #contact-who-are-you-ngo {
+        display: none;
+    }
+    .contact-textarea {
+        width: 100%;
+        height: 10em;
+        font-size: 2em;
+    }
+    .contact-textarea::placeholder {
+        color: #808080;
+        padding: 0.1em;
+    }
+
+/*.....................................................................
+//...................ttt........ffffo..................................
+//..................tttt.......fffffo..................................
+//..................tttt.......ffff....................................
+//.ppppppppp...... tttttt ....ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp..... tttttt ....ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ttttt .....ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ttttt .....ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//...................................................................
+private tutoring form*/
+    #private-tutoring-form {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .private-tutoring-box {
+        background-color: #fff;
+        margin: auto;
+        padding: 1em;
+        border: 1px solid #888;
+        width: 75%;
+    }
+    #private-tutoring-form input {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 2em;
+    }
+    #private-tutoring-form select {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        font-size: 2em;
+    }
+    .form-questions {
+        display: grid;
+    }
+    .form-questions h2, p {
+        font-size: 2em;
+    }
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #form-image img {
+        display: none;
+    }
+    .submit-button {
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 25% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+    }
+
+/*..........................................................
+//...................ffffo..................................
+//..................fffffo..................................
+//..................ffff....................................
+//.ppppppppp.......ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp......ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//........................................................
+petition form*/
+    #petition-form {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .petition-box {
+        background-color: #fff;
+        margin: auto;
+        padding: 1em;
+        border: 1px solid #888;
+        width: 75%;
+    }
+    #petition-form input {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        text-align: center;
+        border: 1px solid black;
+        font-size: 2em;
+    }
+    #petition-form select {
+        width: 100%;
+        height: 3em;
+        margin: 1em 0;
+        font-size: 2em;
+    }
+    .form-questions {
+        display: grid;
+    }
+    .form-questions h2, p {
+        font-size: 2em;
+    }
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #form-image img {
+        display: none;
+    }
+    .parent-student-option {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+        padding: 0 0 2em 0;
+    }
+    .parent-student-option p {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        text-align: left;
+    }
+    .parent-student-option input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .parent-student-option2 {
+        display: grid;
+        grid-template-columns: 15% auto;
+        grid-template-rows: auto auto;
+    }
+    .parent-student-option2 input {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        font-size: 1em;
+        width: 3em !important;
+        margin: 0 !important;
+    }
+    .parent-student-option2 label {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2em;
+        align-self: center;
+    }
+    .submit-button {
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 25% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+    }
+    #contact-who-are-you-ngo {
+        display: none;
+    }
+    .petition-textarea {
+        width: 100%;
+        height: 10em;
+        font-size: 2em;
+    }
+    .petition-textarea::placeholder {
+        color: #808080;
+        padding: 0.1em;
+    }
+
+/*form completion*/
+    #form-completion {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .form-completition-box {
+        background-color: #fff;
+        margin: auto;
+        padding: 1em;
+        border: 1px solid #888;
+        width: 75%;
+    }
+    
+
+/*....................................................................
+//....................................................ttt.............
+//...................................................tttt.............
+//...................................................tttt.............
+//.ppppppppp....aaaaaa..arrrrrrr.eeeeee...nnnnnnnn.nnttttttsssssss....
+//.pppppppppp..aaaaaaaa.arrrrrrreeeeeeee..nnnnnnnnnnnttttttssssssss...
+//.ppppp.pppppaaaa.aaaaaarrrr..reee.eeee..nnnn.nnnnn.tttt.tsss.ssss...
+//.pppp...pppp....aaaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tssss.......
+//.pppp...pppp.aaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt..ssssss.....
+//.pppp...ppppaaaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt...sssssss...
+//.pppp...ppppaaaa.aaaaaarrr...reee.......nnnn..nnnn.tttt.......ssss..
+//.ppppp.pppppaaaa.aaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tsss..ssss..
+//.pppppppppp.aaaaaaaaaaarrr....eeeeeeee..nnnn..nnnn.ttttttssssssss...
+//.ppppppppp...aaaaaaaaaarrr.....eeeeee...nnnn..nnnn.tttttt.ssssss....
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//...................................................................*/
+    #intro-parents {
+        display: grid;
+    }
+    #intro-parents img {
+        width: 100%;
+    }
+    #intro-parents p {
+        font-size: 1.5em !important;
+        padding: 0 1em;
+    }
+    #intro-parents button {
+        width: 50%;
+        font-size: 2em;
+        align-self: center;
+        margin: 1em 0;
+    }
+    #quizlet-banner {
+        width: 100%;
+        margin: 1em 0;
+    }
+    .banner {
+        width: 100%;
+        background-color: white;
+        font-style: italic;
+    }
+    #peersquared-benefits-mobile div .content a {
+        display: grid;
+    }
+
+/*...............................................................
+//....................iiii.................ttt..............ttt..
+//....................iiii................tttt.............tttt..
+//........................................tttt.............tttt..
+//.ppppppppp..rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.pppppppppp.rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.ppppp.ppppprrrrr...iiiiivvv.vvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvv........tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii..vvvvvv........tttt.tuuu..uuuuu.tttt..
+//.ppppp.ppppprrrr....iiii..vvvvvv........tttt.tuuuu.uuuuu.tttt..
+//.pppppppppp.rrrr....iiii..vvvvv.........ttttttuuuuuuuuuu.tttt..
+//.ppppppppp..rrrr....iiii...vvvv.........tttttt.uuuuuuuuu.tttt..
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//...............................................................
+private tutoring*/
+    #intro-private-tutoring {
+        display: grid;
+    }
+    #intro-private-tutoring img {
+        width: 100%;
+    }
+    #intro-private-tutoring p {
+        font-size: 1.5em;
+        padding: 0 1em;
+    }
+
+    #get-started-today {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 3em auto 0 auto;
+        background-color: #F5F8FA;
+        border: 2px solid #F5F8FA;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+    }
+    .get-started-today-outside {
+        padding: 1em 10em;
+        display: grid;
+    }
+    .numbered-points {
+        padding-left: 50%;
+        justify-self: center;
+    }
+    .get-started-today-container {
+        display: grid;
+        padding: 0;
+    }
+    .get-started-today-container img {
+        justify-self: center;
+    }
+    .sign-up-button {
+        height: 100%;
+        width: 35%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        justify-self: center;
+        margin: 1em;
+    }
+
+    #faqs {
+        padding: 2em;
+    }
+    .faq-container {
+        margin: 0 0 2em 0;
+        box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+        border-radius: 16px;
+    }
+    .collapsible-faq p{
+        display: grid;
+        font-size: 3em;
+    }
+    #faqs button {
+        display: grid;
+        width: 100%;
+        background-color: #F5F8FA;
+        border: 2px solid #F5F8FA;
+        border-radius: 15px 15px 0 0;
+    }
+    #faqs span {
+        font-size: 48px;
+        font-weight: bold;
+        padding-left: 0;
+    }
+    #faqs p {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        text-align: left;
+        padding-left: .3em;
+        grid-gap: .3em;
+    }
+    #faqs .collapsible-faq p {
+        grid-template-columns: auto 1fr auto;
+        padding: .6em 1em;
+    }
+    #faqs .collapsible-faq img {
+        height: 1em;
+    }
+    #faqs text {
+        justify-self: left;
+    }
+    #faqs span {
+        justify-self: right;
+    }
+    #faqs button img {
+        align-self: center;
+    }
+    .faq-content {
+        display: none;
+        background-color: #F5F8FA;
+        border-radius: 0 0 15px 15px;
+        font-size: 1.25em;
+        padding: 1em 1.5em;
+        grid-template-columns: 1fr auto;
+    }
+    .faq-content span {
+        justify-self: left !important;
+    }
+    .faq-content p {
+        font-size: 1.5em;
+        grid-template-columns: auto 1fr !important;
+        padding-left: .3em;
+        grid-gap: .75em !important;
+    }
+
+
+    #private-testimonial {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        padding: 2em 1em;
+    }
+    #private-testimonial .testimonial-container {
+        display: none;
+        background-color: #2699FB;
+        border: 2px solid #2699FB;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+        padding: 1em;
+        margin: 0 auto;
+        width: 90%;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 2fr;
+        text-align: center;
+        padding: 2em 0 !important;
+        color: #fff;
+    }
+    #private-testimonial .testimonial-container h3 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #private-testimonial .testimonial-container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    #private-testimonial .testimonial-container span {
+        font-size: 1em;
+        margin-right: 0.938em;
+        font-weight: bold;
+    }
+    #private-testimonial .testimonial-container img {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+    }
+    #private-testimonial .testimonial-container-name {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+        font-size: 2em;
+        padding: 1em;
+    }
+    #private-testimonial .testimonial-container-paragraph {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding: 0 1em;
+        font-size: 1.5em;
+    }
+
+    #peersquared-programs-footer {
+        padding: 1em 0;
+        display: grid;
+    }
+    .programs-button {
+        height: 100%;
+        width:50%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        justify-self: center;
+        margin: 1em;
+    }
+
+
+
+/*...............................................................................
+//.ppppppppp...sssssss....... pppppppp..prrrrrrr..oooooo....ggggggggg.sssssss....
+//.pppppppppp.sssssssss...... ppppppppp.prrrrrrrooooooooo..ggggggggggsssssssss...
+//.ppppp.pppppssss.ssss...... pppp.pppppprrrr...oooo.oooooogggg.gggggssss.ssss...
+//.pppp...ppppsssss.......... ppp...ppppprrr...rooo...oooooggg...ggggsssss.......
+//.pppp...pppp.ssssss........ ppp...ppppprrr...rooo...oooooggg...gggg.ssssss.....
+//.pppp...pppp..sssssss...... ppp...ppppprrr...rooo...oooooggg...gggg..sssssss...
+//.pppp...pppp......ssss..... ppp...ppppprrr...rooo...oooooggg...gggg......ssss..
+//.ppppp.pppppssss..ssss..... pppp.pppppprrr....oooo.oooooogggg.gggggssss..ssss..
+//.pppppppppp.sssssssss...... ppppppppp.prrr....ooooooooo..ggggggggggsssssssss...
+//.ppppppppp....ssssss....... pppppppp..prrr......oooooo....ggggggggg..ssssss....
+//.pppp...................... ppp................................gggg............
+//.pppp...................... ppp.........................ogggg.gggg.............
+//.pppp...................... ppp..........................ggggggggg.............
+//.pppp...................... ppp...........................ggggggg..............
+//.............................................................................peersquared programs*/
+    #intro-peersquared-programs {
+        display: grid;
+    }
+    #intro-peersquared-programs img {
+        width: 100%;
+    }
+    #intro-peersquared-programs p {
+        padding: 1em;
+    }
+    #quizlet-banner {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    #outside-browse-school {
+        margin: 1em;
+    }
+    #browse-school {
+        background-color: #2699FB;
+        width: 80%;
+        margin: 1em auto 2em auto;
+        padding: 3em 2em 2em 2em;
+        border-radius: 20px;
+    }
+    .left-align-text {
+        text-align: left !important;
+    }
+    #school-content {
+        background-color: #F5F8FA;
+        padding: 0.5em 1em;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+    .browse-school-container {
+        width: 100%;
+        margin: 1em auto;
+        border-radius: 10px;
+    }
+    .high-school-box {
+        background-color: #2699FB;
+        width: 95%;
+        margin: 2em auto;
+        border-radius: 25px;
+        color: #fff;
+        padding: 2em 0;
+    }
+    .high-school-box h3, p {
+        padding: 0 1em 0 1em;
+        text-align: center;
+    }
+    .high-school-box {
+        /*look here if text is not center*/
+    }
+    #inside-browse-school {
+        padding-top: 1em;
+        color: #fff;
+    }
+    .contact-button-school {
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 50% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        text-align: center;
+        margin: 1em;    
+    }
+
+    #peersquared-programs {
+        display: grid;
+    }
+    .peersquared-programs1 {
+        display: grid;
+        padding: 1em;
+    }
+    .peersquared-programs1 img {
+        justify-self: center;
+    }
+    .peersquared-programs1 h3 {
+        font-size: 2em;
+    }
+    .peersquared-programs1 h4 {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.75em;
+    }
+    .peersquared-programs1 p {
+        font-size: 1.5em !important;
+    }
+    #petition-form-footer{
+        background-color: #fff;
+        display: grid;
+        padding: 1em 0;
+        margin-top: 3em;
+    }
+    .petition-button {
+        height: 100%;
+        width: 35%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        justify-self: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        margin: 1em 0;
+    }
+
+/*...............................................................
+//...ffffo.......................................dddd............
+//..fffffo.......................................dddd............
+//..ffff.........................................dddd............
+//.ffffffo..oooooo..rrrrrrr ......eeeeee....dddddddddduuu..uuuu..
+//.ffffffoooooooooo.rrrrrrr .....eeeeeeee..ddddddddddduuu..uuuu..
+//..ffff..oooo.ooooorrrrr.......eeee.eeee.edddd.dddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee..eeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee......eddd...ddddduuu..uuuu..
+//..ffff..oooo.ooooorrrr........eeee..eeeeedddd.dddddduuuu.uuuu..
+//..ffff..ooooooooo.rrrr.........eeeeeeee..dddddddddd.uuuuuuuuu..
+//..ffff....oooooo..rrrr..........eeeeee....ddddddddd..uuuuuuuu..
+//...............................................................
+for educators*/
+    #intro-for-educators {
+        display: grid;
+    }
+    #intro-for-educators img {
+        width: 100%;
+    }
+    #intro-for-educators p {
+        padding: 1em;
+    }
+    #intro-for-educators button {
+        width: 50%;
+        font-size: 2em;
+        align-self: center;
+        margin: 1em 0;
+    } 
+
+    #ecosystem-graphics {
+        display: grid;
+        background-color: #fff;
+        padding: 1em 0;
+    }
+    .blue-numbered-points {
+        padding-right: 50%;
+        justify-self: center;
+        height: 85px;
+    }
+    .blue-numbered-points-in {
+        display: none;
+    }
+    .ecosystem-containers {
+        display: grid;
+        padding: 2em 0;
+    }
+    .ecosystem-content {
+        display: grid;
+    }
+    .ecosystem-content img {
+        height: 300px;
+        justify-self: center;
+    }
+    .ecosystem-content p {
+        padding-top: 1em;
+        text-align: center;
+    }
+
+
+    #value-prop {
+        display: grid;
+        padding: 1em 2em;
+    }
+    #value-prop div {
+        padding: 2em 0;
+    }
+    .value-prop-containers {
+        display: grid
+    }
+    #value-prop img {
+        justify-self: center;
+        width: 100%;
+    }
+    #how-do-i-know-peersquared-is-for-my-school {
+        background-color: #fff;
+        display: grid;
+        padding: 2em 0 0 0;
+    }
+    #how-do-i-know-peersquared-is-for-my-school p {
+        padding: 0 2em 0 2em;
+        text-align: center;
+    }
+    #how-do-i-know-peersquared-is-for-my-school #schools-on-display { 
+        display: none;
+    }
+    
+    .school-logos img {
+        height: 300px;
+    }
+    .school-logos a {
+        grid-row: 1 / 3;
+    }
+    #why-peersquared {
+        display: grid;
+    }
+    .why-peersquared-button {
+        height: 100%;
+        width: 35%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        justify-self: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;
+        margin: 1em 0;
+        cursor: pointer;
+    }
+
+
+
+/*.....................................................................
+//..............................................ttt..............ttt...
+//.............................................tttt.............tttt...
+//.............................................tttt.............tttt...
+//.ppppppppp....eeeeee....eeeeee..errrrrrr... ttttttuuu..uuuuuuttttt..
+//.pppppppppp..eeeeeeee..eeeeeeee.errrrrrr... ttttttuuu..uuuuuuttttt..
+//.ppppp.pppppeeee.eeee.eeee.eeee.errrr........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee......eeee......errr.........tttt.tuuu..uuuuu.tttt...
+//.ppppp.pppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuuu.uuuuu.tttt...
+//.pppppppppp..eeeeeeee..eeeeeeee.errr.........ttttttuuuuuuuuuu.ttttt..
+//.ppppppppp....eeeeee....eeeeee..errr.........tttttt.uuuuuuuuu.ttttt..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.....................................................................
+what is peer tutoring*/
+    #intro-what-is-peer-tutoring {
+        display: grid;
+    }
+    #intro-what-is-peer-tutoring img {
+        width: 100%;
+    }
+    #intro-what-is-peer-tutoring p {
+        font-size: 1.5em;
+        padding: 0 1em 1em 1em;
+    }
+    blockquote {
+        font-style: italic;
+        padding: 0 6em;
+    }
+
+    #value-prop {
+        display: grid;
+    }
+    #value-prop p {
+        text-align: left !important;
+    }
+    #value-prop-students {
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    #value-prop-students img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-items: stretch;
+        min-width: 200px;
+        max-width: 225px;
+        width: 15%;
+    }
+    #value-prop-students h3 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        align-self: center;
+        justify-self: start;
+    }
+    #value-prop-students ul {
+        padding: 0 0 0 3em;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    #value-prop-students blockquote {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    #value-prop-students p {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #value-prop-parents {
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    #value-prop-parents img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-items: stretch;
+        min-width: 200px;
+        max-width: 225px;
+        width: 15%;
+    }
+    #value-prop-parents h3 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        align-self: center;
+        justify-self: start;
+    }
+    #value-prop-parents ul {
+        padding: 0 0 0 3em;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    #value-prop-parents blockquote {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    #value-prop-parents p {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #value-prop-tutors {
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    #value-prop-tutors img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-items: stretch;
+        min-width: 200px;
+        max-width: 225px;
+        width: 15%;
+    }
+    #value-prop-tutors h3 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        align-self: center;
+        justify-self: start;
+    }
+    #value-prop-tutors ul {
+        padding: 0 0 0 3em;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    #value-prop-tutors blockquote {
+        grid-column: 1 / 3;
+        grid-row: 3 / 4;
+    }
+    #value-prop-tutors p {
+        grid-column: 1 / 3;
+        grid-row: 4 / 5;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #peer-tutoring-in-action {
+        background-color: #fff;
+        display: grid;
+        padding: 2em 0 0 0;
+    }
+    #peer-tutoring-in-action p {
+        padding: 0 2em;
+        text-align: center;
+    }
+    #different-schools {
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        padding: 2em 1em;
+        background-color: #2699FB;
+    }
+    #schools-on-display {
+        display: none;
+    }
+    .school-container {
+        display: none;
+        background-color: #FAF7F7;
+        border: 2px solid #FAF7F7;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+        padding: 1em;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .school-container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .school-container span {
+        font-size: 1.25em;
+        margin-right: 0.938em;
+        font-weight: bold;
+    }
+    .school-container img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        justify-self: center;
+        align-self: center;
+    }
+    .school-container-name {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        font-size: 2em;
+    }
+    .school-container-paragraph {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding: 0 1em;
+        font-size: 1.5em;
+    }
+    #why-peersquared {
+        display: grid;
+    }
+    .why-peersquared-button {
+        height: 100%;
+        width: 35%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        justify-self: center;
+        color: #fff;
+        font-size: 2em;
+        height: 2em !important;        
+        margin-top: 1em;
+    }
+
+/*...............................................................................
+//.rrrrrrrr.eeeeee...sssssss.....oooooo..ouuu..uuuuuurrrrrrr.cccccc....eeeeee....
+//.rrrrrrrreeeeeeee.essssssss..ooooooooo.ouuu..uuuuuurrrrrrrcccccccc..eeeeeeee...
+//.rrrrr..reee.eeee.esss.ssss..oooo.oooooouuu..uuuuuurrrr..rcccc.ccccceee.eeee...
+//.rrrr...reee..eeeeessss.....sooo...ooooouuu..uuuuuurrr...rccc..ccc.ceee..eeee..
+//.rrrr...reeeeeeeee.ssssss...sooo...ooooouuu..uuuuuurrr...rccc......ceeeeeeeee..
+//.rrrr...reeeeeeeee..sssssss.sooo...ooooouuu..uuuuuurrr...rccc......ceeeeeeeee..
+//.rrrr...reee............sssssooo...ooooouuu..uuuuuurrr...rccc..ccc.ceee........
+//.rrrr...reee..eeeeesss..ssss.oooo.oooooouuuu.uuuuuurrr...rcccc.ccccceee..eeee..
+//.rrrr....eeeeeeee.essssssss..ooooooooo..uuuuuuuuuuurrr....ccccccccc.eeeeeeee...
+//.rrrr.....eeeeee....ssssss.....oooooo....uuuuuuuuuurrr.....cccccc....eeeeee....
+//.............................................................................*/
+    #intro-resources {
+        display: grid;
+        padding: 1em 0;
+    }
+
+/*...................................................
+//...........abbb...............................ttt..
+//...........abbb..............................tttt..
+//...........abbb..............................tttt..
+//...aaaaaa..abbbbbbbb.....oooooo..ouuu..uuuuuttttt..
+//..aaaaaaaa.abbbbbbbbb..ooooooooo.ouuu..uuuuuttttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuu..uuuuu.tttt..
+//.....aaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//..aaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuuu.uuuuu.tttt..
+//.aaaaaaaaaaabbbbbbbbb..ooooooooo..uuuuuuuuuu.tttt..
+//..aaaaaaaaaabbbbbbbb.....oooooo....uuuuuuuuu.tttt..
+//.................................................*/
+
+    #intro-about {
+        display: grid;
+    }
+    #about-id {
+        margin: 0 auto !important;
+    }
+    #intro-about img {
+        width: 100%;
+    }
+    #intro-about p {
+        font-size: 1.5em !important;
+        padding: 2em;
+        text-align: center;
+    }
+    .about-gray {
+        background-color: #fff;
+    }
+    .about-gray p {
+        font-size: 1.5em !important;
+        padding: 2em;
+        text-align: center;
+    }
+
+    .about-blue {
+        background-color: #2699FB;
+        color: #fff;
+    }
+    .about-blue img {
+        height: 165px;
+    }
+    .circular-image {
+        border-radius: 50%;
+    }
+
+    .history-tl-container{
+        margin:auto;
+        display:block;
+        position:relative;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .tl-item {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .tl-item .timestamp{
+        width: 20%;
+        padding: 11px 70px 0 70px;
+        color: #8D8D8D;
+        text-align: right;
+        font-size: 2em;
+    }
+    .tl {
+        list-style: none;
+        width: 100%;
+    }
+    .item-title{
+        flex: 1;
+        list-style: none;
+        margin: auto;
+        min-height: 50px;
+        border-left: 5px dashed #86D6FF;
+        padding: 0 70px 70px 100px;
+        position: relative;
+        font-size: 2em;
+    }
+    .item-title::before{
+        position: absolute;
+        left: -43px;
+        top: -5px;
+        content: " ";
+        border: 8px solid rgba(255, 255, 255, 0.74);
+        border-radius: 500%;
+        background: #2699FB;
+        height: 2em;
+        width: 2em;
+        transition: all 500ms ease-in-out;
+    }
+    .tail-start {
+        flex: 1;
+        list-style: none;
+        margin: auto;
+        border-left: 5px dashed #86D6FF;
+        padding: 0 0 70px 70px;
+        width: 450px;
+        position: relative;
+    }
+    .tail-start::before {
+        display:none;
+    }
+    .item-title:hover::before{
+        border-color:  #2699FB;
+        transition: all 1000ms ease-in-out;
+    }
+
+    .about-blue {
+        display: grid;
+        padding: 2em;
+    }
+    .img-container {
+        display: grid;
+        padding: 3em;
+    }
+    .img-container img {
+        height: 300px;
+        justify-self: center;
+    }
+    .about-blue p {
+        text-align: left;
+        padding: 1em 2em 3em 2em;
+        font-size: 1.5em;;
+    }
+
+
+
+
+/*................................................................
+//................hhhh............................................
+//................hhhh............................................
+//................hhhh............................................
+//.www..wwww..wwwwhhhhhhhh.hyyy...yyyy..... pppppppp...sssssss....
+//.wwww.wwwww.wwwwhhhhhhhhh.yyyy..yyyy..... ppppppppp.pssssssss...
+//.wwww.wwwwwwwww.hhhh.hhhhhyyyy..yyyy..... pppp.ppppppsss.ssss...
+//.wwwwwwwwwwwwww.hhhh..hhhhyyyy.yyyy...... ppp...pppppssss.......
+//..wwwwwwwwwwwww.hhhh..hhhh.yyyyyyyy...... ppp...pppp.ssssss.....
+//..wwwwwwwwwwww..hhhh..hhhh.yyyyyyy....... ppp...pppp..sssssss...
+//..wwwwwwwwwwww..hhhh..hhhh..yyyyyy....... ppp...pppp......ssss..
+//...wwwwwwwwwww..hhhh..hhhh..yyyyyy....... pppp.ppppppsss..ssss..
+//...wwwww.wwww...hhhh..hhhh..yyyyy........ ppppppppp.pssssssss...
+//...wwww..wwww...hhhh..hhhh...yyyy........ pppppppp....ssssss....
+//.............................yyyy........ ppp...................
+//............................yyyy......... ppp...................
+//..........................yyyyyy......... ppp...................
+//..........................yyyyy.......... ppp...................
+//..............................................................*/
+    #intro-why-peersquared {
+        display: grid;
+        padding: 1em 0;
+    }
+
+
+/*legal*/
+    #intro-legal {
+        display: grid;
+    }
+    .mobile-pdf {
+        display: grid;
+        text-align: center;
+    }
+    .mobile-pdf a {
+        justify-self: center;
+        font-size: 2em;
+    }
+    iframe {
+        display: none;
+    }
+
+
+/*........................................................................
+//...sssssssss..........mmmmmmmmmm.mmmmmmm.....aaaaaaaa....ppppppppppp....
+//..sssssssssss.........mmmmmmmmmmmmmmmmmmm...aaaaaaaaaa...pppppppppppp...
+//.ssssssssssss.........mmmmmmmmmmmmmmmmmmm..aaaaaaaaaaaa..ppppppppppppp..
+//.sssss..sssss.........mmmmmmmmmmmmmmmmmmm..aaaaa..aaaaa..ppppppppppppp..
+//.sssssssss............mmmmm..mmmmm..mmmmm........aaaaaa..ppppp...ppppp..
+//.sssssssssss..........mmmmm..mmmmm..mmmmm....aaaaaaaaaa..ppppp...ppppp..
+//..sssssssssss.........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..pppp....ppppp..
+//....ssssssssss........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..ppppp...ppppp..
+//.......sssssss........mmmm...mmmmm..mmmmm.maaaaa..aaaaa..ppppp...ppppp..
+//.sssss...sssss........mmmm...mmmmm..mmmmm.maaaa..aaaaaa..ppppppppppppp..
+//.ssssss.ssssss........mmmm...mmmmm..mmmmm.maaaaaaaaaaaa..ppppppppppppp..
+//..sssssssssss.........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..pppppppppppp...
+//...sssssssss..........mmmm...mmmmm..mmmmm...aaaaaaaaaaa..ppppppppppp....
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//......................................................................
+site map*/
+    #intro-sitemap {
+        display: grid;
+    }
+    #intro-sitemap ul {
+        padding: 1em 5em;
+    }
+    #intro-sitemap li {
+        padding: 1.5em 0.5em;
+        font-size: 2em;
+        list-style-type: none;
+    }
+    .site-map li {
+        background-color: #ccc;
+    }
+    .site-map li.odd {
+        background-color: rgba(39, 29, 29, 0.363);
+    }
+    .site-map a {
+        color: black;
+    }
+    .indented {
+        text-indent: 3em;
+    }
+
+/*......................................................................
+//...ffffffo...............................ttt..........................
+//...ffffffo..............................tttt..........................
+//..fffffffo..............................tttt..........................
+//..fffff.................................tttt..........................
+//..fffff.....oooooooo.......oooooooo...otttttttt..eeeeeeee....rrrrrrr..
+//.ffffffffo.ooooooooooo....ooooooooooo.otttttttt.eeeeeeeeee...rrrrrrr..
+//.ffffffffooooooooooooo...oooooooooooo.otttttttteeeeeeeeeeee..rrrrrrr..
+//..fffff...ooooooooooooo..ooooooooooooo..tttt...eeeeeeeeeeee..rrrrrr...
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeee...eeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo.....oooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeee..........rrrr.....
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeeee.........rrrr.....
+//..fffff...ooooooooooooo..ooooooooooooo..ttttttteeeeeeeeeeee..rrrr.....
+//..fffff...oooooooooooo...oooooooooooo...ttttttteeeeeeeeeeee..rrrr.....
+//..fffff....ooooooooooo....ooooooooooo...ttttttt.eeeeeeeeee...rrrr.....
+//..fffff.....oooooooo.......oooooooo.....ttttttt..eeeeeeee....rrrr.....
+//....................................................................*/
+    #mobile-footer {
+        display: grid;
+    }
+    #desktop-footer {
+        display: none;
+    }
+    footer  {
+        display: grid;
+    }
+    #peersquared-logo {
+        text-align: center;
+    }
+    #peersquared-logo img {
+        height: 7.5em;
+    }
+    #footer-connected {
+        text-align: center;
+    }
+    #footer-connected h3 {
+        padding: .5em 0 1em 0;
+        font-size: 3em;
+    }
+    #footer-connected a {
+        color: #000;
+        padding: 1em;
+    }
+    #footer-connected img {
+        height: 10em;
+    }
+    #desktop-footer-links {
+        display: none;
+    }
+    #footer-contact {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    #footer-contact h3 {
+        padding-top: 1em;
+        font-size: 3em;
+    }
+    #footer-contact p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 2.25em;
+    }
+    #footer-contact a {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 2.25em;
+        color: #fff;
+    }
+    #contact-button-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-button {
+        background-color: #2699FB;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 40% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 2.75em;
+        height: 2em !important;
+        text-align: center;
+        margin: .5em 0;    
+    }
+    hr {
+        margin: 1em;
+        border-top: 2px solid #fff;
+        border-radius: 5px;
+    }
+    #footer-extra-links {
+        display: flex;
+        justify-content: space-between;
+        font-size: 2em;
+        padding: 0 15px;
+    }
+    #footer-extra-links a {
+        color: #fff;
+    }
+    #footer-copyright {
+        padding-top: 1em;
+    }
+
+    
+
+}
+
+
+/*..................................................................................
+//......................................llll.llll.......ttt.........................
+//......................................llll.llll......tttt.........................
+//......................................llll.llll......tttt.........................
+//..sssssss..smmmmmmmmmmmmm....aaaaaa...llll.llll.... tttttt..oooooo..opppppppp....
+//.sssssssss.smmmmmmmmmmmmmm..aaaaaaaa..llll.llll.... ttttttooooooooo.oppppppppp...
+//.ssss.ssss.smmmm.mmmmmmmmm.maaa.aaaaa.llll.llll......tttt..oooo.oooooopppp.ppppp..
+//.sssss.....smmm..mmmm..mmmm....aaaaaa.llll.llll......tttt.tooo...oooooppp...pppp..
+//..ssssss...smmm..mmmm..mmmm.aaaaaaaaa.llll.llll......tttt.tooo...oooooppp...pppp..
+//...sssssss.smmm..mmmm..mmmmmaaaaaaaaa.llll.llll......tttt.tooo...oooooppp...pppp..
+//.......sssssmmm..mmmm..mmmmmaaa.aaaaa.llll.llll......tttt.tooo...oooooppp...pppp..
+//.ssss..sssssmmm..mmmm..mmmmmaaa.aaaaa.llll.llll......tttt..oooo.oooooopppp.ppppp..
+//.sssssssss.smmm..mmmm..mmmmmaaaaaaaaa.llll.llll......ttttttooooooooo.oppppppppp...
+//...ssssss..smmm..mmmm..mmmm.aaaaaaaaa.llll.llll......tttttt..oooooo..opppppppp....
+//.....................................................................oppp.........
+//.....................................................................oppp.........
+//.....................................................................oppp.........
+//.....................................................................oppp.........
+//................................................................................*/
+@media only screen and (min-width: 1024px) { 
+
+/*.....................................................
+//.nnnnnnnnnnnnnn......aaaaaaaaaaa..aaavvv......vvvvv..
+//.nnnnnnnnnnnnnnn....aaaaaaaaaaaaa..aavvvv.....vvvvv..
+//.nnnnnnnnnnnnnnnn...aaaaaaaaaaaaa..aavvvv....vvvvvv..
+//.nnnnnnnn.nnnnnnn..naaaaaaaaaaaaaa..avvvvv...vvvvvv..
+//.nnnnnnn...nnnnnn..naaaaa...aaaaaa..avvvvv...vvvvv...
+//.nnnnnn....nnnnnn...........aaaaaa..avvvvv..vvvvvv...
+//.nnnnnn....nnnnnn.......aaaaaaaaaa...vvvvvv.vvvvvv...
+//.nnnnnn....nnnnnn....aaaaaaaaaaaaa...vvvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaa...aaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaa....aaaaaa.....vvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa......vvvvvvv......
+//.nnnnnn....nnnnnn...aaaaaaaaaaaaaaa.....vvvvvv.......
+//...................................................*/
+.mobile-nav {
+    display: none;
+}
+header {
+    background-color: #2699FB;
+}
+.desktop-nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: .5em 0;
+}
+.desktop-nav-all {
+    display: grid;
+    grid-template-columns: .5fr 3fr 1fr;
+}
+.desktop-logo {
+    align-self: center;
+    justify-content: center;
+}
+.desktop-nav img {
+    width: 100%;
+}
+.desktop-links {
+    width: 100%;
+    text-align: end;
+    align-self: center;
+    margin-right: 2em !important;
+}
+.desktop-nav a {
+    color: #fff;
+    grid-column: 1fr;
+    font-weight: bold;
+    padding: 0 .5em;
+}
+.desktop-links img {
+    max-width: 15px;
+    max-width: 15px;
+    padding-left: 5px;
+}
+
+/*dropdown desktop menu*/
+.desktop-dropdown {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-function {
+    position: relative;
+    display: inline-block;
+}
+.desktop-submenu {
+    display: none;
+    position: absolute;
+    background-color: #2699FB;
+    z-index: 1;
+    min-width: 160px;
+}
+.desktop-submenu a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.desktop-submenu a:hover {
+    background-color: #1078ef;
+}
+.dropdown-function:hover .desktop-submenu {
+    display: block;
+}
+.dropdown-function:hover .desktop-dropdown {
+}
+
+
+
+
+
+.try-peersquared-button-nav {
+    width: 75%;
+    height: 1.5em !important;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center !important;
+    color: #fff;
+    margin: 0 !important;
+    align-self: center;
+    font-size: 1em !important;
+    margin: 0 .5em;
+    cursor: pointer;
+}
+.try-peersquared-button {
+    height: 100%;
+    width: 100%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em !important;
+    height: 2em !important;
+    cursor: pointer;
+}
+
+#drop-down-menu-container {
+    display: grid;
+    grid-template-columns: 1fr 10%;
+}
+#drop-down-menu {
+    display: none;
+    grid-column: 1 / 4;
+}
+#drop-down-menu a {
+    display: grid;
+    color: white;
+    font-size: 4em;
+    border: 1px solid white;
+    width: 100%;
+    text-indent: 1em;
+}
+#drop-down-menu a:first-of-type {
+    border: 1px solid white;
+    border-right: none;
+}
+.before-sub-menu div {
+    display: grid;
+}
+#dropdown-button {
+    z-index: 1;
+    justify-self: center;    
+    align-self: center;
+    height: 3em !important;
+}
+#sub-menu {
+    display: none;
+}
+#sub-menu a {
+    color: white;
+    background-color: #71b9f8;
+    font-size: 4em;
+    border: 1px solid white;
+    width: 100%;
+    text-indent: 2.25em;
+}
+#before-dropdown {
+    display: grid;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    height: 100%;
+}
+
+
+
+/*................................................................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//.iiiiii...nnnnnnnnnnnnn.......dddddddddddddd.....eeeeeeeee....exxxxxx...xxxxxx..
+//.iiiiii...nnnnnnnnnnnnnn.....ddddddddddddddd...eeeeeeeeeeee...exxxxxx..xxxxxxx..
+//.iiiiii...nnnnnnnnnnnnnnn...dddddddddddddddd...eeeeeeeeeeeee...xxxxxxxxxxxxxx...
+//.iiiiii...nnnnnnnnnnnnnnn...ddddddd.dddddddd..eeeeeeeeeeeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn...nnnnnn..ndddddd...ddddddd..eeeeee...eeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn....nnnnn..nddddd.....dddddd.deeeee.....eeeee....xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn..ndddddd...ddddddd..eeeeee............xxxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn...ddddddd.dddddddd..eeeeeee.eeeeeee..xxxxxxxxxxxxxx...
+//.iiiiii...nnnnn.....nnnnn...dddddddddddddddd...eeeeeeeeeeeeee..xxxxxxx.xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn....ddddddddddddddd...eeeeeeeeeeeee..exxxxxx..xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn.....dddddddddddddd.....eeeeeeeeee..eexxxxx....xxxxxx..
+//...............................................................................*/
+    main {
+        width: 100%;
+        margin: 0;
+        background-color: #FFF;
+    }
+    #intro-index {
+        display: grid;
+        grid-template-columns: 55% 40%;
+        grid-template-rows: auto auto auto;
+        width: 100%;
+        margin: 0 auto;
+        background-image: url("images/person-on-computer.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-color: #EDEEF1;
+        background-position: center;
+    }
+    h1 {
+        font-size: 2em;
+        text-align: left;
+        padding: 1em 1em 0 2em;
+    }
+    #intro-index h2 {
+        font-size: 1.5em;
+        text-align: left;
+        grid-column: 1 / 2;
+        grid-row: 2/ 3;
+        padding: 1em 2em 0 2.7em;
+    }
+    figure {
+        grid-row: 1 / 4;
+    }
+    figcaption {
+        text-align: center;
+        background-color: #fff;
+        margin: 0 1em 1em 1em;
+    }
+
+    #try-peersquared-email {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+        text-align: center;
+        padding: 2em 5% 2em 5%;
+        width: 90%;
+    }
+    #try-peersquared-email label {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #try-peersquared-email input {
+        margin: 0 1em;
+    }
+    #try-peersquared-email #client-email {
+        font-size: 16px !important;
+    }
+    #try-peersquared-email .try-peersquared-button {
+        font-size: 2em;
+        grid-template-columns: 2 / 3;
+        cursor: pointer;
+    }
+
+    .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-right: 25px solid #F3BE30;
+        border-bottom: 25px solid transparent;
+        justify-self: end;
+        align-self: center;
+    }
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-left: 25px solid #F3BE30;
+        border-bottom: 25px solid transparent;
+        justify-self: start;
+        align-self: center;
+    }
+    #testimonial {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        margin: 1em auto 0 auto;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+    .testimonial-container {
+        display: none;
+        background-color: #FAF7F7;
+        border: 2px solid #FAF7F7;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+        padding: 1em;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .testimonial-container p {
+        grid-column: 2 / 3;
+        align-self: center;
+        text-align: left;
+    }
+    .testimonial-container::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .testimonial-container span {
+        font-size: .6em;
+        margin-right: 0.938em;
+        font-weight: bold;
+        text-align: left !important;
+    }
+    .testimonial-container img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        justify-self: center;
+        align-self: center;
+        height: 50%;
+        margin: 0;
+    }
+    .testimonial-container-name {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: left;
+        align-self: center;
+    }
+    .testimonial-container-paragraph {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        padding: 0 1em;
+        font-size: 1em;
+    }
+
+    #steps-to-success {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        grid-template-rows: auto 1fr auto;
+        width: 90%;
+        align-self: center;
+        padding: 0 5%;
+        background-color: #fff;
+    }
+    #steps-to-success h2 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 8;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 1em 0 0 0;
+    }
+    .steps-to-success-boxes:first-of-type {
+        padding: 2em 0;
+    }
+    .steps-to-success-boxes {
+        padding: 2em 0;
+        text-align: center;
+    }
+    .steps-to-success-boxes img {
+        width: 100px;
+        align-self: center;
+    }
+    .steps-to-success-boxes p {
+        padding: 1em 1em 0 1em;
+        font-size: 1em;
+    }
+    .steps-to-success-arrow {
+        display: grid;
+        width: 40px;
+        align-self: center;
+    }
+    .steps-to-success-boxes .try-peersquared-button {
+        width: 50%;
+        font-size: 1.5em;
+        cursor: pointer;
+    }
+    .steps-to-success-boxes:last-of-type {
+        align-self: center;
+        grid-column: 1/8;
+        grid-row: 3/4;
+        justify-self: center;
+        width: 50%;
+        padding: 0 0 2em 0;
+    }
+
+    #peersquared-benefits-mobile {
+        display: none;
+    }
+    .content {
+        padding: 0 5em;
+        display: none;
+        background-color: #2699FB;
+    }
+    .content ul {
+        padding-left: 1em;
+        display: grid;
+    }
+    .content ul li {
+        font-size: 2em;
+        padding: 1em 0 1em 0;
+    }
+    /**/
+    #peersquared-benefits-desktop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 5%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #peersquared-benefits-family {
+        background-color: #2699FB;
+        color: #fff;
+        padding: 2em;
+        border-radius: 1em;
+    }
+    #peersquared-benefits-family h2 {
+        font-size: 2em;
+        text-align: center;
+        padding: 0;
+    }
+    #peersquared-benefits-family p {
+        font-size: 1em;
+        text-align: center;
+    }
+    #peersquared-benefits-family ul {
+        margin: 1em 0;
+        font-size: 1em;
+        text-align: center;
+    }
+    #peersquared-benefits-family li {
+        text-align: left;
+    }
+    #peersquared-benefits-educators {
+        background-color: #2699FB;
+        color: #fff;
+        padding: 2em;
+        border-radius: 1em;
+    }
+    #peersquared-benefits-educators h2 {
+        font-size: 2em;
+        text-align: center;
+        padding: 0;
+    }
+    #peersquared-benefits-educators p {
+        font-size: 1em;
+        text-align: center;
+    }
+    #peersquared-benefits-educators ul {
+        margin: 1em 0;
+        font-size: 1em;
+        text-align: center;
+    }
+    #peersquared-benefits-educators li {
+        text-align: left;
+    }
+    .learn-more-button {
+        width: 100%;
+        margin-top: 1em;
+        cursor: pointer;
+    }
+
+
+    .learn-more-button {
+        height: 100%;
+        width: 50%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+        justify-self: center;
+        margin-bottom: 1em;
+    }
+    .learn-more-button a {
+        color: #fff;
+    }
+
+    #partner-section {
+        background-color: #FAF7F7;
+        margin: 0;
+        padding-bottom: 2em;
+        margin-top: 2em;
+    }
+    #partner-section p {
+        padding: 1em 2em 2em 2em;
+        display: grid;
+        align-self: center;
+        font-size: 1em;
+        margin: 0;
+    }
+    #partner-section h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    #partner-testimonial {
+        margin: 0;
+    }
+    .partner-testimonial-container {
+        background-color: #FFF;
+        display: none;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        padding: 0 !important;
+    }
+    
+    .partner-testimonial-container img {
+        margin: 0 auto !important;
+        grid-row: 1 / 4;
+        grid-column: 1 /2;
+        padding: 1em;
+        max-height: 300px;
+        align-self: center;
+    }
+    .partner-testimonial-container h2 {
+        grid-row: 1 / 2;
+        grid-column: 2 / 4;
+        padding: 0 0 0 1em;
+        text-align: left !important;
+    }
+    .partner-testimonial-container p {
+        grid-row: 2 / 3;
+        grid-column: 2 / 4;
+        text-align: left !important;
+    }
+    .partner-testimonial-container p:last-of-type {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+        text-align: left;
+        padding: 0 0 0 2em;
+    }
+    .partner-testimonial-container a {
+        align-self: center;
+    }
+    .read-more-button {
+        height: 100%;
+        width: 75%;
+        background-color: #F3BE30;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5em;
+        height: 2em !important;
+        justify-self: center;
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        cursor: pointer;
+    }
+
+
+/*....................................................................
+//....................................................ttt.............
+//...................................................tttt.............
+//...................................................tttt.............
+//.ppppppppp....aaaaaa..arrrrrrr.eeeeee...nnnnnnnn.nnttttttsssssss....
+//.pppppppppp..aaaaaaaa.arrrrrrreeeeeeee..nnnnnnnnnnnttttttssssssss...
+//.ppppp.pppppaaaa.aaaaaarrrr..reee.eeee..nnnn.nnnnn.tttt.tsss.ssss...
+//.pppp...pppp....aaaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tssss.......
+//.pppp...pppp.aaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt..ssssss.....
+//.pppp...ppppaaaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt...sssssss...
+//.pppp...ppppaaaa.aaaaaarrr...reee.......nnnn..nnnn.tttt.......ssss..
+//.ppppp.pppppaaaa.aaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tsss..ssss..
+//.pppppppppp.aaaaaaaaaaarrr....eeeeeeee..nnnn..nnnn.ttttttssssssss...
+//.ppppppppp...aaaaaaaaaarrr.....eeeeee...nnnn..nnnn.tttttt.ssssss....
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//...................................................................*/
+    #intro-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 80%;
+    margin: 1% auto 0 auto;
+    }   
+    #intro-parents h1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        font-size: 2em;
+        text-align: left;
+        padding: 1em 1em 0 0;
+    }
+    #intro-parents img{
+        grid-row: 1 / 5;
+        grid-column: 2 / 3;
+        align-self: center;
+        padding: 0 0 1em 0;
+    }
+    #intro-parents h2 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        font-size: 1.5em;
+        text-align: left;
+        padding: 0 2em 0 0;
+    }
+    #intro-parents p {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;   
+        font-size: 1em !important;
+        text-align: left; 
+        padding: 0 2em 0 0;
+    }
+    #intro-parents button {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        justify-self: left;
+
+    }
+    .blue-box-margin-bottom {
+        margin-bottom: 1em;
+        padding-bottom: 2em;
+    }
+
+
+/*...............................................................
+//....................iiii.................ttt..............ttt..
+//....................iiii................tttt.............tttt..
+//........................................tttt.............tttt..
+//.ppppppppp..rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.pppppppppp.rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.ppppp.ppppprrrrr...iiiiivvv.vvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvv........tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii..vvvvvv........tttt.tuuu..uuuuu.tttt..
+//.ppppp.ppppprrrr....iiii..vvvvvv........tttt.tuuuu.uuuuu.tttt..
+//.pppppppppp.rrrr....iiii..vvvvv.........ttttttuuuuuuuuuu.tttt..
+//.ppppppppp..rrrr....iiii...vvvv.........tttttt.uuuuuuuuu.tttt..
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//...............................................................
+private tutoring*/
+#group-private-tutoring {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto auto auto;
+    padding: 2em 0;
+}
+#intro-private-tutoring {
+    display: grid;
+    padding: 0 0 0 2em;
+}
+#intro-private-tutoring h1 {
+    padding: 0;
+    text-align: center;
+}
+#intro-private-tutoring h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0;
+}
+#intro-private-tutoring img {
+    width: 100%;
+}
+#intro-private-tutoring p {
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+}
+
+#get-started-today {
+    display: grid;
+    width: 70%;
+    margin: 0;
+    justify-self: center;
+    background-color: #F5F8FA;
+    border: 2px solid #F5F8FA;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+}
+#get-started-today h2 {
+    font-size: 1.5em;
+}
+#get-started-today h3 {
+    font-size: 1.17em;
+}
+#get-started-today p {
+    font-size: 1em;
+}
+
+.get-started-today-outside {
+    padding: 0;
+    display: grid;
+}
+.numbered-points {
+    padding-left: 50%;
+    justify-self: center;
+}
+.get-started-today-container {
+    display: grid;
+    padding: 0;
+}
+.get-started-today-container img {
+    justify-self: center;
+    height: 100px;
+}
+.sign-up-button {
+    height: 100%;
+    width: 35%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    justify-self: center;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#faqs {
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+#faqs h3 {
+    padding: 1em 0;
+}
+.faq-container {
+    margin: 0 0 2em 0;
+    box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+    border-radius: 16px;
+}
+.collapsible-faq p{
+    display: grid;
+    font-size: 3em;
+}
+#faqs button {
+    display: grid;
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 2px solid #F5F8FA;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+#faqs span {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 0;
+}
+#faqs p {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: left;
+    padding-left: .3em;
+    grid-gap: .3em;
+}
+#faqs .collapsible-faq p {
+    grid-template-columns: auto 1fr auto;
+    padding: .6em 1em;
+    font-size: 1.5em;
+}
+#faqs .collapsible-faq img {
+    height: 1em;
+}
+#faqs text {
+    justify-self: left;
+}
+#faqs span {
+    justify-self: right;
+}
+#faqs button img {
+    align-self: center;
+}
+.faq-content {
+    display: none;
+    background-color: #F5F8FA;
+    border-radius: 0 0 15px 15px;
+    font-size: 1.25em;
+    padding: 1em 1em;
+    grid-template-columns: 1fr auto;
+}
+.faq-content span {
+    justify-self: left !important;
+}
+.faq-content p {
+    font-size: 1em;
+    grid-template-columns: auto 1fr !important;
+    padding-left: .3em;
+    grid-gap: .75em !important;
+}
+
+
+#private-testimonial {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 0;
+}
+#private-testimonial .testimonial-container {
+    display: none;
+    background-color: #2699FB;
+    border: 2px solid #2699FB;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+    margin: 0 auto;
+    width: 90%;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    padding: .5em 0 !important;
+    color: #fff;
+}
+#private-testimonial .testimonial-container h3 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+}
+#private-testimonial .testimonial-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#private-testimonial .testimonial-container span {
+    font-size: 1em;
+    margin-right: 0.938em;
+    font-weight: bold;
+}
+#private-testimonial .testimonial-container img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    padding-bottom: 8px;
+}
+#private-testimonial .testimonial-container-name {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.75em;
+    padding: 1em;
+}
+#private-testimonial .testimonial-container-paragraph {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding: .5em 1em;
+    font-size: 1em;
+}
+
+#peersquared-programs-footer {
+    padding: 1em 0;
+    display: grid;
+}
+#peersquared-programs-footer h2{
+    font-size: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+.programs-button {
+    height: 100%;
+    width: 25%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    justify-self: center;
+    margin: 1em;
+    cursor: pointer;
+}
+
+
+
+/*...............................................................................
+//.ppppppppp...sssssss....... pppppppp..prrrrrrr..oooooo....ggggggggg.sssssss....
+//.pppppppppp.sssssssss...... ppppppppp.prrrrrrrooooooooo..ggggggggggsssssssss...
+//.ppppp.pppppssss.ssss...... pppp.pppppprrrr...oooo.oooooogggg.gggggssss.ssss...
+//.pppp...ppppsssss.......... ppp...ppppprrr...rooo...oooooggg...ggggsssss.......
+//.pppp...pppp.ssssss........ ppp...ppppprrr...rooo...oooooggg...gggg.ssssss.....
+//.pppp...pppp..sssssss...... ppp...ppppprrr...rooo...oooooggg...gggg..sssssss...
+//.pppp...pppp......ssss..... ppp...ppppprrr...rooo...oooooggg...gggg......ssss..
+//.ppppp.pppppssss..ssss..... pppp.pppppprrr....oooo.oooooogggg.gggggssss..ssss..
+//.pppppppppp.sssssssss...... ppppppppp.prrr....ooooooooo..ggggggggggsssssssss...
+//.ppppppppp....ssssss....... pppppppp..prrr......oooooo....ggggggggg..ssssss....
+//.pppp...................... ppp................................gggg............
+//.pppp...................... ppp.........................ogggg.gggg.............
+//.pppp...................... ppp..........................ggggggggg.............
+//.pppp...................... ppp...........................ggggggg..............
+//.............................................................................peersquared programs*/
+#group-peersquared-programs {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto auto auto;
+    padding: 2em 0;
+    background-color: #F5F8FA;
+}
+#intro-peersquared-programs {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    padding: 0 0 0 2em;
+}
+#intro-peersquared-programs h1 {
+    padding: 0; 
+    text-align: center;
+}
+#intro-peersquared-programs h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0;
+}
+#intro-peersquared-programs img {
+    width: 100%;
+}
+#intro-peersquared-programs p {
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+}
+#quizlet-banner {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+#outside-browse-school {
+    margin: 0 1em 1em 1em;
+    font-size: 1em !important;
+}
+#browse-school {
+    display: grid;
+    background-color: #2699FB;
+    width: 80%;
+    margin: 0;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 1em;
+}
+#browse-school h2{
+    font-size: 1.5em;
+}
+#browse-school h3 {
+    font-size: 1.17em;
+}
+#browse-school p {
+    font-size: 1em;
+}
+
+.left-align-text {
+    text-align: left !important;
+}
+#school-content {
+    background-color: #F5F8FA;
+    padding: 0.5em 1em;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.browse-school-container {
+    width: 100%;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+.high-school-box {
+    background-color: #2699FB;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: #fff;
+    padding: .5em 0;
+}
+.high-school-box h3, p {
+    padding: 0 1em 0 1em;
+    text-align: center;
+}
+.high-school-box {
+    /*look here if text is not center*/
+}
+#inside-browse-school {
+    padding-top: 1em;
+    color: #fff;
+}
+.contact-button-school {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 50% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    text-align: center;
+    margin: 1em;
+    cursor: pointer;   
+}
+
+#peersquared-programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F8FA;
+}
+.peersquared-programs1 {
+    display: grid;
+    padding: 1em;
+    grid-template-rows: 1fr auto auto 1fr;
+}
+.peersquared-programs1 img {
+    justify-self: center;
+}
+.peersquared-programs1 h3 {
+    font-size: 2em;
+}
+.peersquared-programs1 h4 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.75em;
+}
+.peersquared-programs1 p {
+    font-size: 1.5em !important;
+}
+#petition-form-footer{
+    background-color: #fff;
+    display: grid;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+#petition-form-footer h2{
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+.petition-button {
+    height: 100%;
+    width: 25%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+
+
+/*...............................................................
+//...ffffo.......................................dddd............
+//..fffffo.......................................dddd............
+//..ffff.........................................dddd............
+//.ffffffo..oooooo..rrrrrrr ......eeeeee....dddddddddduuu..uuuu..
+//.ffffffoooooooooo.rrrrrrr .....eeeeeeee..ddddddddddduuu..uuuu..
+//..ffff..oooo.ooooorrrrr.......eeee.eeee.edddd.dddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee..eeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee......eddd...ddddduuu..uuuu..
+//..ffff..oooo.ooooorrrr........eeee..eeeeedddd.dddddduuuu.uuuu..
+//..ffff..ooooooooo.rrrr.........eeeeeeee..dddddddddd.uuuuuuuuu..
+//..ffff....oooooo..rrrr..........eeeeee....ddddddddd..uuuuuuuu..
+//...............................................................
+for educators*/
+#intro-for-educators {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 80%;
+    margin: 1% auto 0 auto;
+}
+#intro-for-educators h1 {
+    font-size: 2em;
+    text-align: left;
+    padding: 1em 1em 0 0;
+}
+#intro-for-educators h2 {
+    font-size: 1.5em;
+    text-align: left;
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+    padding: 0 2em 1em 0;
+}
+#intro-for-educators p {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;   
+    font-size: 1em !important;
+    text-align: left; 
+    padding: 0 2em 0 0;
+}
+#intro-for-educators img {
+    width: 100%;
+    grid-row: 1 / 5;
+    align-self: center;
+}
+#intro-for-educators button {
+    width: 50%;
+    font-size: 1em;
+    justify-self: left;
+    margin: 1em 0;
+} 
+
+#ecosystem-graphics {
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 1em 5%;
+    margin: 0 auto;
+    width: 80%;
+}
+#ecosystem-graphics h3 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+.blue-numbered-points {
+    display: none;
+}
+.blue-numbered-points-in {
+    display: grid;
+    height: 35px !important;
+    justify-self: left !important;
+    padding-bottom: 1em;
+}
+.ecosystem-containers {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 2em 0;
+}
+.ecosystem-content {
+    grid-template-columns: auto;
+}
+.ecosystem-content img {
+    height: 150px;
+    justify-self: center;
+}
+.ecosystem-content p {
+    padding: 1em 0 0 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+#value-prop {
+    display: grid;
+    padding: 1em 2em;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+#value-prop div {
+    padding: 0;
+}
+.value-prop-containers {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.value-prop-containers h3 {
+    font-size: 1.17em;
+    align-self: center;
+}
+.value-prop-containers p {
+    font-size: 1em;
+}
+.value-prop-containers:nth-of-type(2) img {
+    grid-column: 2 / 3;
+}
+#value-prop img {
+    justify-self: center;
+    width: 100%;
+    grid-row: 1 / 3;
+    align-self: center;
+}
+
+#how-do-i-know-peersquared-is-for-my-school {
+    background-color: #fff;
+    display: grid;
+    padding: 2em 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+#how-do-i-know-peersquared-is-for-my-school h3 {
+    font-size: 1.5em;
+}
+
+#how-do-i-know-peersquared-is-for-my-school p {
+    padding: 0 2em 0 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
+#how-do-i-know-peersquared-is-for-my-school #testimonial {
+    display: none;
+}
+#how-do-i-know-peersquared-is-for-my-school #schools-on-display { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: .5em;
+}
+#schools-on-display .school-logos {
+    text-align: center;
+}
+
+
+.school-logos img {
+    height: 150px;
+}
+#why-peersquared {
+    display: grid;
+}
+.why-peersquared-button {
+    height: 100%;
+    width: 25%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+
+
+/*.....................................................................
+//..............................................ttt..............ttt...
+//.............................................tttt.............tttt...
+//.............................................tttt.............tttt...
+//.ppppppppp....eeeeee....eeeeee..errrrrrr... ttttttuuu..uuuuuuttttt..
+//.pppppppppp..eeeeeeee..eeeeeeee.errrrrrr... ttttttuuu..uuuuuuttttt..
+//.ppppp.pppppeeee.eeee.eeee.eeee.errrr........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee......eeee......errr.........tttt.tuuu..uuuuu.tttt...
+//.ppppp.pppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuuu.uuuuu.tttt...
+//.pppppppppp..eeeeeeee..eeeeeeee.errr.........ttttttuuuuuuuuuu.ttttt..
+//.ppppppppp....eeeeee....eeeeee..errr.........tttttt.uuuuuuuuu.ttttt..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.....................................................................
+what is peer tutoring*/
+#intro-what-is-peer-tutoring {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    width: 80%;
+    margin: 1% auto 0 auto;
+}
+#intro-what-is-peer-tutoring h1 {
+    font-size: 2em;
+    text-align: left;
+    padding: 1em 1em 0 0;
+}
+#intro-what-is-peer-tutoring h2 {
+    font-size: 1.5em;
+    text-align: left;
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+    padding: 0 2em 1em 0;
+}
+#intro-what-is-peer-tutoring img {
+    width: 100%;
+    grid-row: 1 / 4;
+    align-self: center;
+}
+#intro-what-is-peer-tutoring p {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;   
+    font-size: 1em !important;
+    text-align: left; 
+    padding: 0 2em 0 0;
+}
+blockquote {
+    font-style: italic;
+    padding: 0 6em;
+}
+
+#value-prop {
+    display: grid;
+    padding: 3em 0 1.5em 0;
+}
+#value-prop p {
+    text-align: left !important;
+}
+#value-prop-students {
+    display: block;
+}
+#value-prop-students img {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    min-width: 200px;
+    max-width: 225px;
+    width: 15%;
+}
+#value-prop-students h3 {
+    align-self: center;
+    justify-self: start;
+    font-size: 1.5em;
+    padding-left: 2em;
+    text-align: left;
+    float: clear;
+}
+#value-prop-students ul {
+    padding: 0 0 0 3em;
+    float: clear;
+}
+#value-prop-students blockquote {
+    clear: both;
+    padding: 1em 5em;
+}
+#value-prop-students p {
+    font-size: 1em;
+    text-align: center;
+}
+#value-prop-parents {
+    display: block;
+}
+#value-prop-parents img {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    min-width: 200px;
+    max-width: 225px;
+    width: 15%;
+}
+#value-prop-parents h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: start;
+    font-size: 1.5em;
+    padding-left: 2em;
+    text-align: left;
+    float: clear;
+}
+#value-prop-parents ul {
+    padding: 0 0 0 3em;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+#value-prop-parents blockquote {
+    clear: both;
+    padding: 1em 5em;
+}
+#value-prop-parents p {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    font-size: 1em;
+    text-align: center;
+}
+#value-prop-tutors {
+    display: block;
+}
+#value-prop-tutors img {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    min-width: 200px;
+    max-width: 225px;
+    width: 15%;
+}
+#value-prop-tutors h3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: center;
+    justify-self: start;
+    font-size: 1.5em;
+    padding-left: 2em;
+    text-align: left;
+    float: clear;
+}
+#value-prop-tutors ul {
+    padding: 0 0 0 3em;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+#value-prop-tutors blockquote {
+    clear: both;
+    padding: 1em 5em;
+}
+#value-prop-tutors p {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    font-size: 1em;
+    text-align: center;
+}
+
+#peer-tutoring-in-action {
+    background-color: #fff;
+    display: grid;
+    padding: 2em 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+#peer-tutoring-in-action h3 {
+    font-size: 1.5em;
+}
+
+#peer-tutoring-in-action p {
+    padding: 0 2em;
+    text-align: center;
+    font-size: 1em;
+}
+#different-schools {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 2em 1em;
+    background-color: #2699FB;
+}
+.school-container {
+    display: none;
+    background-color: #FAF7F7;
+    border: 2px solid #FAF7F7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+    padding: 1em;
+    margin: 0 auto;
+    width: 90%;
+}
+.school-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.school-container span {
+    font-size: 1.25em;
+    margin-right: 0.938em;
+    font-weight: bold;
+}
+.school-container img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: center;
+}
+.school-container-name {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 2em;
+}
+.school-container-paragraph {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 0 1em;
+    font-size: 1.5em;
+}
+
+#peer-tutoring-in-action #testimonial {
+    display: none;
+}
+#peer-tutoring-in-action #schools-on-display { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: .5em;
+}
+#schools-on-display .school-logos {
+    text-align: center;
+}
+
+.school-logos img {
+    height: 150px;
+}
+#why-peersquared {
+    display: grid;
+}
+.why-peersquared-button {
+    height: 100%;
+    width: 25%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;        
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+
+/*...............................................................................
+//.rrrrrrrr.eeeeee...sssssss.....oooooo..ouuu..uuuuuurrrrrrr.cccccc....eeeeee....
+//.rrrrrrrreeeeeeee.essssssss..ooooooooo.ouuu..uuuuuurrrrrrrcccccccc..eeeeeeee...
+//.rrrrr..reee.eeee.esss.ssss..oooo.oooooouuu..uuuuuurrrr..rcccc.ccccceee.eeee...
+//.rrrr...reee..eeeeessss.....sooo...ooooouuu..uuuuuurrr...rccc..ccc.ceee..eeee..
+//.rrrr...reeeeeeeee.ssssss...sooo...ooooouuu..uuuuuurrr...rccc......ceeeeeeeee..
+//.rrrr...reeeeeeeee..sssssss.sooo...ooooouuu..uuuuuurrr...rccc......ceeeeeeeee..
+//.rrrr...reee............sssssooo...ooooouuu..uuuuuurrr...rccc..ccc.ceee........
+//.rrrr...reee..eeeeesss..ssss.oooo.oooooouuuu.uuuuuurrr...rcccc.ccccceee..eeee..
+//.rrrr....eeeeeeee.essssssss..ooooooooo..uuuuuuuuuuurrr....ccccccccc.eeeeeeee...
+//.rrrr.....eeeeee....ssssss.....oooooo....uuuuuuuuuurrr.....cccccc....eeeeee....
+//.............................................................................*/
+#intro-resources {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-resources h1 {
+    font-size: 2em;
+}
+#intro-resources h2 {
+    font-size: 1.5em;
+}
+
+/*...................................................
+//...........abbb...............................ttt..
+//...........abbb..............................tttt..
+//...........abbb..............................tttt..
+//...aaaaaa..abbbbbbbb.....oooooo..ouuu..uuuuuttttt..
+//..aaaaaaaa.abbbbbbbbb..ooooooooo.ouuu..uuuuuttttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuu..uuuuu.tttt..
+//.....aaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//..aaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuuu.uuuuu.tttt..
+//.aaaaaaaaaaabbbbbbbbb..ooooooooo..uuuuuuuuuu.tttt..
+//..aaaaaaaaaabbbbbbbb.....oooooo....uuuuuuuuu.tttt..
+//.................................................*/
+#intro-about {
+    display: block;
+    width: 80%;
+    margin: 1% auto 0 auto;
+}
+#intro-about h1 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+#intro-about img {
+    align-self: center;
+    padding: 0 0 1em 1em;
+    float: right;
+    width: auto;
+}
+#about-id {
+    margin: 0 auto !important;
+}
+#intro-about p {
+    font-size: 1em !important;
+    padding: 0;
+    text-align: left;
+}
+.about-gray {
+    background-color: #fff;
+}
+#about-p {
+    font-size: 1em !important;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.about-blue {
+    background-color: #2699FB;
+    color: #fff;
+}
+.about-blue img {
+    height: 165px;
+}
+.circular-image {
+    border-radius: 50%;
+}
+
+.history-tl-container{
+    margin: 0 auto;
+    display:block;
+    position:relative;
+    width: 100%;
+    padding-top: 2em;
+}
+.tl-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.tl-item .timestamp{
+    width: 100px;
+    padding-right: 40px;
+    color: #8D8D8D;
+    text-align: right;
+    font-size: 12px;
+}
+.tl {
+    list-style: none;
+    width: 100%;
+}
+
+.item-title{
+    flex: 1;
+    list-style: none;
+    margin:auto;
+    min-height:50px;
+    border-left:1px dashed #86D6FF;
+    padding:0 8em 50px 30px;
+    position:relative;
+    font-size: 1.17em;
+}
+.item-title::before{
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgba(255, 255, 255, 0.74);
+    border-radius: 500%;
+    background: #2699FB;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+}
+.tail-start {
+    flex: 1;
+    list-style: none;
+    margin:auto;
+    border-left:1px dashed #86D6FF;
+    padding:0 0 50px 30px;
+    position:relative;
+}
+.tail-start::before {
+     display:none;
+}
+
+
+.item-title:hover::before{
+    border-color:  #2699FB;
+    transition: all 1000ms ease-in-out;
+}
+
+.about-blue {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 1% auto 2em auto;
+    grid-gap: 1em;
+}
+.about-blue h2 {
+    font-size: 1.5em;
+}
+.about-blue h3 {
+    font-size: 1.17em;
+}
+.img-container {
+    display: grid;
+}
+.img-container img {
+    justify-self: center;
+}
+.about-blue p {
+    text-align: left;
+    padding: 1em;
+    font-size: 1em;
+}
+
+/*..............................................................................
+//...............................hhhhh..........................................
+//.......................tttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....oooooooooo....otttttttttt.hhhhhhhhhhhhh........eeeeeeeee.....rrrrrrrrrr..
+//....oooooooooooo...otttttttttt.hhhhhhhhhhhhhh.....eeeeeeeeeeee....rrrrrrrrrr..
+//...oooooooooooooo..otttttttttt.hhhhhhhhhhhhhhh...eeeeeeeeeeeeee...rrrrrrrrrr..
+//..oooooooooooooooo...tttttt....hhhhhhhhhhhhhhh...eeeeeeeeeeeeee...rrrrrrr.....
+//..oooooo....ooooooo..tttttt....hhhhhh...hhhhhh..eeeeee....eeeeee..rrrrrr......
+//.ooooooo.....oooooo..tttttt....hhhhhh....hhhhh..eeeeee....eeeeee..rrrrrr......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeee............rrrrr.......
+//.ooooooo.....oooooo..tttttt....hhhhh.....hhhhh..eeeeee............rrrrr.......
+//..oooooo....oooooo...tttttt....hhhhh.....hhhhh..eeeeeee...........rrrrr.......
+//..oooooooooooooooo...ttttttttt.hhhhh.....hhhhh...eeeeeee.eeeeeee..rrrrr.......
+//...oooooooooooooo....ttttttttt.hhhhh.....hhhhh...eeeeeeeeeeeeeee..rrrrr.......
+//....oooooooooooo......tttttttt.hhhhh.....hhhhh....eeeeeeeeeeeee...rrrrr.......
+//.....oooooooooo.......tttttttt.hhhhh.....hhhhh......eeeeeeeeee....rrrrr.......
+//............................................................................*/
+
+/*why peersquared*/
+#intro-why-peersquared {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-why-peersquared {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-why-peersquared h1 {
+    font-size: 2em;
+}
+#intro-why-peersquared h2 {
+    font-size: 1.5em;
+}
+
+/*legal*/
+#intro-legal {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-legal {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-legal h1 {
+    font-size: 2em;
+}
+#intro-legal h2 {
+    font-size: 1.5em;
+}
+.mobile-pdf {
+    display: grid;
+    text-align: center;
+    
+}
+.mobile-pdf a {
+    justify-self: center;
+    font-size: 2em;
+}
+iframe {
+    display: grid;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+/*blog*/
+#intro-blog {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-blog {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-blog h1 {
+    font-size: 2em;
+}
+#intro-blog h2 {
+    font-size: 1.5em;
+}
+
+
+/*documentation*/
+#intro-documentation {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-documentation {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-documentation h1 {
+    font-size: 2em;
+}
+#intro-documentation h2 {
+    font-size: 1.5em;
+}
+
+/*........................................................................
+//...sssssssss..........mmmmmmmmmm.mmmmmmm.....aaaaaaaa....ppppppppppp....
+//..sssssssssss.........mmmmmmmmmmmmmmmmmmm...aaaaaaaaaa...pppppppppppp...
+//.ssssssssssss.........mmmmmmmmmmmmmmmmmmm..aaaaaaaaaaaa..ppppppppppppp..
+//.sssss..sssss.........mmmmmmmmmmmmmmmmmmm..aaaaa..aaaaa..ppppppppppppp..
+//.sssssssss............mmmmm..mmmmm..mmmmm........aaaaaa..ppppp...ppppp..
+//.sssssssssss..........mmmmm..mmmmm..mmmmm....aaaaaaaaaa..ppppp...ppppp..
+//..sssssssssss.........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..pppp....ppppp..
+//....ssssssssss........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..ppppp...ppppp..
+//.......sssssss........mmmm...mmmmm..mmmmm.maaaaa..aaaaa..ppppp...ppppp..
+//.sssss...sssss........mmmm...mmmmm..mmmmm.maaaa..aaaaaa..ppppppppppppp..
+//.ssssss.ssssss........mmmm...mmmmm..mmmmm.maaaaaaaaaaaa..ppppppppppppp..
+//..sssssssssss.........mmmm...mmmmm..mmmmm..aaaaaaaaaaaa..pppppppppppp...
+//...sssssssss..........mmmm...mmmmm..mmmmm...aaaaaaaaaaa..ppppppppppp....
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//.........................................................ppppp..........
+//......................................................................
+site map*/
+#intro-sitemap {
+    display: grid;
+}
+#intro-sitemap h1 {
+    text-align: center;
+}
+#intro-sitemap ul {
+    padding: 1em 5em;
+    margin: 0 auto;
+    width: 50%;
+}
+#intro-sitemap li {
+    padding: 1em 0.5em;
+    font-size: 1em;
+    list-style-type: none;
+}
+.site-map li {
+    background-color: #ccc;
+}
+.site-map li.odd {
+    background-color: rgba(39, 29, 29, 0.363);
+}
+.site-map a {
+    color: black;
+}
+.indented {
+    text-indent: 3em;
+}
+
+
+
+
+    
+/*.......................................................
+//...ffffffo.............................................
+//...ffffffo.............................................
+//..fffffffo.............................................
+//..fffff................................................
+//..fffff.....oooooooo.....rrrrrrrrmmmmmmmmmmm.mmmmmmm...
+//.ffffffffo.ooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//.ffffffffooooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//..fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//..fffff..oooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff..oooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//......................................................*/
+.close {
+    color: #000;
+    position: absolute; 
+    font-size: 2em;
+    font-weight: bold;
+    height: 1.75em;
+    width: 1.75em;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+}
+#try-peersquared-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.try-form-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#try-peersquared-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#try-peersquared-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-questions {
+    display: grid;
+    align-items: center;
+}
+.form-questions h2 {
+    font-size: 1.5em !important;
+}
+.form-questions p {
+    font-size: 1em !important;
+}
+#form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+#form-image img {
+    display: grid;
+    width: 100%;
+}
+#selected-parent-student {
+    display: none;
+}
+.parent-student-option {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+    padding: 0 0 2em 0;
+    margin: 0 auto;
+    width: 85%;
+}
+.parent-student-option p {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+.parent-student-option input {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    width: 3em !important;
+    margin: 0 auto !important;
+}
+.parent-student-option label {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    align-self: center;
+}
+.parent-student-option2 {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+    margin: 0 auto;
+    width: 85%;
+}
+.parent-student-option2 input {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    width: 3em !important;
+    margin: 0 auto !important;
+}
+.parent-student-option2 label {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    align-self: center;
+}
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#selected-teacher-school-ngo {
+    display: none;
+}
+.teacher-school-ngo-option {
+    width: 80%;
+    margin: 0 auto;
+}
+.try-peersquared-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.try-peersquared-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+/*...........................................................................
+//.......................fffffff.............................................
+//.......................fffffff.............................................
+//......................ffffffff.............................................
+//......................fffff................................................
+//....cccccccc..........fffff.....oooooooo.....rrrrrrrrrmmmmmmmmmm.mmmmmmm...
+//...cccccccccc........ ffffffff.ooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc....... ffffffffoooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//...ccccccccccc........fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//....cccccccc..........fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//.........................................................................
+contact form*/
+#contact-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.contact-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#contact-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#contact-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#contact-who-are-you-ngo {
+    display: none;
+}
+
+.contact-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.contact-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+
+/*.....................................................................
+//...................ttt........ffffo..................................
+//..................tttt.......fffffo..................................
+//..................tttt.......ffff....................................
+//.ppppppppp...... tttttt ....ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp..... tttttt ....ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ttttt .....ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ttttt .....ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//...................................................................
+private tutoring form*/
+#private-tutoring-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.private-tutoring-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#private-tutoring-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#private-tutoring-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-questions {
+    display: grid;
+}
+.form-questions h2, p {
+    font-size: 2em;
+}
+#form-image img {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+
+/*..........................................................
+//...................ffffo..................................
+//..................fffffo..................................
+//..................ffff....................................
+//.ppppppppp.......ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp......ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//........................................................
+petition form*/
+#petition-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.petition-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#petition-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#petition-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.parent-student-option2 {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+}
+
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#contact-who-are-you-ngo {
+    display: none;
+}
+#petition-message {
+    width: 80%;
+    margin: 0 auto;
+}
+.petition-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.petition-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+
+/*form completion*/
+#form-completion {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.form-completition-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #888;
+    width: 75%;
+}
+
+
+    
+
+/*......................................................................
+//...ffffffo...............................ttt..........................
+//...ffffffo..............................tttt..........................
+//..fffffffo..............................tttt..........................
+//..fffff.................................tttt..........................
+//..fffff.....oooooooo.......oooooooo...otttttttt..eeeeeeee....rrrrrrr..
+//.ffffffffo.ooooooooooo....ooooooooooo.otttttttt.eeeeeeeeee...rrrrrrr..
+//.ffffffffooooooooooooo...oooooooooooo.otttttttteeeeeeeeeeee..rrrrrrr..
+//..fffff...ooooooooooooo..ooooooooooooo..tttt...eeeeeeeeeeee..rrrrrr...
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeee...eeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo.....oooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeee..........rrrr.....
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeeee.........rrrr.....
+//..fffff...ooooooooooooo..ooooooooooooo..ttttttteeeeeeeeeeee..rrrr.....
+//..fffff...oooooooooooo...oooooooooooo...ttttttteeeeeeeeeeee..rrrr.....
+//..fffff....ooooooooooo....ooooooooooo...ttttttt.eeeeeeeeee...rrrr.....
+//..fffff.....oooooooo.......oooooooo.....ttttttt..eeeeeeee....rrrr.....
+//....................................................................*/
+#desktop-footer {
+    display: grid;
+}
+#mobile-footer {
+    display: none;
+}
+footer  {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 1%;
+}
+#peersquared-logo {
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+#peersquared-logo img {
+    height: 4em;
+}
+#footer-connected {
+    text-align: center;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    padding-bottom: 1em;
+}
+#footer-connected h3 {
+    padding: 0 0 1em 0;
+    font-size: 1.5em;
+}
+#footer-connected a {
+    color: #fff;
+    padding: 1em;
+}
+#footer-connected img {
+    height: 4em;
+}
+#desktop-footer-links {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: .3fr .3fr .3fr .3fr .3fr .3fr;*/
+    grid-template-rows: auto auto auto auto auto auto auto;
+    list-style-type: none;
+    grid-gap: 1%;
+}
+#desktop-footer-links a {
+    font-weight: bold;
+}
+#desktop-footer-links h3 nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#desktop-footer-links li {
+    align-self: center;
+}
+#desktop-footer-links li:last-of-type {
+    grid-row: 6 / 7;
+    grid-column: 2 / 3;
+}
+.footer-indent {
+    text-indent: 2em;
+}
+#desktop-footer-links h3 {
+    grid-column: 1 / 3;
+    font-size: 1.5em;
+}
+#desktop-footer-links h3 a {
+    grid-template-rows: 2 / 7;
+}
+#desktop-footer-links h3 {
+    padding: 0;
+}
+#desktop-footer-links a {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer-contact {
+    text-align: center;
+    padding-bottom: 1em;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+#footer-contact h3 {
+    padding-top: 0;
+    font-size: 1.5em;
+}
+#footer-contact p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.25em;
+    text-align: left;
+}
+#footer-contact a {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: #fff;
+}
+#contact-button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contact-button {
+    background-color: #2699FB;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 50% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.25em;
+    height: 2em !important;
+    text-align: center;
+    margin: .5em 0;    
+    cursor: pointer;
+}
+hr {
+    height: 1px;
+    margin: 0;
+    border-top: 2px solid #fff;
+    border-radius: 5px;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+#footer-extra-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 15px 0 15px;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    font-size: .75em;
+}
+#footer-extra-links a {
+    color: #fff;
+    font-size: 1.5em;
+}
+#footer-copyright {
+    padding: 1em 15px 0 15px;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+#footer-copyright p {
+    font-size: 1em;
+}
+
+
+
+}
+
+/*........................................................................
+//........dddd....................skkk........ttt.........................
+//........dddd....................skkk.......tttt.........................
+//........dddd....................skkk.......tttt.........................
+//...ddddddddd..eeeeee...sssssss..skkk..kkkkktttttt..oooooo..opppppppp....
+//..dddddddddd.eeeeeeee.essssssss.skkk.kkkkkkttttttooooooooo.oppppppppp...
+//.ddddd.dddddeeee.eeee.esss.ssss.skkkkkkk...tttt..oooo.oooooopppp.ppppp..
+//.dddd...ddddeeee..eeeeessss.....skkkkkk....tttt.tooo...oooooppp...pppp..
+//.dddd...ddddeeeeeeeeee.ssssss...skkkkkkk...tttt.tooo...oooooppp...pppp..
+//.dddd...ddddeeeeeeeeee..sssssss.skkkkkkk...tttt.tooo...oooooppp...pppp..
+//.dddd...ddddeeee............ssssskkkkkkkk..tttt.tooo...oooooppp...pppp..
+//.ddddd.dddddeeee..eeeeesss..ssssskkk.kkkk..tttt..oooo.oooooopppp.ppppp..
+//..dddddddddd.eeeeeeee.essssssss.skkk..kkkk.ttttttooooooooo.oppppppppp...
+//...ddddddddd..eeeeee....ssssss..skkk..kkkk.tttttt..oooooo..opppppppp....
+//...........................................................oppp.........
+//...........................................................oppp.........
+//...........................................................oppp.........
+//...........................................................oppp.........
+//......................................................................*/
+@media only screen and (min-width: 1280px) { 
+
+    /*dont touch*/
+    /*index*/
+    .testimonial-container img {
+        float: left;
+        margin-right: 20px;
+    }
+    /*form*/
+    #try-peersquared-form {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+    .try-form-box {
+        background-color: #fff;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 70%;
+        display: flex;
+    
+    }
+    .form-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .form-questions {
+        padding: 1em;
+        width: 80%;
+        justify-self: center;
+    }
+    .form-questions p {
+        text-align: left;
+    }
+    .form-image img {
+        display: grid;
+        height: 100%;
+        width: 100%;
+    }
+    .submit-button {
+        width: 50% !important;
+        font-size: 1.5em;
+        height: 2em !important;
+        cursor: pointer;
+    }
+/*.....................................................
+//.nnnnnnnnnnnnnn......aaaaaaaaaaa..aaavvv......vvvvv..
+//.nnnnnnnnnnnnnnn....aaaaaaaaaaaaa..aavvvv.....vvvvv..
+//.nnnnnnnnnnnnnnnn...aaaaaaaaaaaaa..aavvvv....vvvvvv..
+//.nnnnnnnn.nnnnnnn..naaaaaaaaaaaaaa..avvvvv...vvvvvv..
+//.nnnnnnn...nnnnnn..naaaaa...aaaaaa..avvvvv...vvvvv...
+//.nnnnnn....nnnnnn...........aaaaaa..avvvvv..vvvvvv...
+//.nnnnnn....nnnnnn.......aaaaaaaaaa...vvvvvv.vvvvvv...
+//.nnnnnn....nnnnnn....aaaaaaaaaaaaa...vvvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvvv....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaa...aaaaaa....vvvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaa....aaaaaa.....vvvvvvvvv.....
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa.....vvvvvvvv......
+//.nnnnnn....nnnnnn..naaaaaaaaaaaaaa......vvvvvvv......
+//.nnnnnn....nnnnnn...aaaaaaaaaaaaaaa.....vvvvvv.......
+//...................................................*/
+.mobile-nav {
+    display: none;
+}
+header {
+    background-color: #2699FB;
+}
+.desktop-nav {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: .5em 0;
+}
+.desktop-nav-all {
+    display: grid;
+    grid-template-columns: .5fr 3fr 1fr;
+}
+.desktop-logo {
+    align-self: center;
+    justify-content: center;
+}
+.desktop-nav img {
+    width: 100%;
+}
+.desktop-links {
+    width: 100%;
+    text-align: end;
+    align-self: center;
+    margin-right: 2em !important;
+}
+.desktop-nav a {
+    color: #fff;
+    grid-column: 1fr;
+    font-weight: bold;
+    padding: 0 .5em;
+}
+.desktop-links img {
+    max-width: 15px;
+    max-width: 15px;
+    padding-left: 5px;
+}
+
+/*dropdown desktop menu*/
+.desktop-dropdown {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-function {
+    position: relative;
+    display: inline-block;
+}
+.desktop-submenu {
+    display: none;
+    position: absolute;
+    background-color: #2699FB;
+    z-index: 1;
+    min-width: 160px;
+}
+.desktop-submenu a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.desktop-submenu a:hover {
+    background-color: #1078ef;
+}
+.dropdown-function:hover .desktop-submenu {
+    display: block;
+}
+.dropdown-function:hover .desktop-dropdown {
+}
+
+
+.try-peersquared-button-nav {
+    width: 60%;
+    height: 2em !important;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center !important;
+    color: #fff;
+    margin: 0 !important;
+    align-self: center;
+    font-size: 1em !important;
+    margin: 0 .5em;
+    cursor: pointer;
+}
+.try-peersquared-button {
+    height: 100%;
+    width: 100%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em !important;
+    height: 2em !important;
+    cursor: pointer;
+}
+
+#drop-down-menu-container {
+    display: grid;
+    grid-template-columns: 1fr 10%;
+}
+#drop-down-menu {
+    display: none;
+    grid-column: 1 / 4;
+}
+#drop-down-menu a {
+    display: grid;
+    color: white;
+    font-size: 4em;
+    border: 1px solid white;
+    width: 100%;
+    text-indent: 1em;
+}
+#drop-down-menu a:first-of-type {
+    border: 1px solid white;
+    border-right: none;
+}
+.before-sub-menu div {
+    display: grid;
+}
+#dropdown-button {
+    z-index: 1;
+    justify-self: center;    
+    align-self: center;
+    height: 3em !important;
+}
+#sub-menu {
+    display: none;
+}
+#sub-menu a {
+    color: white;
+    background-color: #71b9f8;
+    font-size: 4em;
+    border: 1px solid white;
+    width: 100%;
+    text-indent: 2.25em;
+}
+#before-dropdown {
+    display: grid;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    height: 100%;
+}
+
+
+
+/*................................................................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//.iiiiii...............................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//......................................dddddd....................................
+//.iiiiii...nnnnnnnnnnnnn.......dddddddddddddd.....eeeeeeeee....exxxxxx...xxxxxx..
+//.iiiiii...nnnnnnnnnnnnnn.....ddddddddddddddd...eeeeeeeeeeee...exxxxxx..xxxxxxx..
+//.iiiiii...nnnnnnnnnnnnnnn...dddddddddddddddd...eeeeeeeeeeeee...xxxxxxxxxxxxxx...
+//.iiiiii...nnnnnnnnnnnnnnn...ddddddd.dddddddd..eeeeeeeeeeeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn...nnnnnn..ndddddd...ddddddd..eeeeee...eeeeee...xxxxxxxxxxxx....
+//.iiiiii...nnnnnn....nnnnn..nddddd.....dddddd.deeeee.....eeeee....xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeeeeeeeeeeeee.....xxxxxxxx......
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxx.....
+//.iiiiii...nnnnn.....nnnnn..nddddd.....dddddd.deeeee..............xxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn..ndddddd...ddddddd..eeeeee............xxxxxxxxxxxx....
+//.iiiiii...nnnnn.....nnnnn...ddddddd.dddddddd..eeeeeee.eeeeeee..xxxxxxxxxxxxxx...
+//.iiiiii...nnnnn.....nnnnn...dddddddddddddddd...eeeeeeeeeeeeee..xxxxxxx.xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn....ddddddddddddddd...eeeeeeeeeeeee..exxxxxx..xxxxxxx..
+//.iiiiii...nnnnn.....nnnnn.....dddddddddddddd.....eeeeeeeeee..eexxxxx....xxxxxx..
+//...............................................................................*/
+    #intro-index h1 {
+        font-size: 2em;
+        text-align: left;
+        padding: 1em 32px 0 32px;
+        margin: 0 0 0 96px;
+    }
+    #intro-index h2 {
+        font-size: 1.5em;
+        text-align: left;
+        grid-column: 1 / 2;
+        grid-row: 2/ 3;
+        padding: 0 32px 0 32px;
+        margin: 0 0 0 96px;
+    }
+    #try-peersquared-email {
+        margin: 0 0 0 96px;
+        padding: 0 32px;
+    }
+    #try-peersquared-email input {
+        margin: 0 32px 0 0;
+    }
+    #try-peersquared-email .try-peersquared-button {
+        width: 50%;
+        justify-self: left;
+    }
+    .steps-to-success-boxes .try-peersquared-button {
+        width: 30%;
+    }
+    .learn-more-button {
+        width: 35%;
+        margin-bottom: 0;
+    }
+    #partner-p {
+        margin: 0 auto !important;
+        width: 80%;
+    }
+    .read-more-button {
+        width: 50%;
+    }
+
+
+/*....................................................................
+//....................................................ttt.............
+//...................................................tttt.............
+//...................................................tttt.............
+//.ppppppppp....aaaaaa..arrrrrrr.eeeeee...nnnnnnnn.nnttttttsssssss....
+//.pppppppppp..aaaaaaaa.arrrrrrreeeeeeee..nnnnnnnnnnnttttttssssssss...
+//.ppppp.pppppaaaa.aaaaaarrrr..reee.eeee..nnnn.nnnnn.tttt.tsss.ssss...
+//.pppp...pppp....aaaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tssss.......
+//.pppp...pppp.aaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt..ssssss.....
+//.pppp...ppppaaaaaaaaaaarrr...reeeeeeeee.nnnn..nnnn.tttt...sssssss...
+//.pppp...ppppaaaa.aaaaaarrr...reee.......nnnn..nnnn.tttt.......ssss..
+//.ppppp.pppppaaaa.aaaaaarrr...reee..eeee.nnnn..nnnn.tttt.tsss..ssss..
+//.pppppppppp.aaaaaaaaaaarrr....eeeeeeee..nnnn..nnnn.ttttttssssssss...
+//.ppppppppp...aaaaaaaaaarrr.....eeeeee...nnnn..nnnn.tttttt.ssssss....
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//.pppp...............................................................
+//...................................................................*/
+    #intro-parents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 80%;
+    margin: 1% auto 0 auto;
+    }   
+    #intro-parents h1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        font-size: 2em;
+        text-align: left;
+        padding: 1em 1em 0 0;
+    }
+    #intro-parents img{
+        grid-row: 1 / 5;
+        grid-column: 2 / 3;
+        align-self: center;
+        padding: 0 0 1em 0;
+        width: 80%;
+        justify-self: center;
+    }
+    #intro-parents h2 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        font-size: 1.5em;
+        text-align: left;
+        padding: 0 2em 0 0;
+    }
+    #intro-parents p {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;   
+        font-size: 1em !important;
+        text-align: left; 
+        padding: 0 2em 0 0;
+    }
+    #intro-parents button {
+        grid-row: 4 / 5;
+        grid-column: 1 / 2;
+        justify-self: left;
+
+    }
+    #quizlet-banner {
+        margin: 0 25%;
+        width: 50%;
+        text-align: center;
+    }
+    .blue-box-margin-bottom {
+        margin-bottom: 1em;
+        padding-bottom: 2em;
+    }
+
+
+
+/*...............................................................
+//....................iiii.................ttt..............ttt..
+//....................iiii................tttt.............tttt..
+//........................................tttt.............tttt..
+//.ppppppppp..rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.pppppppppp.rrrrrrriiiiiivvv..vvvv.... ttttttuuu..uuuuuutttt..
+//.ppppp.ppppprrrrr...iiiiivvv.vvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvvv.......tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii.vvvvvvv........tttt.tuuu..uuuuu.tttt..
+//.pppp...pppprrrr....iiii..vvvvvv........tttt.tuuu..uuuuu.tttt..
+//.ppppp.ppppprrrr....iiii..vvvvvv........tttt.tuuuu.uuuuu.tttt..
+//.pppppppppp.rrrr....iiii..vvvvv.........ttttttuuuuuuuuuu.tttt..
+//.ppppppppp..rrrr....iiii...vvvv.........tttttt.uuuuuuuuu.tttt..
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//.pppp..........................................................
+//...............................................................
+private tutoring*/
+#group-private-tutoring {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto auto auto;
+    padding: 2em 0;
+}
+#intro-private-tutoring {
+    display: grid;
+    padding: 0 0 0 2em;
+}
+#intro-private-tutoring h1 {
+    padding: 0;
+    text-align: center;
+}
+#intro-private-tutoring h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0;
+}
+#intro-private-tutoring img {
+    width: 100%;
+}
+#intro-private-tutoring p {
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+}
+
+#get-started-today {
+    display: grid;
+    width: 70%;
+    margin: 0;
+    justify-self: center;
+    background-color: #F5F8FA;
+    border: 2px solid #F5F8FA;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+}
+#get-started-today h2 {
+    font-size: 1.5em;
+}
+#get-started-today h3 {
+    font-size: 1.17em;
+}
+#get-started-today p {
+    font-size: 1em;
+}
+
+.get-started-today-outside {
+    padding: 0;
+    display: grid;
+}
+.numbered-points {
+    padding-left: 50%;
+    justify-self: center;
+}
+.get-started-today-container {
+    display: grid;
+    padding: 0;
+}
+.get-started-today-container img {
+    justify-self: center;
+    height: 100px;
+}
+.sign-up-button {
+    height: 100%;
+    width: 35%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    justify-self: center;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#faqs {
+    padding: 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+#faqs h3 {
+    padding: 1em 0;
+}
+.faq-container {
+    margin: 0 0 2em 0;
+    box-shadow: 5px 5px 6px 10px rgba(0, 0, 0, .16);
+    border-radius: 16px;
+}
+.collapsible-faq p{
+    display: grid;
+    font-size: 3em;
+}
+#faqs button {
+    display: grid;
+    width: 100%;
+    background-color: #F5F8FA;
+    border: 2px solid #F5F8FA;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+#faqs span {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 0;
+}
+#faqs p {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    text-align: left;
+    padding-left: .3em;
+    grid-gap: .3em;
+}
+#faqs .collapsible-faq p {
+    grid-template-columns: auto 1fr auto;
+    padding: .6em 1em;
+    font-size: 1.5em;
+}
+#faqs .collapsible-faq img {
+    height: 1em;
+}
+#faqs text {
+    justify-self: left;
+}
+#faqs span {
+    justify-self: right;
+}
+#faqs button img {
+    align-self: center;
+}
+.faq-content {
+    display: none;
+    background-color: #F5F8FA;
+    border-radius: 0 0 15px 15px;
+    font-size: 1.25em;
+    padding: 1em 1em;
+    grid-template-columns: 1fr auto;
+}
+.faq-content span {
+    justify-self: left !important;
+}
+.faq-content p {
+    font-size: 1em;
+    grid-template-columns: auto 1fr !important;
+    padding-left: .3em;
+    grid-gap: .75em !important;
+}
+
+
+#private-testimonial {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 0;
+}
+#private-testimonial .testimonial-container {
+    display: none;
+    background-color: #2699FB;
+    border: 2px solid #2699FB;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+    margin: 0 auto;
+    width: 90%;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 6fr;
+    text-align: center;
+    padding: .5em 0 !important;
+    color: #fff;
+}
+#private-testimonial .testimonial-container h3 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+}
+#private-testimonial .testimonial-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#private-testimonial .testimonial-container span {
+    font-size: 1em;
+    margin-right: 0.938em;
+    font-weight: bold;
+}
+#private-testimonial .testimonial-container img {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center;
+    height: 100%;
+    padding-bottom: 8px;
+}
+#private-testimonial .testimonial-container-name {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    justify-self: left;
+    align-self: center;
+    font-size: 1.75em;
+    padding: 1em;
+}
+#private-testimonial .testimonial-container-paragraph {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding: .5em 1em;
+    font-size: 1em;
+}
+
+#peersquared-programs-footer {
+    padding: 1em 0;
+    display: grid;
+}
+#peersquared-programs-footer h2{
+    font-size: 1.5em;
+    width: 80%;
+    margin: 0 auto;
+}
+.programs-button {
+    height: 100%;
+    width: 20%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    justify-self: center;
+    margin: 1em;
+    cursor: pointer;
+}
+
+
+
+/*...............................................................................
+//.ppppppppp...sssssss....... pppppppp..prrrrrrr..oooooo....ggggggggg.sssssss....
+//.pppppppppp.sssssssss...... ppppppppp.prrrrrrrooooooooo..ggggggggggsssssssss...
+//.ppppp.pppppssss.ssss...... pppp.pppppprrrr...oooo.oooooogggg.gggggssss.ssss...
+//.pppp...ppppsssss.......... ppp...ppppprrr...rooo...oooooggg...ggggsssss.......
+//.pppp...pppp.ssssss........ ppp...ppppprrr...rooo...oooooggg...gggg.ssssss.....
+//.pppp...pppp..sssssss...... ppp...ppppprrr...rooo...oooooggg...gggg..sssssss...
+//.pppp...pppp......ssss..... ppp...ppppprrr...rooo...oooooggg...gggg......ssss..
+//.ppppp.pppppssss..ssss..... pppp.pppppprrr....oooo.oooooogggg.gggggssss..ssss..
+//.pppppppppp.sssssssss...... ppppppppp.prrr....ooooooooo..ggggggggggsssssssss...
+//.ppppppppp....ssssss....... pppppppp..prrr......oooooo....ggggggggg..ssssss....
+//.pppp...................... ppp................................gggg............
+//.pppp...................... ppp.........................ogggg.gggg.............
+//.pppp...................... ppp..........................ggggggggg.............
+//.pppp...................... ppp...........................ggggggg..............
+//.............................................................................peersquared programs*/
+#group-peersquared-programs {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto auto auto;
+    padding: 2em 0;
+    background-color: #F5F8FA;
+}
+#intro-peersquared-programs {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+    padding: 0 0 0 2em;
+}
+#intro-peersquared-programs h1 {
+    padding: 0; 
+    text-align: center;
+}
+#intro-peersquared-programs h2 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 0;
+}
+#intro-peersquared-programs img {
+    width: 100%;
+}
+#intro-peersquared-programs p {
+    font-size: 1em;
+    text-align: left;
+    padding: 0;
+}
+#quizlet-banner {
+    width: 50%;
+    margin: 1% 25%;
+}
+
+#outside-browse-school {
+    margin: 0 1em 1em 1em;
+    font-size: 1.5em !important;
+    grid-row: 2 / 3;
+}
+#browse-school {
+    display: grid;
+    background-color: #2699FB;
+    width: 80%;
+    margin: 0;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 1em;
+    align-self: center;
+    grid-row: 3 / 4;
+}
+#browse-school h2{
+    font-size: 1.5em;
+}
+#browse-school h3 {
+    font-size: 1.17em;
+}
+#browse-school p {
+    font-size: 1em;
+}
+
+.left-align-text {
+    text-align: left !important;
+}
+#school-content {
+    background-color: #F5F8FA;
+    padding: 0.5em 1em;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.browse-school-container {
+    width: 100%;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+.high-school-box {
+    background-color: #2699FB;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: #fff;
+    padding: .5em 0;
+}
+.high-school-box h3, p {
+    padding: 0 1em 0 1em;
+    text-align: center;
+}
+.high-school-box {
+    /*look here if text is not center*/
+}
+#inside-browse-school {
+    padding-top: 1em;
+    color: #fff;
+}
+.contact-button-school {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 50% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    text-align: center;
+    margin: 1em;
+    cursor: pointer;   
+}
+
+#peersquared-programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F8FA;
+    grid-gap: 1em;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.peersquared-programs1 {
+    display: grid;
+    padding: 1em;
+    grid-template-rows: 1fr auto auto 1fr;
+}
+.peersquared-programs1 img {
+    justify-self: center;
+}
+.peersquared-programs1 h3 {
+    font-size: 2em;
+}
+.peersquared-programs1 h4 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.75em;
+}
+.peersquared-programs1 p {
+    font-size: 1.5em !important;
+}
+#petition-form-footer{
+    background-color: #fff;
+    display: grid;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+#petition-form-footer h2{
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+.petition-button {
+    height: 100%;
+    width: 20%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+
+
+
+/*...............................................................
+//...ffffo.......................................dddd............
+//..fffffo.......................................dddd............
+//..ffff.........................................dddd............
+//.ffffffo..oooooo..rrrrrrr ......eeeeee....dddddddddduuu..uuuu..
+//.ffffffoooooooooo.rrrrrrr .....eeeeeeee..ddddddddddduuu..uuuu..
+//..ffff..oooo.ooooorrrrr.......eeee.eeee.edddd.dddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee..eeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeeeeeeeeeeddd...ddddduuu..uuuu..
+//..ffff.oooo...oooorrrr........eeee......eddd...ddddduuu..uuuu..
+//..ffff..oooo.ooooorrrr........eeee..eeeeedddd.dddddduuuu.uuuu..
+//..ffff..ooooooooo.rrrr.........eeeeeeee..dddddddddd.uuuuuuuuu..
+//..ffff....oooooo..rrrr..........eeeeee....ddddddddd..uuuuuuuu..
+//...............................................................
+for educators*/
+#intro-for-educators {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    width: 80%;
+    margin: 1% auto 0 auto;
+}
+#intro-for-educators h1 {
+    font-size: 2em;
+    text-align: left;
+    padding: 1em 1em 0 0;
+}
+#intro-for-educators h2 {
+    font-size: 1.5em;
+    text-align: left;
+    grid-column: 1 / 2;
+    grid-row: 2/ 3;
+    padding: 0 2em 1em 0;
+}
+#intro-for-educators p {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;   
+    font-size: 1em !important;
+    text-align: left; 
+    padding: 0 2em 0 0;
+}
+#intro-for-educators img {
+    width: 100%;
+    grid-row: 1 / 5;
+    align-self: center;
+}
+#intro-for-educators button {
+    width: 40%;
+    font-size: 1em;
+    justify-self: left;
+    margin: 1em 0;
+} 
+
+#ecosystem-graphics {
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 1em 5%;
+    margin: 0 auto;
+    width: 80%;
+}
+#ecosystem-graphics h3 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+.blue-numbered-points {
+    display: none;
+}
+.blue-numbered-points-in {
+    display: grid;
+    height: 35px !important;
+    justify-self: left !important;
+    padding-bottom: 1em;
+}
+.ecosystem-containers {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 2em 0;
+}
+.ecosystem-content {
+    grid-template-columns: auto;
+}
+.ecosystem-content img {
+    height: 150px;
+    justify-self: center;
+}
+.ecosystem-content p {
+    padding: 1em 0 0 0;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+#value-prop {
+    display: grid;
+    padding: 1em 2em;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
+#value-prop div {
+    padding: 0;
+}
+.value-prop-containers {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+.value-prop-containers h3 {
+    font-size: 1.17em;
+    align-self: center;
+}
+.value-prop-containers p {
+    font-size: 1em;
+}
+.value-prop-containers:nth-of-type(2) img {
+    grid-column: 2 / 3;
+}
+#value-prop img {
+    justify-self: center;
+    max-width: 500px;
+    width: 100%;
+    grid-row: 1 / 3;
+    align-self: center;
+}
+
+#how-do-i-know-peersquared-is-for-my-school {
+    background-color: #fff;
+    display: grid;
+    padding: 2em 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+#how-do-i-know-peersquared-is-for-my-school h3 {
+    font-size: 1.5em;
+}
+
+#how-do-i-know-peersquared-is-for-my-school p {
+    padding: 0 2em 0 2em;
+    text-align: center;
+    font-size: 1em;
+}
+
+#how-do-i-know-peersquared-is-for-my-school #testimonial {
+    display: none;
+}
+#how-do-i-know-peersquared-is-for-my-school #schools-on-display { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: .5em;
+}
+#schools-on-display .school-logos {
+    text-align: center;
+}
+
+
+.school-logos img {
+    height: 150px;
+}
+#why-peersquared {
+    display: grid;
+}
+.why-peersquared-button {
+    height: 100%;
+    width: 25%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;
+    margin: 1em 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/*.....................................................................
+//..............................................ttt..............ttt...
+//.............................................tttt.............tttt...
+//.............................................tttt.............tttt...
+//.ppppppppp....eeeeee....eeeeee..errrrrrr... ttttttuuu..uuuuuuttttt..
+//.pppppppppp..eeeeeeee..eeeeeeee.errrrrrr... ttttttuuu..uuuuuuttttt..
+//.ppppp.pppppeeee.eeee.eeee.eeee.errrr........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeeeeeeeeeeeeeeeeeeeerrr.........tttt.tuuu..uuuuu.tttt...
+//.pppp...ppppeeee......eeee......errr.........tttt.tuuu..uuuuu.tttt...
+//.ppppp.pppppeeee..eeeeeeee..eeeeerrr.........tttt.tuuuu.uuuuu.tttt...
+//.pppppppppp..eeeeeeee..eeeeeeee.errr.........ttttttuuuuuuuuuu.ttttt..
+//.ppppppppp....eeeeee....eeeeee..errr.........tttttt.uuuuuuuuu.ttttt..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.....................................................................
+what is peer tutoring*/
+#value-prop-students img {
+    min-width: 200px;
+    max-width: 250px;
+    width: 15%;
+}
+#value-prop-parents img {
+    min-width: 200px;
+    max-width: 250px;
+    width: 15%;
+}
+#value-prop-tutors img {
+    min-width: 200px;
+    max-width: 250px;
+    width: 15%;
+}
+#peer-tutoring-in-action {
+    background-color: #fff;
+    display: grid;
+    padding: 2em 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+#peer-tutoring-in-action h3 {
+    font-size: 1.5em;
+}
+
+#peer-tutoring-in-action p {
+    padding: 0 2em;
+    text-align: center;
+    font-size: 1em;
+}
+#different-schools {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 2em 1em;
+    background-color: #2699FB;
+}
+.school-container {
+    display: none;
+    background-color: #FAF7F7;
+    border: 2px solid #FAF7F7;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .16);
+    padding: 1em;
+    margin: 0 auto;
+    width: 90%;
+}
+.school-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.school-container span {
+    font-size: 1.25em;
+    margin-right: 0.938em;
+    font-weight: bold;
+}
+.school-container img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: center;
+}
+.school-container-name {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 2em;
+}
+.school-container-paragraph {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 0 1em;
+    font-size: 1.5em;
+}
+
+#peer-tutoring-in-action #testimonial {
+    display: none;
+}
+#peer-tutoring-in-action #schools-on-display { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    padding-top: .5em;
+}
+#schools-on-display .school-logos {
+    text-align: center;
+}
+
+.school-logos img {
+    height: 150px;
+}
+#why-peersquared {
+    display: grid;
+}
+.why-peersquared-button {
+    height: 100%;
+    width: 20%;
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    justify-self: center;
+    color: #fff;
+    font-size: 1em;
+    height: 2em !important;        
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+
+/*...................................................
+//...........abbb...............................ttt..
+//...........abbb..............................tttt..
+//...........abbb..............................tttt..
+//...aaaaaa..abbbbbbbb.....oooooo..ouuu..uuuuuttttt..
+//..aaaaaaaa.abbbbbbbbb..ooooooooo.ouuu..uuuuuttttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuu..uuuuu.tttt..
+//.....aaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//..aaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaaaaaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbb...bbbbbooo...ooooouuu..uuuuu.tttt..
+//.aaaa.aaaaaabbbb.bbbbb.oooo.oooooouuuu.uuuuu.tttt..
+//.aaaaaaaaaaabbbbbbbbb..ooooooooo..uuuuuuuuuu.tttt..
+//..aaaaaaaaaabbbbbbbb.....oooooo....uuuuuuuuu.tttt..
+//.................................................*/
+
+.tl-item .timestamp{
+    width: 125px;
+    padding-right: 40px;
+    color: #8D8D8D;
+    text-align: right;
+    font-size: 12px;
+}
+
+
+.item-title:hover::before{
+    border-color:  #2699FB;
+    transition: all 1000ms ease-in-out;
+}
+
+.about-blue {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 1% auto 2em auto;
+}
+.about-blue h2 {
+    font-size: 1.5em;
+}
+.about-blue h3 {
+    font-size: 1.17em;
+}
+.img-container {
+    display: grid;
+}
+.img-container img {
+    justify-self: center;
+}
+.about-blue p {
+    text-align: left;
+    padding: 1em;
+    font-size: 1em;
+}
+
+
+
+
+
+
+/*..............................................................................
+//...............................hhhhh..........................................
+//.......................tttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....................tttttt....hhhhh..........................................
+//.....oooooooooo....otttttttttt.hhhhhhhhhhhhh........eeeeeeeee.....rrrrrrrrrr..
+//....oooooooooooo...otttttttttt.hhhhhhhhhhhhhh.....eeeeeeeeeeee....rrrrrrrrrr..
+//...oooooooooooooo..otttttttttt.hhhhhhhhhhhhhhh...eeeeeeeeeeeeee...rrrrrrrrrr..
+//..oooooooooooooooo...tttttt....hhhhhhhhhhhhhhh...eeeeeeeeeeeeee...rrrrrrr.....
+//..oooooo....ooooooo..tttttt....hhhhhh...hhhhhh..eeeeee....eeeeee..rrrrrr......
+//.ooooooo.....oooooo..tttttt....hhhhhh....hhhhh..eeeeee....eeeeee..rrrrrr......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeeeeeeeeeeeee..rrrrr.......
+//.oooooo......oooooo..tttttt....hhhhh.....hhhhh..eeeeee............rrrrr.......
+//.ooooooo.....oooooo..tttttt....hhhhh.....hhhhh..eeeeee............rrrrr.......
+//..oooooo....oooooo...tttttt....hhhhh.....hhhhh..eeeeeee...........rrrrr.......
+//..oooooooooooooooo...ttttttttt.hhhhh.....hhhhh...eeeeeee.eeeeeee..rrrrr.......
+//...oooooooooooooo....ttttttttt.hhhhh.....hhhhh...eeeeeeeeeeeeeee..rrrrr.......
+//....oooooooooooo......tttttttt.hhhhh.....hhhhh....eeeeeeeeeeeee...rrrrr.......
+//.....oooooooooo.......tttttttt.hhhhh.....hhhhh......eeeeeeeeee....rrrrr.......
+//............................................................................*/
+
+/*why peersquared*/
+#intro-why-peersquared {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-why-peersquared {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-why-peersquared h1 {
+    font-size: 2em;
+}
+#intro-why-peersquared h2 {
+    font-size: 1.5em;
+}
+
+/*legal*/
+#intro-legal {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-legal {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-legal h1 {
+    font-size: 2em;
+}
+#intro-legal h2 {
+    font-size: 1.5em;
+}
+.mobile-pdf {
+    display: grid;
+    text-align: center;
+    
+}
+.mobile-pdf a {
+    justify-self: center;
+    font-size: 2em;
+}
+iframe {
+    display: grid;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/*blog*/
+#intro-blog {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-blog {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-blog h1 {
+    font-size: 2em;
+}
+#intro-blog h2 {
+    font-size: 1.5em;
+}
+
+
+/*documentation*/
+#intro-documentation {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-documentation {
+    display: grid;
+    padding: 1em 0;
+}
+#intro-documentation h1 {
+    font-size: 2em;
+}
+#intro-documentation h2 {
+    font-size: 1.5em;
+}
+
+
+
+/*.......................................................
+//...ffffffo.............................................
+//...ffffffo.............................................
+//..fffffffo.............................................
+//..fffff................................................
+//..fffff.....oooooooo.....rrrrrrrrmmmmmmmmmmm.mmmmmmm...
+//.ffffffffo.ooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//.ffffffffooooooooooooo...rrrrrrrrmmmmmmmmmmmmmmmmmmmm..
+//..fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//..fffff..oooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//..fffff..ooooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//..fffff..ooooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff..oooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//..fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//......................................................*/
+.close {
+    color: #000;
+    position: absolute; 
+    font-size: 2em;
+    font-weight: bold;
+    height: 1.75em;
+    width: 1.75em;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+}
+#try-peersquared-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.try-form-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#try-peersquared-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#try-peersquared-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-questions {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 1em;
+}
+.form-questions h2 {
+    font-size: 1.5em !important;
+}
+.form-questions p {
+    font-size: 1em !important;
+}
+#form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+#form-image img {
+    display: grid;
+    width: 100%;
+}
+#selected-parent-student {
+    display: none;
+}
+.parent-student-option {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+    padding: 0 0 2em 0;
+    margin: 0 auto;
+    width: 85%;
+}
+.parent-student-option p {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    text-align: left;
+}
+.parent-student-option input {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    width: 3em !important;
+    margin: 0 auto !important;
+}
+.parent-student-option label {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    align-self: center;
+}
+.parent-student-option2 {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+    margin: 0 auto;
+    width: 85%;
+}
+.parent-student-option2 input {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    width: 3em !important;
+    margin: 0 auto !important;
+}
+.parent-student-option2 label {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    font-size: 1em;
+    align-self: center;
+}
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#selected-teacher-school-ngo {
+    display: none;
+}
+.teacher-school-ngo-option {
+    width: 80%;
+    margin: 0 auto;
+}
+.try-peersquared-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.try-peersquared-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+/*...........................................................................
+//.......................fffffff.............................................
+//.......................fffffff.............................................
+//......................ffffffff.............................................
+//......................fffff................................................
+//....cccccccc..........fffff.....oooooooo.....rrrrrrrrrmmmmmmmmmm.mmmmmmm...
+//...cccccccccc........ ffffffff.ooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc....... ffffffffoooooooooooo...rrrrrrrrrmmmmmmmmmmmmmmmmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrrrr...mmmmmmmmmmmmmmmmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrrr....mmmmm..mmmmm..mmmmm..
+//.ccccc................fffff..foooo.....oooo..rrrrr....mmmm...mmmmm..mmmmm..
+//.ccccc................fffff..foooo....ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//.cccccc..ccccc........fffff..fooooo...ooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...ooooooooooooo..rrrr.....mmmm...mmmmm..mmmmm..
+//..cccccccccccc........fffff...oooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//...ccccccccccc........fffff....ooooooooooo...rrrr.....mmmm...mmmmm..mmmmm..
+//....cccccccc..........fffff.....oooooooo.....rrrr.....mmmm...mmmmm..mmmmm..
+//.........................................................................
+contact form*/
+#contact-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.contact-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#contact-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#contact-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#contact-who-are-you-ngo {
+    display: none;
+}
+
+.contact-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.contact-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+
+/*.....................................................................
+//...................ttt........ffffo..................................
+//..................tttt.......fffffo..................................
+//..................tttt.......ffff....................................
+//.ppppppppp...... tttttt ....ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp..... tttttt ....ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......tttt.......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......tttt.......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ttttt .....ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ttttt .....ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//.pppp................................................................
+//...................................................................
+private tutoring form*/
+#private-tutoring-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.private-tutoring-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#private-tutoring-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#private-tutoring-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.form-questions {
+    display: grid;
+}
+.form-questions h2, p {
+    font-size: 2em;
+}
+#form-image img {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+
+/*..........................................................
+//...................ffffo..................................
+//..................fffffo..................................
+//..................ffff....................................
+//.ppppppppp.......ffffffo..oooooo..rrrrrrrmmmmmmmmmmmmmm...
+//.pppppppppp......ffffffoooooooooo.rrrrrrrmmmmmmmmmmmmmmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrrr..mmmmm.mmmmmmmmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.pppp...pppp......ffff.oooo...oooorrrr...mmmm..mmmm..mmm..
+//.ppppp.ppppp......ffff..oooo.ooooorrrr...mmmm..mmmm..mmm..
+//.pppppppppp.......ffff..ooooooooo.rrrr...mmmm..mmmm..mmm..
+//.ppppppppp........ffff....oooooo..rrrr...mmmm..mmmm..mmm..
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//.pppp.....................................................
+//........................................................
+petition form*/
+#petition-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.petition-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    align-self: center;
+}
+#petition-form input {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1em;
+}
+#petition-form select {
+    width: 80%;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+}
+.parent-student-option2 {
+    display: grid;
+    grid-template-columns: 15% auto;
+    grid-template-rows: auto auto;
+}
+
+.submit-button {
+    background-color: #F3BE30;
+    border: 0px !important;
+    font-family: Poppins;
+    font-weight: bold;
+    border-radius: 2em;
+    width: 25% !important;
+    justify-self: center;
+    color: #fff;
+    font-size: 1.5em;
+    height: 2em !important;
+    cursor: pointer;
+}
+#contact-who-are-you-ngo {
+    display: none;
+}
+#petition-message {
+    width: 80%;
+    margin: 0 auto;
+}
+.petition-textarea {
+    height: 5em;
+    font-size: 1em;
+}
+.petition-textarea::placeholder {
+    color: #808080;
+    padding: 0.1em;
+}
+
+/*form completion*/
+#form-completion {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.form-completition-box {
+    background-color: #fff;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #888;
+    width: 75%;
+}
+
+
+
+
+
+/*......................................................................
+//...ffffffo...............................ttt..........................
+//...ffffffo..............................tttt..........................
+//..fffffffo..............................tttt..........................
+//..fffff.................................tttt..........................
+//..fffff.....oooooooo.......oooooooo...otttttttt..eeeeeeee....rrrrrrr..
+//.ffffffffo.ooooooooooo....ooooooooooo.otttttttt.eeeeeeeeee...rrrrrrr..
+//.ffffffffooooooooooooo...oooooooooooo.otttttttteeeeeeeeeeee..rrrrrrr..
+//..fffff...ooooooooooooo..ooooooooooooo..tttt...eeeeeeeeeeee..rrrrrr...
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeee...eeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo.....oooo.ooooo....ooooo..tttt..teeeeeeeeeeee..rrrrr....
+//..fffff..ooooo....ooooo.ooooo....ooooo..tttt..teeee..........rrrr.....
+//..fffff..oooooo...ooooo.oooooo...ooooo..tttt..teeeee.........rrrr.....
+//..fffff...ooooooooooooo..ooooooooooooo..ttttttteeeeeeeeeeee..rrrr.....
+//..fffff...oooooooooooo...oooooooooooo...ttttttteeeeeeeeeeee..rrrr.....
+//..fffff....ooooooooooo....ooooooooooo...ttttttt.eeeeeeeeee...rrrr.....
+//..fffff.....oooooooo.......oooooooo.....ttttttt..eeeeeeee....rrrr.....
+//....................................................................*/
+    #desktop-footer {
+        display: grid;
+    }
+    #mobile-footer {
+        display: none;
+    }
+    footer  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 1%;
+    }
+    #peersquared-logo {
+        text-align: center;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #peersquared-logo img {
+        height: 4em;
+    }
+    #footer-connected {
+        text-align: center;
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        padding-bottom: 1em;
+    }
+    #footer-connected h3 {
+        padding: 0 0 1em 0;
+        font-size: 1.5em;
+    }
+    #footer-connected a {
+        color: #fff;
+        padding: 1em;
+    }
+    #footer-connected img {
+        height: 4em;
+    }
+    #desktop-footer-links {
+        display: grid;
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        grid-template-columns: 1fr 1fr;
+        /*grid-template-rows: .3fr .3fr .3fr .3fr .3fr .3fr;*/
+        grid-template-rows: auto auto auto auto auto auto auto;
+        list-style-type: none;
+        grid-gap: 1%;
+    }
+    #desktop-footer-links a {
+        font-weight: bold;
+    }
+    #desktop-footer-links h3 nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #desktop-footer-links li {
+        align-self: center;
+    }
+    #desktop-footer-links li:last-of-type {
+        grid-row: 6 / 7;
+        grid-column: 2 / 3;
+    }
+    .footer-indent {
+        text-indent: 2em;
+    }
+    #desktop-footer-links h3 {
+        grid-column: 1 / 3;
+        font-size: 1.5em;
+    }
+    #desktop-footer-links h3 a {
+        grid-template-rows: 2 / 7;
+    }
+    #desktop-footer-links h3 {
+        padding: 0;
+    }
+    #desktop-footer-links a {
+        color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #footer-contact {
+        text-align: center;
+        padding-bottom: 1em;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    #footer-contact h3 {
+        padding-top: 0;
+        font-size: 1.5em;
+    }
+    #footer-contact p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.25em;
+        text-align: left;
+    }
+    #footer-contact a {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5em;
+        color: #fff;
+    }
+    #contact-button-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .contact-button {
+        background-color: #2699FB;
+        border: 0px !important;
+        font-family: Poppins;
+        font-weight: bold;
+        border-radius: 2em;
+        width: 50% !important;
+        justify-self: center;
+        color: #fff;
+        font-size: 1.25em;
+        height: 2em !important;
+        text-align: center;
+        margin: .5em 0;    
+        cursor: pointer;
+    }
+    hr {
+        height: 1px;
+        margin: 0;
+        border-top: 2px solid #fff;
+        border-radius: 5px;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+    #footer-extra-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 15px 0 15px;
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        font-size: .75em;
+    }
+    #footer-extra-links a {
+        color: #fff;
+        font-size: 1.5em;
+    }
+    #footer-copyright {
+        padding: 1em 15px 0 15px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    #footer-copyright p {
+        font-size: 1em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
